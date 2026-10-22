@@ -1,0 +1,2611 @@
+{
+ "name": "Train",
+ "source": "GetawayShootoutPoki (2019, Unity 2019.3.10f1)",
+ "bounds": [
+  -125.19999980926514,
+  -5.193749904632568,
+  155.19999980926514,
+  5.222500577569008
+ ],
+ "spawn": [
+  0.0,
+  0.0
+ ],
+ "shapes": [
+  {
+   "go": "PowerUpObj (5)",
+   "path": "Map_Train/PowerUps/PowerUpObj (5)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -42.959999084472656,
+    1.7999999523162842
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -43.459999084472656,
+     1.2999999523162842
+    ],
+    [
+     -42.459999084472656,
+     1.2999999523162842
+    ],
+    [
+     -42.459999084472656,
+     2.299999952316284
+    ],
+    [
+     -43.459999084472656,
+     2.299999952316284
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.0,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "PowerUpObj (6)",
+   "path": "Map_Train/PowerUps/PowerUpObj (6)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -31.139999389648438,
+    1.7999999523162842
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -31.639999389648438,
+     1.2999999523162842
+    ],
+    [
+     -30.639999389648438,
+     1.2999999523162842
+    ],
+    [
+     -30.639999389648438,
+     2.299999952316284
+    ],
+    [
+     -31.639999389648438,
+     2.299999952316284
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.0,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "PowerUpObj (7)",
+   "path": "Map_Train/PowerUps/PowerUpObj (7)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -20.709999084472656,
+    1.7999999523162842
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -21.209999084472656,
+     1.2999999523162842
+    ],
+    [
+     -20.209999084472656,
+     1.2999999523162842
+    ],
+    [
+     -20.209999084472656,
+     2.299999952316284
+    ],
+    [
+     -21.209999084472656,
+     2.299999952316284
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.0,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "PowerUpObj (9)",
+   "path": "Map_Train/PowerUps/PowerUpObj (9)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    11.289999961853027,
+    1.7999999523162842
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     10.789999961853027,
+     1.2999999523162842
+    ],
+    [
+     11.789999961853027,
+     1.2999999523162842
+    ],
+    [
+     11.789999961853027,
+     2.299999952316284
+    ],
+    [
+     10.789999961853027,
+     2.299999952316284
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.0,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "PowerUpObj (8)",
+   "path": "Map_Train/PowerUps/PowerUpObj (8)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -2.7699999809265137,
+    1.7999999523162842
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -3.2699999809265137,
+     1.2999999523162842
+    ],
+    [
+     -2.2699999809265137,
+     1.2999999523162842
+    ],
+    [
+     -2.2699999809265137,
+     2.299999952316284
+    ],
+    [
+     -3.2699999809265137,
+     2.299999952316284
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.0,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "MapTiles_Railway",
+   "path": "Map_Train/MapTiles_Railway",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    14.800000190734863,
+    -4.849999904632568
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": true,
+   "material": {
+    "name": "Friction",
+    "friction": 1.0,
+    "bounciness": 0.0
+   },
+   "kind": "box",
+   "points": [
+    [
+     -125.19999980926514,
+     -5.193749904632568
+    ],
+    [
+     154.80000019073486,
+     -5.193749904632568
+    ],
+    [
+     154.80000019073486,
+     -4.506249904632568
+    ],
+    [
+     -125.19999980926514,
+     -4.506249904632568
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     280.0,
+     0.6875
+    ]
+   }
+  },
+  {
+   "go": "Train (0)",
+   "path": "Map_Train/Train/Train (0)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -45.529998779296875,
+    -3.4375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -50.279998779296875,
+     -3.59375
+    ],
+    [
+     -40.779998779296875,
+     -3.59375
+    ],
+    [
+     -40.779998779296875,
+     -3.28125
+    ],
+    [
+     -50.279998779296875,
+     -3.28125
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     9.5,
+     0.3125
+    ]
+   }
+  },
+  {
+   "go": "MapTiles_TrainCart1",
+   "path": "Map_Train/Train/Train (0)/MapTiles_TrainCart1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -45.467498779296875,
+    -1.78125
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -50.342498779296875,
+     -3.53125
+    ],
+    [
+     -40.592498779296875,
+     -3.53125
+    ],
+    [
+     -40.592498779296875,
+     -0.03125
+    ],
+    [
+     -50.342498779296875,
+     -0.03125
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     9.75,
+     3.5
+    ]
+   }
+  },
+  {
+   "go": "Train (4)",
+   "path": "Map_Train/Train/Train (4)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -1.409999966621399,
+    -3.4375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -6.159999966621399,
+     -3.59375
+    ],
+    [
+     3.340000033378601,
+     -3.59375
+    ],
+    [
+     3.340000033378601,
+     -3.28125
+    ],
+    [
+     -6.159999966621399,
+     -3.28125
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     9.5,
+     0.3125
+    ]
+   }
+  },
+  {
+   "go": "MapTiles_TrainCart2",
+   "path": "Map_Train/Train/Train (4)/MapTiles_TrainCart2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -1.097499966621399,
+    -1.377500057220459
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -6.409999966621399,
+     -3.282776355743408
+    ],
+    [
+     3.590000033378601,
+     -3.282776355743408
+    ],
+    [
+     3.590000033378601,
+     -0.4077763557434082
+    ],
+    [
+     -6.409999966621399,
+     -0.4077763557434082
+    ]
+   ],
+   "local": {
+    "offset": [
+     -0.3125,
+     -0.4677762985229492
+    ],
+    "size": [
+     10.0,
+     2.875
+    ]
+   }
+  },
+  {
+   "go": "MapTiles_TrainLadder",
+   "path": "Map_Train/Train/Train (4)/MapTiles_TrainCart2/MapTiles_TrainLadder",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -1.2274999618530273,
+    -1.033750057220459
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -2.1024999618530273,
+     -0.4076507091522217
+    ],
+    [
+     -1.5392720699310303,
+     -0.4076507091522217
+    ],
+    [
+     -1.5392720699310303,
+     0.45787501335144043
+    ],
+    [
+     -2.1024999618530273,
+     0.45787501335144043
+    ]
+   ],
+   "local": {
+    "offset": [
+     -0.5933860540390015,
+     1.0588622093200684
+    ],
+    "size": [
+     0.5632278919219971,
+     0.8655257225036621
+    ]
+   }
+  },
+  {
+   "go": "MapTiles_TrainLadder",
+   "path": "Map_Train/Train/Train (4)/MapTiles_TrainCart2/MapTiles_TrainLadder",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -1.2274999618530273,
+    -1.033750057220459
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -1.0992655754089355,
+     -0.39786839485168457
+    ],
+    [
+     -0.35249996185302734,
+     -0.39786839485168457
+    ],
+    [
+     -0.35249996185302734,
+     0.4648098945617676
+    ],
+    [
+     -1.0992655754089355,
+     0.4648098945617676
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.5016171932220459,
+     1.0672208070755005
+    ],
+    "size": [
+     0.7467656135559082,
+     0.8626782894134521
+    ]
+   }
+  },
+  {
+   "go": "Train (2)",
+   "path": "Map_Train/Train/Train (2)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -23.469999313354492,
+    -3.4375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -28.219999313354492,
+     -3.59375
+    ],
+    [
+     -18.719999313354492,
+     -3.59375
+    ],
+    [
+     -18.719999313354492,
+     -3.28125
+    ],
+    [
+     -28.219999313354492,
+     -3.28125
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     9.5,
+     0.3125
+    ]
+   }
+  },
+  {
+   "go": "MapTiles_TrainBox",
+   "path": "Map_Train/Train/Train (2)/MapTiles_TrainBox",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -23.469999313354492,
+    -2.8675000071525574
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -28.469999313354492,
+     -3.5237500071525574
+    ],
+    [
+     -28.219999313354492,
+     -3.5237500071525574
+    ],
+    [
+     -28.219999313354492,
+     -2.2112500071525574
+    ],
+    [
+     -28.469999313354492,
+     -2.2112500071525574
+    ]
+   ],
+   "local": {
+    "offset": [
+     -4.875,
+     0.0
+    ],
+    "size": [
+     0.25,
+     1.3125
+    ]
+   }
+  },
+  {
+   "go": "MapTiles_TrainBox",
+   "path": "Map_Train/Train/Train (2)/MapTiles_TrainBox",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -23.469999313354492,
+    -2.8675000071525574
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -18.719999313354492,
+     -3.5237500071525574
+    ],
+    [
+     -18.469999313354492,
+     -3.5237500071525574
+    ],
+    [
+     -18.469999313354492,
+     -2.2112500071525574
+    ],
+    [
+     -18.719999313354492,
+     -2.2112500071525574
+    ]
+   ],
+   "local": {
+    "offset": [
+     4.875,
+     0.0
+    ],
+    "size": [
+     0.25,
+     1.3125
+    ]
+   }
+  },
+  {
+   "go": "MapTiles_Box",
+   "path": "Map_Train/Train/Train (2)/MapTiles_TrainBox/MapTiles_Box",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -19.28999948501587,
+    -2.5974999964237213
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -20.03999948501587,
+     -3.3474999964237213
+    ],
+    [
+     -18.53999948501587,
+     -3.3474999964237213
+    ],
+    [
+     -18.53999948501587,
+     -1.8474999964237213
+    ],
+    [
+     -20.03999948501587,
+     -1.8474999964237213
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     1.5,
+     1.5
+    ]
+   }
+  },
+  {
+   "go": "Train (3)",
+   "path": "Map_Train/Train/Train (3)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -12.4399995803833,
+    -3.4375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -17.1899995803833,
+     -3.59375
+    ],
+    [
+     -7.689999580383301,
+     -3.59375
+    ],
+    [
+     -7.689999580383301,
+     -3.28125
+    ],
+    [
+     -17.1899995803833,
+     -3.28125
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     9.5,
+     0.3125
+    ]
+   }
+  },
+  {
+   "go": "MapTiles_TrainCart1",
+   "path": "Map_Train/Train/Train (3)/MapTiles_TrainCart1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -12.3774995803833,
+    -1.78125
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -17.2524995803833,
+     -3.53125
+    ],
+    [
+     -7.502499580383301,
+     -3.53125
+    ],
+    [
+     -7.502499580383301,
+     -0.03125
+    ],
+    [
+     -17.2524995803833,
+     -0.03125
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     9.75,
+     3.5
+    ]
+   }
+  },
+  {
+   "go": "Train (6)",
+   "path": "Map_Train/Train/Train (6)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    20.649999618530273,
+    -3.4375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     15.899999618530273,
+     -3.59375
+    ],
+    [
+     25.399999618530273,
+     -3.59375
+    ],
+    [
+     25.399999618530273,
+     -3.28125
+    ],
+    [
+     15.899999618530273,
+     -3.28125
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     9.5,
+     0.3125
+    ]
+   }
+  },
+  {
+   "go": "MapTiles_TrainFront",
+   "path": "Map_Train/Train/Train (6)/MapTiles_TrainFront",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    20.689999617636204,
+    -2.0475000143051147
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "poly",
+   "points": [
+    [
+     24.86926082521677,
+     -1.7209205627441406
+    ],
+    [
+     23.741909064352512,
+     -1.467461347579956
+    ],
+    [
+     22.986471213400364,
+     -0.21755671501159668
+    ],
+    [
+     20.322535522282124,
+     -0.21228623390197754
+    ],
+    [
+     20.200071342289448,
+     -0.3304588794708252
+    ],
+    [
+     16.519270457327366,
+     -0.3418154716491699
+    ],
+    [
+     16.50868133455515,
+     -2.459251880645752
+    ],
+    [
+     15.807439841330051,
+     -2.4415149688720703
+    ],
+    [
+     15.787521876394749,
+     -3.5382275581359863
+    ],
+    [
+     24.903000868856907,
+     -3.6404640674591064
+    ]
+   ]
+  },
+  {
+   "go": "Train (1)",
+   "path": "Map_Train/Train/Train (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -34.5,
+    -3.4375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -39.25,
+     -3.59375
+    ],
+    [
+     -29.75,
+     -3.59375
+    ],
+    [
+     -29.75,
+     -3.28125
+    ],
+    [
+     -39.25,
+     -3.28125
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     9.5,
+     0.3125
+    ]
+   }
+  },
+  {
+   "go": "MapTiles_TrainCart1",
+   "path": "Map_Train/Train/Train (1)/MapTiles_TrainCart1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -34.4375,
+    -1.78125
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -39.3125,
+     -3.53125
+    ],
+    [
+     -29.5625,
+     -3.53125
+    ],
+    [
+     -29.5625,
+     -0.03125
+    ],
+    [
+     -39.3125,
+     -0.03125
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     9.75,
+     3.5
+    ]
+   }
+  },
+  {
+   "go": "Train (5)",
+   "path": "Map_Train/Train/Train (5)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    9.619999885559082,
+    -3.4375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     4.869999885559082,
+     -3.59375
+    ],
+    [
+     14.369999885559082,
+     -3.59375
+    ],
+    [
+     14.369999885559082,
+     -3.28125
+    ],
+    [
+     4.869999885559082,
+     -3.28125
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     9.5,
+     0.3125
+    ]
+   }
+  },
+  {
+   "go": "MapTiles_TrainCart1",
+   "path": "Map_Train/Train/Train (5)/MapTiles_TrainCart1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    9.682499885559082,
+    -1.78125
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     4.807499885559082,
+     -3.53125
+    ],
+    [
+     14.557499885559082,
+     -3.53125
+    ],
+    [
+     14.557499885559082,
+     -0.03125
+    ],
+    [
+     4.807499885559082,
+     -0.03125
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     9.75,
+     3.5
+    ]
+   }
+  },
+  {
+   "go": "Front",
+   "path": "Map_Train/Helicopter/Helicopter_Body/Front",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    32.14000082015991,
+    3.210000067949295
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     31.640000820159912,
+     1.710000067949295
+    ],
+    [
+     32.64000082015991,
+     1.710000067949295
+    ],
+    [
+     32.64000082015991,
+     4.710000067949295
+    ],
+    [
+     31.640000820159912,
+     4.710000067949295
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     1.0,
+     3.0
+    ]
+   }
+  },
+  {
+   "go": "Trigger",
+   "path": "Map_Train/Helicopter/Helicopter_Body/Trigger",
+   "tag": "Finish",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    30.760000824928284,
+    3.2700002193450928
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     30.010000824928284,
+     2.045000195503235
+    ],
+    [
+     31.510000824928284,
+     2.045000195503235
+    ],
+    [
+     31.510000824928284,
+     4.495000243186951
+    ],
+    [
+     30.010000824928284,
+     4.495000243186951
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     1.5,
+     2.450000047683716
+    ]
+   }
+  },
+  {
+   "go": "DeathZone",
+   "path": "Map_Train/Helicopter/Helicopter_Body/Helicopter_Blade/DeathZone",
+   "tag": "Death",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    29.8700008392334,
+    5.087500333786011
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     27.8700008392334,
+     4.952500328421593
+    ],
+    [
+     31.8700008392334,
+     4.952500328421593
+    ],
+    [
+     31.8700008392334,
+     5.222500339150429
+    ],
+    [
+     27.8700008392334,
+     5.222500339150429
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     4.0,
+     0.27000001072883606
+    ]
+   }
+  },
+  {
+   "go": "Force",
+   "path": "Map_Train/Helicopter/Helicopter_Body/Helicopter_Blade/Force",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    29.8700008392334,
+    5.08750057220459
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": true,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     27.8700008392334,
+     4.952500566840172
+    ],
+    [
+     31.8700008392334,
+     4.952500566840172
+    ],
+    [
+     31.8700008392334,
+     5.222500577569008
+    ],
+    [
+     27.8700008392334,
+     5.222500577569008
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     4.0,
+     0.27000001072883606
+    ]
+   }
+  },
+  {
+   "go": "Top",
+   "path": "Map_Train/Helicopter/Helicopter_Body/Top",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    29.57000082731247,
+    4.620000123977661
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     27.44000071287155,
+     4.495000123977661
+    ],
+    [
+     31.700000941753387,
+     4.495000123977661
+    ],
+    [
+     31.700000941753387,
+     4.745000123977661
+    ],
+    [
+     27.44000071287155,
+     4.745000123977661
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     4.260000228881836,
+     0.25
+    ]
+   }
+  },
+  {
+   "go": "Bottom",
+   "path": "Map_Train/Helicopter/Helicopter_Body/Bottom",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    30.170000851154327,
+    1.84250009059906
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": {
+    "name": "Stick",
+    "friction": 1.0,
+    "bounciness": 0.0
+   },
+   "kind": "box",
+   "points": [
+    [
+     28.04000073671341,
+     1.65500009059906
+    ],
+    [
+     32.300000965595245,
+     1.65500009059906
+    ],
+    [
+     32.300000965595245,
+     2.03000009059906
+    ],
+    [
+     28.04000073671341,
+     2.03000009059906
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     4.260000228881836,
+     0.375
+    ]
+   }
+  },
+  {
+   "go": "Back",
+   "path": "Map_Train/Helicopter/Helicopter_Body/Back",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    27.611000776290894,
+    1.8370000123977661
+   ],
+   "angle": 8.512572262315231,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": {
+    "name": "Stick",
+    "friction": 1.0,
+    "bounciness": 0.0
+   },
+   "kind": "box",
+   "points": [
+    [
+     27.184461558415812,
+     1.6467651972726713
+    ],
+    [
+     28.074546600346242,
+     1.7799889759924084
+    ],
+    [
+     28.037539994165975,
+     2.027234827522861
+    ],
+    [
+     27.147454952235545,
+     1.8940110488031239
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.8999999761581421,
+     0.25
+    ]
+   }
+  },
+  {
+   "go": "Force",
+   "path": "Map_Train/Force",
+   "tag": "Death",
+   "layer": 0,
+   "active": false,
+   "pos": [
+    15.199999809265137,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": true,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -124.80000019073486,
+     -4.5
+    ],
+    [
+     155.19999980926514,
+     -4.5
+    ],
+    [
+     155.19999980926514,
+     -3.5
+    ],
+    [
+     -124.80000019073486,
+     -3.5
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     280.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "go": "Death",
+   "path": "Map_Train/Death",
+   "tag": "Death",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    15.199999809265137,
+    -4.099999904632568
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -124.80000019073486,
+     -4.474999904632568
+    ],
+    [
+     155.19999980926514,
+     -4.474999904632568
+    ],
+    [
+     155.19999980926514,
+     -3.7249999046325684
+    ],
+    [
+     -124.80000019073486,
+     -3.7249999046325684
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     280.0,
+     0.75
+    ]
+   }
+  }
+ ],
+ "bodies": [],
+ "joints": [],
+ "effectors": [
+  {
+   "go": "MapTiles_Railway",
+   "path": "Map_Train/MapTiles_Railway",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    14.800000190734863,
+    -4.849999904632568
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "type": "SurfaceEffector2D",
+   "Enabled": 1,
+   "ForceScale": 0.05000000074505806,
+   "Speed": -18.5,
+   "SpeedVariation": 0.0,
+   "UseBounce": true,
+   "UseColliderMask": true,
+   "UseContactForce": true,
+   "UseFriction": true
+  },
+  {
+   "go": "Force",
+   "path": "Map_Train/Helicopter/Helicopter_Body/Helicopter_Blade/Force",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    29.8700008392334,
+    5.08750057220459
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "type": "AreaEffector2D",
+   "AngularDrag": 0.0,
+   "Drag": 0.0,
+   "Enabled": 1,
+   "ForceAngle": 225.0,
+   "ForceMagnitude": 250.0,
+   "ForceTarget": 0,
+   "ForceVariation": 0.0,
+   "UseColliderMask": true,
+   "UseGlobalAngle": false
+  },
+  {
+   "go": "Force",
+   "path": "Map_Train/Force",
+   "tag": "Death",
+   "layer": 0,
+   "active": false,
+   "pos": [
+    15.199999809265137,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "type": "SurfaceEffector2D",
+   "Enabled": 1,
+   "ForceScale": 0.10000000149011612,
+   "Speed": 1.0,
+   "SpeedVariation": 0.0,
+   "UseBounce": true,
+   "UseColliderMask": true,
+   "UseContactForce": false,
+   "UseFriction": true
+  }
+ ],
+ "scripts": [
+  {
+   "go": "PowerUpObj (5)",
+   "path": "Map_Train/PowerUps/PowerUpObj (5)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -42.959999084472656,
+    1.7999999523162842
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "script": "PowerUpBox",
+   "raw": "000000000000000000000000"
+  },
+  {
+   "go": "PowerUpObj (6)",
+   "path": "Map_Train/PowerUps/PowerUpObj (6)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -31.139999389648438,
+    1.7999999523162842
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "script": "PowerUpBox",
+   "raw": "000000000000000000000000"
+  },
+  {
+   "go": "PowerUpObj (7)",
+   "path": "Map_Train/PowerUps/PowerUpObj (7)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -20.709999084472656,
+    1.7999999523162842
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "script": "PowerUpBox",
+   "raw": "000000000000000000000000"
+  },
+  {
+   "go": "PowerUpObj (9)",
+   "path": "Map_Train/PowerUps/PowerUpObj (9)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    11.289999961853027,
+    1.7999999523162842
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "script": "PowerUpBox",
+   "raw": "000000000000000000000000"
+  },
+  {
+   "go": "PowerUpObj (8)",
+   "path": "Map_Train/PowerUps/PowerUpObj (8)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -2.7699999809265137,
+    1.7999999523162842
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "script": "PowerUpBox",
+   "raw": "000000000000000000000000"
+  },
+  {
+   "go": "MapTiles_Railway",
+   "path": "Map_Train/MapTiles_Railway",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    14.800000190734863,
+    -4.849999904632568
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "MovingForeground",
+   "raw": "000070c100008c420100000000000000590200000000000000000000c303000000000000"
+  },
+  {
+   "go": "Helicopter",
+   "path": "Map_Train/Helicopter",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    29.8700008392334,
+    2.130000114440918
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "TransportationObj",
+   "raw": "000000400000000096030000000000009a191c43cdccd441000000c0000000000000a0400000803f000000000000000000000000000000000000000000000000"
+  },
+  {
+   "go": "StartPlayers",
+   "path": "Map_Train/StartPlayers",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    0.0,
+    0.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "StartPlayers",
+   "raw": "0300000000000000a60300000000000000000000eb030000000000000000000000000000000000000000000000000000cdcccc3dcdcccc3d0000803f000020400000000000000000000000000000d8c10000f0c000000000fd03000000000000"
+  },
+  {
+   "go": "Waypoints",
+   "path": "Map_Train/Waypoints",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    0.0,
+    0.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "WaypointManager",
+   "raw": "0400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "go": "Waypoint (1)",
+   "path": "Map_Train/Waypoints/Waypoint (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    5.75,
+    0.09000000357627869
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "010000000200000000010000020000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": true,
+   "order": 3,
+   "side_x": 1,
+   "above": false,
+   "y_offset": 0.0
+  },
+  {
+   "go": "Waypoint (3)",
+   "path": "Map_Train/Waypoints/Waypoint (3)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -31.399999618530273,
+    0.05000000074505806
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "010000000200000000010000020000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": true,
+   "order": 1,
+   "side_x": 1,
+   "above": false,
+   "y_offset": 0.0
+  },
+  {
+   "go": "Waypoint (2)",
+   "path": "Map_Train/Waypoints/Waypoint (2)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    28.479999542236328,
+    2.200000047683716
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "010000000200000000010000020000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": true,
+   "order": 4,
+   "side_x": 1,
+   "above": false,
+   "y_offset": 0.0
+  },
+  {
+   "go": "Waypoint (4)",
+   "path": "Map_Train/Waypoints/Waypoint (4)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -14.0,
+    0.05000000074505806
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "010000000200000000010000020000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": true,
+   "order": 2,
+   "side_x": 1,
+   "above": false,
+   "y_offset": 0.0
+  },
+  {
+   "go": "Waypoint (0)",
+   "path": "Map_Train/Waypoints/Waypoint (0)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -47.70000076293945,
+    0.09000000357627869
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "010000000200000000010000020000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": true,
+   "order": 0,
+   "side_x": 1,
+   "above": false,
+   "y_offset": 0.0
+  }
+ ],
+ "animators": [
+  {
+   "go": "MapObj_TrainWheel1",
+   "path": "Map_Train/Train/Train (0)/MapObj_TrainUnder/MapObj_TrainWheelHolder/MapObj_TrainWheel1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -43.717498779296875,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1 (1)",
+   "path": "Map_Train/Train/Train (0)/MapObj_TrainUnder/MapObj_TrainWheelHolder/MapObj_TrainWheel1 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -41.342498779296875,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1 (1)",
+   "path": "Map_Train/Train/Train (0)/MapObj_TrainUnder/MapObj_TrainWheelHolder (1)/MapObj_TrainWheel1 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -47.342498779296875,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1",
+   "path": "Map_Train/Train/Train (0)/MapObj_TrainUnder/MapObj_TrainWheelHolder (1)/MapObj_TrainWheel1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -49.717498779296875,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1",
+   "path": "Map_Train/Train/Train (4)/MapObj_TrainUnder/MapObj_TrainWheelHolder (1)/MapObj_TrainWheel1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -5.597499966621399,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1 (1)",
+   "path": "Map_Train/Train/Train (4)/MapObj_TrainUnder/MapObj_TrainWheelHolder (1)/MapObj_TrainWheel1 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -3.222499966621399,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1 (1)",
+   "path": "Map_Train/Train/Train (4)/MapObj_TrainUnder/MapObj_TrainWheelHolder/MapObj_TrainWheel1 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    2.777500033378601,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1",
+   "path": "Map_Train/Train/Train (4)/MapObj_TrainUnder/MapObj_TrainWheelHolder/MapObj_TrainWheel1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    0.4025000333786011,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1",
+   "path": "Map_Train/Train/Train (2)/MapObj_TrainUnder/MapObj_TrainWheelHolder/MapObj_TrainWheel1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -21.657499313354492,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1 (1)",
+   "path": "Map_Train/Train/Train (2)/MapObj_TrainUnder/MapObj_TrainWheelHolder/MapObj_TrainWheel1 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -19.282499313354492,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1 (1)",
+   "path": "Map_Train/Train/Train (2)/MapObj_TrainUnder/MapObj_TrainWheelHolder (1)/MapObj_TrainWheel1 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -25.282499313354492,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1",
+   "path": "Map_Train/Train/Train (2)/MapObj_TrainUnder/MapObj_TrainWheelHolder (1)/MapObj_TrainWheel1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -27.657499313354492,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1 (1)",
+   "path": "Map_Train/Train/Train (3)/MapObj_TrainUnder/MapObj_TrainWheelHolder (1)/MapObj_TrainWheel1 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -14.2524995803833,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1",
+   "path": "Map_Train/Train/Train (3)/MapObj_TrainUnder/MapObj_TrainWheelHolder (1)/MapObj_TrainWheel1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -16.6274995803833,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1",
+   "path": "Map_Train/Train/Train (3)/MapObj_TrainUnder/MapObj_TrainWheelHolder/MapObj_TrainWheel1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -10.6274995803833,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1 (1)",
+   "path": "Map_Train/Train/Train (3)/MapObj_TrainUnder/MapObj_TrainWheelHolder/MapObj_TrainWheel1 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -8.2524995803833,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1",
+   "path": "Map_Train/Train/Train (6)/MapObj_TrainUnder/MapObj_TrainWheelHolder/MapObj_TrainWheel1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    22.462499618530273,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1 (1)",
+   "path": "Map_Train/Train/Train (6)/MapObj_TrainUnder/MapObj_TrainWheelHolder/MapObj_TrainWheel1 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    24.837499618530273,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1",
+   "path": "Map_Train/Train/Train (6)/MapObj_TrainUnder/MapObj_TrainWheelHolder (1)/MapObj_TrainWheel1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    16.462499618530273,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1 (1)",
+   "path": "Map_Train/Train/Train (6)/MapObj_TrainUnder/MapObj_TrainWheelHolder (1)/MapObj_TrainWheel1 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    18.837499618530273,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1",
+   "path": "Map_Train/Train/Train (1)/MapObj_TrainUnder/MapObj_TrainWheelHolder (1)/MapObj_TrainWheel1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -38.6875,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1 (1)",
+   "path": "Map_Train/Train/Train (1)/MapObj_TrainUnder/MapObj_TrainWheelHolder (1)/MapObj_TrainWheel1 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -36.3125,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1 (1)",
+   "path": "Map_Train/Train/Train (1)/MapObj_TrainUnder/MapObj_TrainWheelHolder/MapObj_TrainWheel1 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -30.3125,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1",
+   "path": "Map_Train/Train/Train (1)/MapObj_TrainUnder/MapObj_TrainWheelHolder/MapObj_TrainWheel1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -32.6875,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1 (1)",
+   "path": "Map_Train/Train/Train (5)/MapObj_TrainUnder/MapObj_TrainWheelHolder (1)/MapObj_TrainWheel1 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    7.807499885559082,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1",
+   "path": "Map_Train/Train/Train (5)/MapObj_TrainUnder/MapObj_TrainWheelHolder (1)/MapObj_TrainWheel1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    5.432499885559082,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1",
+   "path": "Map_Train/Train/Train (5)/MapObj_TrainUnder/MapObj_TrainWheelHolder/MapObj_TrainWheel1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    11.432499885559082,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_TrainWheel1 (1)",
+   "path": "Map_Train/Train/Train (5)/MapObj_TrainUnder/MapObj_TrainWheelHolder/MapObj_TrainWheel1 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    13.807499885559082,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_TrainWheel1",
+   "enabled": true
+  },
+  {
+   "go": "Helicopter_Body",
+   "path": "Map_Train/Helicopter/Helicopter_Body",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    29.8700008392334,
+    3.430000066757202
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "Helicopter_Body",
+   "enabled": true
+  },
+  {
+   "go": "Helicopter_SideBlade",
+   "path": "Map_Train/Helicopter/Helicopter_Body/Helicopter_SideBlade",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    27.713701248168945,
+    4.305000066757202
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "Helicopter_SideBlade",
+   "enabled": true
+  },
+  {
+   "go": "Helicopter_Blade",
+   "path": "Map_Train/Helicopter/Helicopter_Body/Helicopter_Blade",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    29.8700008392334,
+    5.087500333786011
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "Helicopter_Blade",
+   "enabled": true
+  }
+ ]
+}

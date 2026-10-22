@@ -1,0 +1,5415 @@
+{
+ "name": "Tower",
+ "source": "GetawayShootoutPoki (2019, Unity 2019.3.10f1)",
+ "bounds": [
+  -75.0,
+  -9.0,
+  125.0,
+  72.3499984741211
+ ],
+ "spawn": [
+  0.0,
+  0.0
+ ],
+ "shapes": [
+  {
+   "go": "BoundaryR",
+   "path": "Map_Tower/Outside/BoundaryR",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    99.5,
+    16.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     94.5,
+     -4.0
+    ],
+    [
+     104.5,
+     -4.0
+    ],
+    [
+     104.5,
+     36.0
+    ],
+    [
+     94.5,
+     36.0
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     10.0,
+     40.0
+    ]
+   }
+  },
+  {
+   "go": "TowerL",
+   "path": "Map_Tower/Outside/TowerL",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -58.70000076293945,
+    32.349998474121094
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -70.07500076293945,
+     -7.650001525878906
+    ],
+    [
+     -47.32500076293945,
+     -7.650001525878906
+    ],
+    [
+     -47.32500076293945,
+     72.3499984741211
+    ],
+    [
+     -70.07500076293945,
+     72.3499984741211
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     22.75,
+     80.0
+    ]
+   }
+  },
+  {
+   "go": "DeathTrigger (1)",
+   "path": "Map_Tower/Tower/DeathTrigger (1)",
+   "tag": "Death",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    54.43000030517578,
+    27.899999618530273
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     29.43000030517578,
+     25.399999618530273
+    ],
+    [
+     79.43000030517578,
+     25.399999618530273
+    ],
+    [
+     79.43000030517578,
+     30.399999618530273
+    ],
+    [
+     29.43000030517578,
+     30.399999618530273
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     50.0,
+     5.0
+    ]
+   }
+  },
+  {
+   "go": "Tower (1)",
+   "path": "Map_Tower/Tower/Tower (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    13.5,
+    21.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     0.75,
+     14.650000095367432
+    ],
+    [
+     26.25,
+     14.650000095367432
+    ],
+    [
+     26.25,
+     27.34999990463257
+    ],
+    [
+     0.75,
+     27.34999990463257
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     25.5,
+     12.699999809265137
+    ]
+   }
+  },
+  {
+   "go": "Roof",
+   "path": "Map_Tower/Tower/Roof",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    14.875,
+    34.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     0.75,
+     33.25
+    ],
+    [
+     29.0,
+     33.25
+    ],
+    [
+     29.0,
+     34.75
+    ],
+    [
+     0.75,
+     34.75
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     28.25,
+     1.5
+    ]
+   }
+  },
+  {
+   "go": "MapObj_PaperStack2",
+   "path": "Map_Tower/Tower/Room2/MapObj_PaperStack2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    18.085000038146973,
+    28.6875
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     17.803750038146973,
+     28.34375
+    ],
+    [
+     18.366250038146973,
+     28.34375
+    ],
+    [
+     18.366250038146973,
+     29.03125
+    ],
+    [
+     17.803750038146973,
+     29.03125
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.5625,
+     0.6875
+    ]
+   }
+  },
+  {
+   "go": "MapObj_OfficeChairV (1)",
+   "path": "Map_Tower/Tower/Room2/MapObj_OfficeChairV (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    3.864999771118164,
+    28.5
+   ],
+   "angle": 180.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": 0,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": {
+    "name": "Chair",
+    "friction": 0.10000000149011612,
+    "bounciness": 0.10000000149011612
+   },
+   "kind": "box",
+   "points": [
+    [
+     4.239999771118164,
+     27.84375
+    ],
+    [
+     3.489999771118164,
+     27.84375
+    ],
+    [
+     3.489999771118164,
+     28.40625
+    ],
+    [
+     4.239999771118164,
+     28.40625
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     -0.375
+    ],
+    "size": [
+     0.75,
+     0.5625
+    ]
+   }
+  },
+  {
+   "go": "MapObj_OfficeChairV (1)",
+   "path": "Map_Tower/Tower/Room2/MapObj_OfficeChairV (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    3.864999771118164,
+    28.5
+   ],
+   "angle": 180.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": 0,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     3.739999771118164,
+     27.84375
+    ],
+    [
+     3.489999771118164,
+     27.84375
+    ],
+    [
+     3.489999771118164,
+     29.15625
+    ],
+    [
+     3.739999771118164,
+     29.15625
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.25,
+     0.0
+    ],
+    "size": [
+     0.25,
+     1.3125
+    ]
+   }
+  },
+  {
+   "go": "MapObj_PaperStack1",
+   "path": "Map_Tower/Tower/Room2/MapObj_PaperStack1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    13.625,
+    28.6875
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     13.34375,
+     28.375
+    ],
+    [
+     13.90625,
+     28.375
+    ],
+    [
+     13.90625,
+     29.0
+    ],
+    [
+     13.34375,
+     29.0
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.5625,
+     0.625
+    ]
+   }
+  },
+  {
+   "go": "MapObj_OfficeTable",
+   "path": "Map_Tower/Tower/Room2/MapObj_OfficeTable",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    13.625,
+    27.84999990463257
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     4.6875,
+     27.34999990463257
+    ],
+    [
+     22.5625,
+     27.34999990463257
+    ],
+    [
+     22.5625,
+     28.34999990463257
+    ],
+    [
+     4.6875,
+     28.34999990463257
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     17.875,
+     1.0
+    ]
+   }
+  },
+  {
+   "go": "MapObj_PaperStack2 (1)",
+   "path": "Map_Tower/Tower/Room2/MapObj_PaperStack2 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    7.144999980926514,
+    28.6875
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     6.863749980926514,
+     28.34375
+    ],
+    [
+     7.426249980926514,
+     28.34375
+    ],
+    [
+     7.426249980926514,
+     29.03125
+    ],
+    [
+     6.863749980926514,
+     29.03125
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.5625,
+     0.6875
+    ]
+   }
+  },
+  {
+   "go": "MapObj_OfficeChairV",
+   "path": "Map_Tower/Tower/Room2/MapObj_OfficeChairV",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    23.175000190734863,
+    28.5
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": 1,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": {
+    "name": "Chair",
+    "friction": 0.10000000149011612,
+    "bounciness": 0.10000000149011612
+   },
+   "kind": "box",
+   "points": [
+    [
+     22.800000190734863,
+     27.84375
+    ],
+    [
+     23.550000190734863,
+     27.84375
+    ],
+    [
+     23.550000190734863,
+     28.40625
+    ],
+    [
+     22.800000190734863,
+     28.40625
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     -0.375
+    ],
+    "size": [
+     0.75,
+     0.5625
+    ]
+   }
+  },
+  {
+   "go": "MapObj_OfficeChairV",
+   "path": "Map_Tower/Tower/Room2/MapObj_OfficeChairV",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    23.175000190734863,
+    28.5
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": 1,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     23.300000190734863,
+     27.84375
+    ],
+    [
+     23.550000190734863,
+     27.84375
+    ],
+    [
+     23.550000190734863,
+     29.15625
+    ],
+    [
+     23.300000190734863,
+     29.15625
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.25,
+     0.0
+    ],
+    "size": [
+     0.25,
+     1.3125
+    ]
+   }
+  },
+  {
+   "go": "MapObj_TubeS",
+   "path": "Map_Tower/Tower/Roof/MapObj_TubeS",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    14.392000198364258,
+    35.1870002746582
+   ],
+   "angle": -90.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     13.392000198364258,
+     35.4370002746582
+    ],
+    [
+     13.392000198364258,
+     34.9370002746582
+    ],
+    [
+     15.392000198364258,
+     34.9370002746582
+    ],
+    [
+     15.392000198364258,
+     35.4370002746582
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.5,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "MapObj_RoofGenerator",
+   "path": "Map_Tower/Tower/Roof/MapObj_RoofGenerator",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -0.5,
+    32.28123092651367
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -1.75,
+     31.096961975097656
+    ],
+    [
+     -0.8024975061416626,
+     31.096961975097656
+    ],
+    [
+     -0.8024975061416626,
+     32.52354431152344
+    ],
+    [
+     -1.75,
+     32.52354431152344
+    ]
+   ],
+   "local": {
+    "offset": [
+     -0.7762487530708313,
+     -0.470977783203125
+    ],
+    "size": [
+     0.9475024938583374,
+     1.4265823364257812
+    ]
+   }
+  },
+  {
+   "go": "MapObj_RoofGenerator",
+   "path": "Map_Tower/Tower/Roof/MapObj_RoofGenerator",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -0.5,
+    32.28123092651367
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -0.7994840145111084,
+     31.083620071411133
+    ],
+    [
+     0.75,
+     31.083620071411133
+    ],
+    [
+     0.75,
+     33.387168884277344
+    ],
+    [
+     -0.7994840145111084,
+     33.387168884277344
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.4752579927444458,
+     -0.045836448669433594
+    ],
+    "size": [
+     1.5494840145111084,
+     2.303548812866211
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Rail",
+   "path": "Map_Tower/Tower/Roof/MapObj_Rail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -8.10099983215332,
+    27.85300064086914
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -8.19474983215332,
+     27.35300064086914
+    ],
+    [
+     -8.00724983215332,
+     27.35300064086914
+    ],
+    [
+     -8.00724983215332,
+     28.35300064086914
+    ],
+    [
+     -8.19474983215332,
+     28.35300064086914
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.1875,
+     1.0
+    ]
+   }
+  },
+  {
+   "go": "MapObj_TubeC (1)",
+   "path": "Map_Tower/Tower/Roof/MapObj_TubeC (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    7.7129998207092285,
+    35.5
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     7.3692498207092285,
+     35.15625
+    ],
+    [
+     8.056749820709229,
+     35.15625
+    ],
+    [
+     8.056749820709229,
+     35.84375
+    ],
+    [
+     7.3692498207092285,
+     35.84375
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.6875,
+     0.6875
+    ]
+   }
+  },
+  {
+   "go": "MapObj_TubeS (1)",
+   "path": "Map_Tower/Tower/Roof/MapObj_TubeS (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    7.8067498207092285,
+    34.91400146484375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0000004768371582,
+    1.0000004768371582
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     7.556749701499939,
+     34.66400134563446
+    ],
+    [
+     8.056749939918518,
+     34.66400134563446
+    ],
+    [
+     8.056749939918518,
+     35.16400158405304
+    ],
+    [
+     7.556749701499939,
+     35.16400158405304
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "go": "MapObj_TubeC",
+   "path": "Map_Tower/Tower/Roof/MapObj_TubeC",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    13.234999656677246,
+    35.0932502746582
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     12.891249656677246,
+     34.7495002746582
+    ],
+    [
+     13.578749656677246,
+     34.7495002746582
+    ],
+    [
+     13.578749656677246,
+     35.4370002746582
+    ],
+    [
+     12.891249656677246,
+     35.4370002746582
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.6875,
+     0.6875
+    ]
+   }
+  },
+  {
+   "go": "MapObj_RoofBox2",
+   "path": "Map_Tower/Tower/Roof/MapObj_RoofBox2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    15.890000343322754,
+    35.25
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     15.390000343322754,
+     34.75
+    ],
+    [
+     16.390000343322754,
+     34.75
+    ],
+    [
+     16.390000343322754,
+     35.75
+    ],
+    [
+     15.390000343322754,
+     35.75
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "go": "HangRoof",
+   "path": "Map_Tower/Tower/Roof/HangRoof",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -1.25,
+    30.71875
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -3.25,
+     30.34375
+    ],
+    [
+     0.75,
+     30.34375
+    ],
+    [
+     0.75,
+     31.09375
+    ],
+    [
+     -3.25,
+     31.09375
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     4.0,
+     0.75
+    ]
+   }
+  },
+  {
+   "go": "MapObj_RoofSpinner1 (1)",
+   "path": "Map_Tower/Tower/Roof/MapObj_RoofSpinner1 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    21.639999389648438,
+    35.09375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     21.264999389648438,
+     34.6875
+    ],
+    [
+     22.014999389648438,
+     34.6875
+    ],
+    [
+     22.014999389648438,
+     35.5
+    ],
+    [
+     21.264999389648438,
+     35.5
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.75,
+     0.8125
+    ]
+   }
+  },
+  {
+   "go": "Force",
+   "path": "Map_Tower/Tower/Roof/MapObj_RoofSpinner1 (1)/Force",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    21.639999389648438,
+    35.65374934673309
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": true,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     21.439999386668205,
+     35.52874934673309
+    ],
+    [
+     21.83999939262867,
+     35.52874934673309
+    ],
+    [
+     21.83999939262867,
+     35.77874934673309
+    ],
+    [
+     21.439999386668205,
+     35.77874934673309
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.4000000059604645,
+     0.25
+    ]
+   }
+  },
+  {
+   "go": "MapObj_RoofBox1 (1)",
+   "path": "Map_Tower/Tower/Roof/MapObj_RoofBox1 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    16.940000534057617,
+    35.34299850463867
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     15.940000534057617,
+     34.68674850463867
+    ],
+    [
+     17.940000534057617,
+     34.68674850463867
+    ],
+    [
+     17.940000534057617,
+     35.99924850463867
+    ],
+    [
+     15.940000534057617,
+     35.99924850463867
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.0,
+     1.3125
+    ]
+   }
+  },
+  {
+   "go": "MapObj_RoofSpinner1",
+   "path": "Map_Tower/Tower/Roof/MapObj_RoofSpinner1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    10.09000015258789,
+    35.09375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     9.71500015258789,
+     34.6875
+    ],
+    [
+     10.46500015258789,
+     34.6875
+    ],
+    [
+     10.46500015258789,
+     35.5
+    ],
+    [
+     9.71500015258789,
+     35.5
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.75,
+     0.8125
+    ]
+   }
+  },
+  {
+   "go": "Force",
+   "path": "Map_Tower/Tower/Roof/MapObj_RoofSpinner1/Force",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    10.09000015258789,
+    35.653750002384186
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": true,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     9.890000149607658,
+     35.528750002384186
+    ],
+    [
+     10.290000155568123,
+     35.528750002384186
+    ],
+    [
+     10.290000155568123,
+     35.778750002384186
+    ],
+    [
+     9.890000149607658,
+     35.778750002384186
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.4000000059604645,
+     0.25
+    ]
+   }
+  },
+  {
+   "go": "MapObj_RoofBox1",
+   "path": "Map_Tower/Tower/Roof/MapObj_RoofBox1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    6.375,
+    35.34299850463867
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     5.375,
+     34.68674850463867
+    ],
+    [
+     7.375,
+     34.68674850463867
+    ],
+    [
+     7.375,
+     35.99924850463867
+    ],
+    [
+     5.375,
+     35.99924850463867
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.0,
+     1.3125
+    ]
+   }
+  },
+  {
+   "go": "MapObj_OutdoorTable",
+   "path": "Map_Tower/Tower/Roof/MapObj_OutdoorTable",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -5.710000038146973,
+    27.97800064086914
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -7.210000038146973,
+     27.35300064086914
+    ],
+    [
+     -4.210000038146973,
+     27.35300064086914
+    ],
+    [
+     -4.210000038146973,
+     28.60300064086914
+    ],
+    [
+     -7.210000038146973,
+     28.60300064086914
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     3.0,
+     1.25
+    ]
+   }
+  },
+  {
+   "go": "DeathZone",
+   "path": "Map_Tower/Tower/Helicopter/Helicopter_Body/Helicopter_Blade/DeathZone",
+   "tag": "Death",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    33.70000076293945,
+    39.627498388290405
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     31.700000762939453,
+     39.49249838292599
+    ],
+    [
+     35.70000076293945,
+     39.49249838292599
+    ],
+    [
+     35.70000076293945,
+     39.76249839365482
+    ],
+    [
+     31.700000762939453,
+     39.76249839365482
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     4.0,
+     0.27000001072883606
+    ]
+   }
+  },
+  {
+   "go": "Force",
+   "path": "Map_Tower/Tower/Helicopter/Helicopter_Body/Helicopter_Blade/Force",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    33.70000076293945,
+    39.627498626708984
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": true,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     31.700000762939453,
+     39.492498621344566
+    ],
+    [
+     35.70000076293945,
+     39.492498621344566
+    ],
+    [
+     35.70000076293945,
+     39.7624986320734
+    ],
+    [
+     31.700000762939453,
+     39.7624986320734
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     4.0,
+     0.27000001072883606
+    ]
+   }
+  },
+  {
+   "go": "Trigger",
+   "path": "Map_Tower/Tower/Helicopter/Helicopter_Body/Trigger",
+   "tag": "Finish",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    34.59000074863434,
+    37.80999827384949
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     33.84000074863434,
+     36.58499825000763
+    ],
+    [
+     35.34000074863434,
+     36.58499825000763
+    ],
+    [
+     35.34000074863434,
+     39.034998297691345
+    ],
+    [
+     33.84000074863434,
+     39.034998297691345
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     1.5,
+     2.450000047683716
+    ]
+   }
+  },
+  {
+   "go": "Back",
+   "path": "Map_Tower/Tower/Helicopter/Helicopter_Body/Back",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    31.44100069999695,
+    36.37699806690216
+   ],
+   "angle": 8.512572262315231,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": {
+    "name": "Stick",
+    "friction": 1.0,
+    "bounciness": 0.0
+   },
+   "kind": "box",
+   "points": [
+    [
+     31.014461482121867,
+     36.186763251777066
+    ],
+    [
+     31.904546524052297,
+     36.319987030496804
+    ],
+    [
+     31.86753991787203,
+     36.567232882027255
+    ],
+    [
+     30.9774548759416,
+     36.43400910330752
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.8999999761581421,
+     0.25
+    ]
+   }
+  },
+  {
+   "go": "Top",
+   "path": "Map_Tower/Tower/Helicopter/Helicopter_Body/Top",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    33.400000751018524,
+    39.159998178482056
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     31.270000636577606,
+     39.034998178482056
+    ],
+    [
+     35.53000086545944,
+     39.034998178482056
+    ],
+    [
+     35.53000086545944,
+     39.284998178482056
+    ],
+    [
+     31.270000636577606,
+     39.284998178482056
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     4.260000228881836,
+     0.25
+    ]
+   }
+  },
+  {
+   "go": "Front",
+   "path": "Map_Tower/Tower/Helicopter/Helicopter_Body/Front",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    35.97000074386597,
+    37.74999812245369
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     35.47000074386597,
+     36.24999812245369
+    ],
+    [
+     36.47000074386597,
+     36.24999812245369
+    ],
+    [
+     36.47000074386597,
+     39.24999812245369
+    ],
+    [
+     35.47000074386597,
+     39.24999812245369
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     1.0,
+     3.0
+    ]
+   }
+  },
+  {
+   "go": "Bottom",
+   "path": "Map_Tower/Tower/Helicopter/Helicopter_Body/Bottom",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    34.00000077486038,
+    36.382498145103455
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": {
+    "name": "Stick",
+    "friction": 1.0,
+    "bounciness": 0.0
+   },
+   "kind": "box",
+   "points": [
+    [
+     31.870000660419464,
+     36.194998145103455
+    ],
+    [
+     36.1300008893013,
+     36.194998145103455
+    ],
+    [
+     36.1300008893013,
+     36.569998145103455
+    ],
+    [
+     31.870000660419464,
+     36.569998145103455
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     4.260000228881836,
+     0.375
+    ]
+   }
+  },
+  {
+   "go": "DeathTrigger",
+   "path": "Map_Tower/Tower/DeathTrigger",
+   "tag": "Death",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -24.260000228881836,
+    20.68000030517578
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -49.260000228881836,
+     18.18000030517578
+    ],
+    [
+     0.7399997711181641,
+     18.18000030517578
+    ],
+    [
+     0.7399997711181641,
+     23.18000030517578
+    ],
+    [
+     -49.260000228881836,
+     23.18000030517578
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     50.0,
+     5.0
+    ]
+   }
+  },
+  {
+   "go": "Side",
+   "path": "Map_Tower/Tower/Side",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    0.875,
+    31.84000015258789
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.25,
+    3.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     0.75,
+     30.34000015258789
+    ],
+    [
+     1.0,
+     30.34000015258789
+    ],
+    [
+     1.0,
+     33.34000015258789
+    ],
+    [
+     0.75,
+     33.34000015258789
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "go": "Roof (1)",
+   "path": "Map_Tower/Tower/Roof (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -3.700000047683716,
+    26.600000381469727
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -8.200000047683716,
+     25.850000381469727
+    ],
+    [
+     0.7999999523162842,
+     25.850000381469727
+    ],
+    [
+     0.7999999523162842,
+     27.350000381469727
+    ],
+    [
+     -8.200000047683716,
+     27.350000381469727
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     9.0,
+     1.5
+    ]
+   }
+  },
+  {
+   "go": "Stopper",
+   "path": "Map_Tower/Tower/Room1/Stopper",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    26.0,
+    13.65625
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     25.75,
+     12.65625
+    ],
+    [
+     26.25,
+     12.65625
+    ],
+    [
+     26.25,
+     14.65625
+    ],
+    [
+     25.75,
+     14.65625
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.5,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Cubicle_WallV (3)",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_WallV (3)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    20.75,
+    9.4375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     20.5625,
+     8.6875
+    ],
+    [
+     20.9375,
+     8.6875
+    ],
+    [
+     20.9375,
+     10.1875
+    ],
+    [
+     20.5625,
+     10.1875
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.375,
+     1.5
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Computer3",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_WallV (3)/MapObj_Computer3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    19.243000030517578,
+    9.287499994039536
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": 2,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     19.024250030517578,
+     8.849999994039536
+    ],
+    [
+     19.461750030517578,
+     8.849999994039536
+    ],
+    [
+     19.461750030517578,
+     9.724999994039536
+    ],
+    [
+     19.024250030517578,
+     9.724999994039536
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.4375,
+     0.875
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Computer3 (2)",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_WallV (3)/MapObj_Computer3 (2)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    20.242999970912933,
+    9.287500381469727
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": 3,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     20.024249970912933,
+     8.850000381469727
+    ],
+    [
+     20.461749970912933,
+     8.850000381469727
+    ],
+    [
+     20.461749970912933,
+     9.725000381469727
+    ],
+    [
+     20.024249970912933,
+     9.725000381469727
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.4375,
+     0.875
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Computer3 (1)",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_WallV (3)/MapObj_Computer3 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    19.743000030517578,
+    9.287500381469727
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": 4,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     19.524250030517578,
+     8.850000381469727
+    ],
+    [
+     19.961750030517578,
+     8.850000381469727
+    ],
+    [
+     19.961750030517578,
+     9.725000381469727
+    ],
+    [
+     19.524250030517578,
+     9.725000381469727
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.4375,
+     0.875
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Cubicle_WallV (2)",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_WallV (2)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    16.25,
+    9.4375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     16.0625,
+     8.6875
+    ],
+    [
+     16.4375,
+     8.6875
+    ],
+    [
+     16.4375,
+     10.1875
+    ],
+    [
+     16.0625,
+     10.1875
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.375,
+     1.5
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Cubicle_WallV",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_WallV",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    7.25,
+    9.4375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     7.0625,
+     8.6875
+    ],
+    [
+     7.4375,
+     8.6875
+    ],
+    [
+     7.4375,
+     10.1875
+    ],
+    [
+     7.0625,
+     10.1875
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.375,
+     1.5
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Cubicle_WallV (1)",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_WallV (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    11.75,
+    9.4375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     11.5625,
+     8.6875
+    ],
+    [
+     11.9375,
+     8.6875
+    ],
+    [
+     11.9375,
+     10.1875
+    ],
+    [
+     11.5625,
+     10.1875
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.375,
+     1.5
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Cubicle_Desk",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_Desk",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    8.4375,
+    9.4375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     7.40625,
+     8.625
+    ],
+    [
+     9.46875,
+     8.625
+    ],
+    [
+     9.46875,
+     9.625
+    ],
+    [
+     7.40625,
+     9.625
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     -0.3125
+    ],
+    "size": [
+     2.0625,
+     1.0
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Cubicle_Computer",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_Desk/MapObj_Cubicle_Computer",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    8.950500011444092,
+    10.031499981880188
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": 5,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     8.575500011444092,
+     9.625249981880188
+    ],
+    [
+     9.325500011444092,
+     9.625249981880188
+    ],
+    [
+     9.325500011444092,
+     10.437749981880188
+    ],
+    [
+     8.575500011444092,
+     10.437749981880188
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.75,
+     0.8125
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Cubicle_Desk (1)",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_Desk (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    15.03125,
+    9.4375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     14.0,
+     8.625
+    ],
+    [
+     16.0625,
+     8.625
+    ],
+    [
+     16.0625,
+     9.625
+    ],
+    [
+     14.0,
+     9.625
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     -0.3125
+    ],
+    "size": [
+     2.0625,
+     1.0
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Box_2",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_Desk (1)/MapObj_Box_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    15.471249997615814,
+    9.900499999523163
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": 6,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     15.127499997615814,
+     9.681749999523163
+    ],
+    [
+     15.814999997615814,
+     9.681749999523163
+    ],
+    [
+     15.814999997615814,
+     10.119249999523163
+    ],
+    [
+     15.127499997615814,
+     10.119249999523163
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.6875,
+     0.4375
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Cup",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_Desk (1)/MapObj_Cup",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    14.89724999666214,
+    9.761500000953674
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": 7,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     14.77224999666214,
+     9.636500000953674
+    ],
+    [
+     15.02224999666214,
+     9.636500000953674
+    ],
+    [
+     15.02224999666214,
+     9.886500000953674
+    ],
+    [
+     14.77224999666214,
+     9.886500000953674
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.25,
+     0.25
+    ]
+   }
+  },
+  {
+   "go": "MapObj_BoxOpen_1",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_Desk (1)/MapObj_BoxOpen_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    12.283250093460083,
+    9.039499998092651
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     11.939500093460083,
+     8.695749998092651
+    ],
+    [
+     12.627000093460083,
+     8.695749998092651
+    ],
+    [
+     12.627000093460083,
+     9.383249998092651
+    ],
+    [
+     11.939500093460083,
+     9.383249998092651
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.6875,
+     0.6875
+    ]
+   }
+  },
+  {
+   "go": "Stopper",
+   "path": "Map_Tower/Tower/Elevator (1)/Stopper",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    27.5,
+    32.34375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     26.25,
+     31.34375
+    ],
+    [
+     28.75,
+     31.34375
+    ],
+    [
+     28.75,
+     33.34375
+    ],
+    [
+     26.25,
+     33.34375
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.5,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "ElevatorSide",
+   "path": "Map_Tower/Tower/Elevator (1)/ElevatorSide",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    28.875,
+    13.09375
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.25,
+    40.5
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     28.75,
+     -7.15625
+    ],
+    [
+     29.0,
+     -7.15625
+    ],
+    [
+     29.0,
+     33.34375
+    ],
+    [
+     28.75,
+     33.34375
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "go": "DeathTrigger",
+   "path": "Map_Tower/Tower/Elevator (1)/DeathTrigger",
+   "tag": "Death",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    27.5,
+    4.239999771118164
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     26.25,
+     3.739999771118164
+    ],
+    [
+     28.75,
+     3.739999771118164
+    ],
+    [
+     28.75,
+     4.739999771118164
+    ],
+    [
+     26.25,
+     4.739999771118164
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.5,
+     1.0
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Elevator",
+   "path": "Map_Tower/Tower/Elevator (1)/MapObj_Elevator",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    27.5,
+    19.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     26.25,
+     16.8125
+    ],
+    [
+     28.75,
+     16.8125
+    ],
+    [
+     28.75,
+     17.1875
+    ],
+    [
+     26.25,
+     17.1875
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     -2.0
+    ],
+    "size": [
+     2.5,
+     0.375
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Elevator",
+   "path": "Map_Tower/Tower/Elevator (1)/MapObj_Elevator",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    27.5,
+    19.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     26.25,
+     21.0
+    ],
+    [
+     28.75,
+     21.0
+    ],
+    [
+     28.75,
+     21.1875
+    ],
+    [
+     26.25,
+     21.1875
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     2.09375
+    ],
+    "size": [
+     2.5,
+     0.1875
+    ]
+   }
+  },
+  {
+   "go": "DeathTrigger",
+   "path": "Map_Tower/Tower/Elevator (1)/MapObj_Elevator/DeathTrigger",
+   "tag": "Death",
+   "layer": 0,
+   "active": false,
+   "pos": [
+    27.5,
+    21.719999313354492
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     26.75,
+     21.219999313354492
+    ],
+    [
+     28.25,
+     21.219999313354492
+    ],
+    [
+     28.25,
+     22.219999313354492
+    ],
+    [
+     26.75,
+     22.219999313354492
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     1.5,
+     1.0
+    ]
+   }
+  },
+  {
+   "go": "DeathTrigger (1)",
+   "path": "Map_Tower/Tower/Elevator (1)/MapObj_Elevator/DeathTrigger (1)",
+   "tag": "Death",
+   "layer": 0,
+   "active": false,
+   "pos": [
+    27.5,
+    16.329999923706055
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     26.75,
+     15.829999923706055
+    ],
+    [
+     28.25,
+     15.829999923706055
+    ],
+    [
+     28.25,
+     16.829999923706055
+    ],
+    [
+     26.75,
+     16.829999923706055
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     1.5,
+     1.0
+    ]
+   }
+  },
+  {
+   "go": "Stopper",
+   "path": "Map_Tower/Tower/Elevator/Stopper",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    2.25,
+    13.698750019073486
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     1.0,
+     12.698750019073486
+    ],
+    [
+     3.5,
+     12.698750019073486
+    ],
+    [
+     3.5,
+     14.698750019073486
+    ],
+    [
+     1.0,
+     14.698750019073486
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.5,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "ElevatorSide",
+   "path": "Map_Tower/Tower/Elevator/ElevatorSide",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    0.875,
+    9.730000019073486
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.25,
+    20.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     0.75,
+     -0.26999998092651367
+    ],
+    [
+     1.0,
+     -0.26999998092651367
+    ],
+    [
+     1.0,
+     19.730000019073486
+    ],
+    [
+     0.75,
+     19.730000019073486
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Elevator",
+   "path": "Map_Tower/Tower/Elevator/MapObj_Elevator",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    2.25,
+    6.730000019073486
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     1.0,
+     4.542500019073486
+    ],
+    [
+     3.5,
+     4.542500019073486
+    ],
+    [
+     3.5,
+     4.917500019073486
+    ],
+    [
+     1.0,
+     4.917500019073486
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     -2.0
+    ],
+    "size": [
+     2.5,
+     0.375
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Elevator",
+   "path": "Map_Tower/Tower/Elevator/MapObj_Elevator",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    2.25,
+    6.730000019073486
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     1.0,
+     8.730000019073486
+    ],
+    [
+     3.5,
+     8.730000019073486
+    ],
+    [
+     3.5,
+     8.917500019073486
+    ],
+    [
+     1.0,
+     8.917500019073486
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     2.09375
+    ],
+    "size": [
+     2.5,
+     0.1875
+    ]
+   }
+  },
+  {
+   "go": "DeathTrigger (1)",
+   "path": "Map_Tower/Tower/Elevator/MapObj_Elevator/DeathTrigger (1)",
+   "tag": "Death",
+   "layer": 0,
+   "active": false,
+   "pos": [
+    2.25,
+    4.059999942779541
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     1.5,
+     3.559999942779541
+    ],
+    [
+     3.0,
+     3.559999942779541
+    ],
+    [
+     3.0,
+     4.559999942779541
+    ],
+    [
+     1.5,
+     4.559999942779541
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     1.5,
+     1.0
+    ]
+   }
+  },
+  {
+   "go": "DeathTrigger",
+   "path": "Map_Tower/Tower/Elevator/MapObj_Elevator/DeathTrigger",
+   "tag": "Death",
+   "layer": 0,
+   "active": false,
+   "pos": [
+    2.25,
+    9.450000047683716
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     1.5,
+     8.950000047683716
+    ],
+    [
+     3.0,
+     8.950000047683716
+    ],
+    [
+     3.0,
+     9.950000047683716
+    ],
+    [
+     1.5,
+     9.950000047683716
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     1.5,
+     1.0
+    ]
+   }
+  },
+  {
+   "go": "Tower",
+   "path": "Map_Tower/Tower/Tower",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    14.875,
+    2.3499999046325684
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     3.5,
+     -4.0
+    ],
+    [
+     26.25,
+     -4.0
+    ],
+    [
+     26.25,
+     8.699999809265137
+    ],
+    [
+     3.5,
+     8.699999809265137
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     22.75,
+     12.699999809265137
+    ]
+   }
+  },
+  {
+   "go": "MapObj_RoofDoor",
+   "path": "Map_Tower/Tower/MapObj_RoofDoor",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    0.9100000262260437,
+    28.84000015258789
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     0.6600000262260437,
+     27.34000015258789
+    ],
+    [
+     1.1600000262260437,
+     27.34000015258789
+    ],
+    [
+     1.1600000262260437,
+     30.34000015258789
+    ],
+    [
+     0.6600000262260437,
+     30.34000015258789
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.5,
+     3.0
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Taxi",
+   "path": "Map_Tower/Ground/Taxi/MapObj_Taxi",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -25.110000610351562,
+    -2.75
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": 9,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "poly",
+   "points": [
+    [
+     -24.915611743927002,
+     -2.0860679149627686
+    ],
+    [
+     -25.082032918930054,
+     -2.0856947898864746
+    ],
+    [
+     -25.23172688484192,
+     -1.7928717136383057
+    ],
+    [
+     -25.987505197525024,
+     -1.79153311252594
+    ],
+    [
+     -26.1417293548584,
+     -2.1009109020233154
+    ],
+    [
+     -26.414542078971863,
+     -2.0898690223693848
+    ],
+    [
+     -27.04433834552765,
+     -2.9032657146453857
+    ],
+    [
+     -27.354225158691406,
+     -2.9028265476226807
+    ],
+    [
+     -27.4987850189209,
+     -3.7103402614593506
+    ],
+    [
+     -22.672500610351562,
+     -3.71875
+    ],
+    [
+     -22.928475379943848,
+     -2.915421962738037
+    ],
+    [
+     -24.04630160331726,
+     -2.9139208793640137
+    ]
+   ]
+  },
+  {
+   "go": "MapTiles_Bush",
+   "path": "Map_Tower/Ground/MapTiles_Bush",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -20.5,
+    -1.375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -21.40625,
+     -4.0
+    ],
+    [
+     -19.59375,
+     -4.0
+    ],
+    [
+     -19.59375,
+     1.25
+    ],
+    [
+     -21.40625,
+     1.25
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     1.8125,
+     5.25
+    ]
+   }
+  },
+  {
+   "go": "MapTiles_Bush",
+   "path": "Map_Tower/Ground/MapTiles_Bush",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -20.5,
+    -1.375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -21.75,
+     -4.0
+    ],
+    [
+     -19.25,
+     -4.0
+    ],
+    [
+     -19.25,
+     -3.5625
+    ],
+    [
+     -21.75,
+     -3.5625
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     -2.40625
+    ],
+    "size": [
+     2.5,
+     0.4375
+    ]
+   }
+  },
+  {
+   "go": "DeathTrigger",
+   "path": "Map_Tower/Ground/DeathTrigger",
+   "tag": "Death",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -40.54999923706055,
+    -1.75
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -60.54999923706055,
+     -4.25
+    ],
+    [
+     -20.549999237060547,
+     -4.25
+    ],
+    [
+     -20.549999237060547,
+     0.75
+    ],
+    [
+     -60.54999923706055,
+     0.75
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     40.0,
+     5.0
+    ]
+   }
+  },
+  {
+   "go": "PowerUpObj (11)",
+   "path": "Map_Tower/PowerUps/PowerUpObj (11)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    15.140000343322754,
+    30.059999465942383
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     14.640000343322754,
+     29.559999465942383
+    ],
+    [
+     15.640000343322754,
+     29.559999465942383
+    ],
+    [
+     15.640000343322754,
+     30.559999465942383
+    ],
+    [
+     14.640000343322754,
+     30.559999465942383
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.0,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "PowerUpObj (14)",
+   "path": "Map_Tower/PowerUps/PowerUpObj (14)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    25.06999969482422,
+    35.97999954223633
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     24.56999969482422,
+     35.47999954223633
+    ],
+    [
+     25.56999969482422,
+     35.47999954223633
+    ],
+    [
+     25.56999969482422,
+     36.47999954223633
+    ],
+    [
+     24.56999969482422,
+     36.47999954223633
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.0,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "PowerUpObj (9)",
+   "path": "Map_Tower/PowerUps/PowerUpObj (9)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    6.0,
+    11.670000076293945
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     5.5,
+     11.170000076293945
+    ],
+    [
+     6.5,
+     11.170000076293945
+    ],
+    [
+     6.5,
+     12.170000076293945
+    ],
+    [
+     5.5,
+     12.170000076293945
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.0,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "PowerUpObj (10)",
+   "path": "Map_Tower/PowerUps/PowerUpObj (10)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    23.3799991607666,
+    11.800999641418457
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     22.8799991607666,
+     11.300999641418457
+    ],
+    [
+     23.8799991607666,
+     11.300999641418457
+    ],
+    [
+     23.8799991607666,
+     12.300999641418457
+    ],
+    [
+     22.8799991607666,
+     12.300999641418457
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.0,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "PowerUpObj (12)",
+   "path": "Map_Tower/PowerUps/PowerUpObj (12)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -0.8199999928474426,
+    28.799999237060547
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -1.3199999928474426,
+     28.299999237060547
+    ],
+    [
+     -0.3199999928474426,
+     28.299999237060547
+    ],
+    [
+     -0.3199999928474426,
+     29.299999237060547
+    ],
+    [
+     -1.3199999928474426,
+     29.299999237060547
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.0,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "PowerUpObj (8)",
+   "path": "Map_Tower/PowerUps/PowerUpObj (8)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -0.9710000157356262,
+    -2.1989998817443848
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -1.4710000157356262,
+     -2.6989998817443848
+    ],
+    [
+     -0.4710000157356262,
+     -2.6989998817443848
+    ],
+    [
+     -0.4710000157356262,
+     -1.6989998817443848
+    ],
+    [
+     -1.4710000157356262,
+     -1.6989998817443848
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.0,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "PowerUpObj (13)",
+   "path": "Map_Tower/PowerUps/PowerUpObj (13)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    12.020000457763672,
+    36.13999938964844
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     11.520000457763672,
+     35.63999938964844
+    ],
+    [
+     12.520000457763672,
+     35.63999938964844
+    ],
+    [
+     12.520000457763672,
+     36.63999938964844
+    ],
+    [
+     11.520000457763672,
+     36.63999938964844
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.0,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "Ground1",
+   "path": "Map_Tower/Ground1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    25.0,
+    -6.5
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -75.0,
+     -9.0
+    ],
+    [
+     125.0,
+     -9.0
+    ],
+    [
+     125.0,
+     -4.0
+    ],
+    [
+     -75.0,
+     -4.0
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     200.0,
+     5.0
+    ]
+   }
+  }
+ ],
+ "bodies": [
+  {
+   "go": "MapObj_OfficeChairV (1)",
+   "path": "Map_Tower/Tower/Room2/MapObj_OfficeChairV (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    3.864999771118164,
+    28.5
+   ],
+   "angle": 180.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "id": 0,
+   "rb_path_id": 1463,
+   "type": "dynamic",
+   "mass": 1.0,
+   "gravity": 1.0,
+   "drag": 0.0,
+   "angular_drag": 0.05000000074505806,
+   "constraints": 0,
+   "material": null
+  },
+  {
+   "go": "MapObj_OfficeChairV",
+   "path": "Map_Tower/Tower/Room2/MapObj_OfficeChairV",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    23.175000190734863,
+    28.5
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "id": 1,
+   "rb_path_id": 1479,
+   "type": "dynamic",
+   "mass": 1.0,
+   "gravity": 1.0,
+   "drag": 0.0,
+   "angular_drag": 0.05000000074505806,
+   "constraints": 0,
+   "material": null
+  },
+  {
+   "go": "MapObj_Computer3",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_WallV (3)/MapObj_Computer3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    19.243000030517578,
+    9.287499994039536
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "id": 2,
+   "rb_path_id": 1487,
+   "type": "dynamic",
+   "mass": 0.20000000298023224,
+   "gravity": 1.0,
+   "drag": 0.0,
+   "angular_drag": 0.05000000074505806,
+   "constraints": 0,
+   "material": null
+  },
+  {
+   "go": "MapObj_Computer3 (2)",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_WallV (3)/MapObj_Computer3 (2)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    20.242999970912933,
+    9.287500381469727
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "id": 3,
+   "rb_path_id": 1465,
+   "type": "dynamic",
+   "mass": 0.20000000298023224,
+   "gravity": 1.0,
+   "drag": 0.0,
+   "angular_drag": 0.05000000074505806,
+   "constraints": 0,
+   "material": null
+  },
+  {
+   "go": "MapObj_Computer3 (1)",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_WallV (3)/MapObj_Computer3 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    19.743000030517578,
+    9.287500381469727
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "id": 4,
+   "rb_path_id": 1477,
+   "type": "dynamic",
+   "mass": 0.20000000298023224,
+   "gravity": 1.0,
+   "drag": 0.0,
+   "angular_drag": 0.05000000074505806,
+   "constraints": 0,
+   "material": null
+  },
+  {
+   "go": "MapObj_Cubicle_Computer",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_Desk/MapObj_Cubicle_Computer",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    8.950500011444092,
+    10.031499981880188
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "id": 5,
+   "rb_path_id": 1482,
+   "type": "dynamic",
+   "mass": 0.20000000298023224,
+   "gravity": 1.0,
+   "drag": 0.0,
+   "angular_drag": 0.05000000074505806,
+   "constraints": 0,
+   "material": null
+  },
+  {
+   "go": "MapObj_Box_2",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_Desk (1)/MapObj_Box_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    15.471249997615814,
+    9.900499999523163
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "id": 6,
+   "rb_path_id": 1466,
+   "type": "dynamic",
+   "mass": 1.0,
+   "gravity": 1.0,
+   "drag": 0.0,
+   "angular_drag": 0.05000000074505806,
+   "constraints": 0,
+   "material": null
+  },
+  {
+   "go": "MapObj_Cup",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_Desk (1)/MapObj_Cup",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    14.89724999666214,
+    9.761500000953674
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "id": 7,
+   "rb_path_id": 1475,
+   "type": "dynamic",
+   "mass": 0.10000000149011612,
+   "gravity": 1.0,
+   "drag": 0.0,
+   "angular_drag": 0.05000000074505806,
+   "constraints": 0,
+   "material": null
+  },
+  {
+   "go": "Taxi",
+   "path": "Map_Tower/Ground/Taxi",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -25.110000610351562,
+    -2.75
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "id": 8,
+   "rb_path_id": 1485,
+   "type": "static",
+   "mass": 1.0,
+   "gravity": 1.0,
+   "drag": 0.0,
+   "angular_drag": 0.05000000074505806,
+   "constraints": 0,
+   "material": null
+  },
+  {
+   "go": "MapObj_Taxi",
+   "path": "Map_Tower/Ground/Taxi/MapObj_Taxi",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -25.110000610351562,
+    -2.75
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "id": 9,
+   "rb_path_id": 1470,
+   "type": "dynamic",
+   "mass": 1.0,
+   "gravity": 1.0,
+   "drag": 0.0,
+   "angular_drag": 0.05000000074505806,
+   "constraints": 0,
+   "material": null
+  }
+ ],
+ "joints": [
+  {
+   "go": "MapObj_Taxi",
+   "path": "Map_Tower/Ground/Taxi/MapObj_Taxi",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -25.110000610351562,
+    -2.75
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": 9,
+   "type": "wheel",
+   "anchor": [
+    -1.4900000095367432,
+    -0.25
+   ],
+   "connected_anchor": [
+    -1.4900000095367432,
+    -0.25
+   ],
+   "connected": 1485,
+   "use_motor": false,
+   "motor_speed": 0.0,
+   "motor_force": 10000.0,
+   "suspension": {
+    "damping": 0.699999988079071,
+    "frequency": 9.0,
+    "angle": 90.0
+   }
+  },
+  {
+   "go": "MapObj_Taxi",
+   "path": "Map_Tower/Ground/Taxi/MapObj_Taxi",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -25.110000610351562,
+    -2.75
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": 9,
+   "type": "wheel",
+   "anchor": [
+    1.4900000095367432,
+    -0.25
+   ],
+   "connected_anchor": [
+    1.4900000095367432,
+    -0.25
+   ],
+   "connected": 1485,
+   "use_motor": false,
+   "motor_speed": 0.0,
+   "motor_force": 10000.0,
+   "suspension": {
+    "damping": 0.699999988079071,
+    "frequency": 9.0,
+    "angle": 90.0
+   }
+  }
+ ],
+ "effectors": [
+  {
+   "go": "Force",
+   "path": "Map_Tower/Tower/Roof/MapObj_RoofSpinner1 (1)/Force",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    21.639999389648438,
+    35.65374934673309
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "type": "AreaEffector2D",
+   "AngularDrag": 0.0,
+   "Drag": 0.0,
+   "Enabled": 1,
+   "ForceAngle": 90.0,
+   "ForceMagnitude": 20.0,
+   "ForceTarget": 0,
+   "ForceVariation": 0.0,
+   "UseColliderMask": true,
+   "UseGlobalAngle": false
+  },
+  {
+   "go": "Force",
+   "path": "Map_Tower/Tower/Roof/MapObj_RoofSpinner1/Force",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    10.09000015258789,
+    35.653750002384186
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "type": "AreaEffector2D",
+   "AngularDrag": 0.0,
+   "Drag": 0.0,
+   "Enabled": 1,
+   "ForceAngle": 90.0,
+   "ForceMagnitude": 20.0,
+   "ForceTarget": 0,
+   "ForceVariation": 0.0,
+   "UseColliderMask": true,
+   "UseGlobalAngle": false
+  },
+  {
+   "go": "Force",
+   "path": "Map_Tower/Tower/Helicopter/Helicopter_Body/Helicopter_Blade/Force",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    33.70000076293945,
+    39.627498626708984
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "type": "AreaEffector2D",
+   "AngularDrag": 0.0,
+   "Drag": 0.0,
+   "Enabled": 1,
+   "ForceAngle": 225.0,
+   "ForceMagnitude": 250.0,
+   "ForceTarget": 0,
+   "ForceVariation": 0.0,
+   "UseColliderMask": true,
+   "UseGlobalAngle": false
+  }
+ ],
+ "scripts": [
+  {
+   "go": "MapObj_PaperStack2",
+   "path": "Map_Tower/Tower/Room2/MapObj_PaperStack2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    18.085000038146973,
+    28.6875
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "ParticleTrigger",
+   "raw": "050000009300000000000000"
+  },
+  {
+   "go": "MapObj_PaperStack1",
+   "path": "Map_Tower/Tower/Room2/MapObj_PaperStack1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    13.625,
+    28.6875
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "ParticleTrigger",
+   "raw": "050000009300000000000000"
+  },
+  {
+   "go": "ArmPivot",
+   "path": "Map_Tower/Tower/Room2/MapTiles_TowerWindow/Rail/Washer/PlayerGraphics/ArmPivot",
+   "tag": "Untagged",
+   "layer": 8,
+   "active": true,
+   "pos": [
+    13.367500305175781,
+    30.09375
+   ],
+   "angle": -110.00000345046718,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "AnimationOffset",
+   "raw": "0000003f0000c03f"
+  },
+  {
+   "go": "ArmPivot",
+   "path": "Map_Tower/Tower/Room2/MapTiles_TowerWindow/Rail/Washer (1)/PlayerGraphics/ArmPivot",
+   "tag": "Untagged",
+   "layer": 8,
+   "active": true,
+   "pos": [
+    16.212499976158142,
+    30.09375
+   ],
+   "angle": -69.99999654953284,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "AnimationOffset",
+   "raw": "0000003f0000c03f"
+  },
+  {
+   "go": "MapObj_PaperStack2 (1)",
+   "path": "Map_Tower/Tower/Room2/MapObj_PaperStack2 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    7.144999980926514,
+    28.6875
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "ParticleTrigger",
+   "raw": "050000009300000000000000"
+  },
+  {
+   "go": "Helicopter",
+   "path": "Map_Tower/Tower/Helicopter",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    33.70000076293945,
+    36.66999816894531
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "TransportationObj",
+   "raw": "000000400000000018040000000000009a191c43cdccd441000000c0000000000000a0400000803f000000000000000000000000000000000000000000000000"
+  },
+  {
+   "go": "MapObj_Computer3",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_WallV (3)/MapObj_Computer3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    19.243000030517578,
+    9.287499994039536
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "AnimationOffset",
+   "raw": "0000403f0000a03f"
+  },
+  {
+   "go": "MapObj_Computer3 (2)",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_WallV (3)/MapObj_Computer3 (2)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    20.242999970912933,
+    9.287500381469727
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "AnimationOffset",
+   "raw": "0000403f0000a03f"
+  },
+  {
+   "go": "MapObj_Computer3 (1)",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_WallV (3)/MapObj_Computer3 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    19.743000030517578,
+    9.287500381469727
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "AnimationOffset",
+   "raw": "0000403f0000a03f"
+  },
+  {
+   "go": "MapObj_Elevator",
+   "path": "Map_Tower/Tower/Elevator (1)/MapObj_Elevator",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    27.5,
+    19.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Elevator",
+   "raw": "02000000000000006305000000000000000000002d050000000000000000000000008040000040400000003f",
+   "elevator": {
+    "points": [
+     [
+      27.5,
+      10.5
+     ],
+     [
+      27.5,
+      29.15625
+     ]
+    ],
+    "going_up": false,
+    "speed": 4.0,
+    "wait": 3.0,
+    "start_darkness": 0.5
+   }
+  },
+  {
+   "go": "MapObj_Elevator",
+   "path": "Map_Tower/Tower/Elevator/MapObj_Elevator",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    2.25,
+    6.730000019073486
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Elevator",
+   "raw": "020000000000000020050000000000000000000063030000000000000100000000008040000040400000003f",
+   "elevator": {
+    "points": [
+     [
+      2.25,
+      -2.2074999809265137
+     ],
+     [
+      2.25,
+      10.511249542236328
+     ]
+    ],
+    "going_up": true,
+    "speed": 4.0,
+    "wait": 3.0,
+    "start_darkness": 0.5
+   }
+  },
+  {
+   "go": "MapObj_RoofDoor",
+   "path": "Map_Tower/Tower/MapObj_RoofDoor",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    0.9100000262260437,
+    28.84000015258789
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Door",
+   "raw": "050000006e00000000000000"
+  },
+  {
+   "go": "StartPlayers",
+   "path": "Map_Tower/StartPlayers",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    0.0,
+    0.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "StartPlayers",
+   "raw": "0300000000000000f50400000000000000000000e80300000000000000000000b303000000000000000000000000803f0000003f0000003f0000803f0000000000000000c700000000000000000098c10000c0c0000000000000000000000000"
+  },
+  {
+   "go": "PowerUpObj (11)",
+   "path": "Map_Tower/PowerUps/PowerUpObj (11)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    15.140000343322754,
+    30.059999465942383
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "script": "PowerUpBox",
+   "raw": "000000000000000000000000"
+  },
+  {
+   "go": "PowerUpObj (14)",
+   "path": "Map_Tower/PowerUps/PowerUpObj (14)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    25.06999969482422,
+    35.97999954223633
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "script": "PowerUpBox",
+   "raw": "000000000000000000000000"
+  },
+  {
+   "go": "PowerUpObj (9)",
+   "path": "Map_Tower/PowerUps/PowerUpObj (9)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    6.0,
+    11.670000076293945
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "script": "PowerUpBox",
+   "raw": "000000000000000000000000"
+  },
+  {
+   "go": "PowerUpObj (10)",
+   "path": "Map_Tower/PowerUps/PowerUpObj (10)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    23.3799991607666,
+    11.800999641418457
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "script": "PowerUpBox",
+   "raw": "000000000000000000000000"
+  },
+  {
+   "go": "PowerUpObj (12)",
+   "path": "Map_Tower/PowerUps/PowerUpObj (12)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -0.8199999928474426,
+    28.799999237060547
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "script": "PowerUpBox",
+   "raw": "000000000000000000000000"
+  },
+  {
+   "go": "PowerUpObj (8)",
+   "path": "Map_Tower/PowerUps/PowerUpObj (8)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -0.9710000157356262,
+    -2.1989998817443848
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "script": "PowerUpBox",
+   "raw": "000000000000000000000000"
+  },
+  {
+   "go": "PowerUpObj (13)",
+   "path": "Map_Tower/PowerUps/PowerUpObj (13)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    12.020000457763672,
+    36.13999938964844
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "script": "PowerUpBox",
+   "raw": "000000000000000000000000"
+  },
+  {
+   "go": "Waypoints",
+   "path": "Map_Tower/Waypoints",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    0.0,
+    0.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "WaypointManager",
+   "raw": "0400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "go": "Waypoint (12)",
+   "path": "Map_Tower/Waypoints/Waypoint (12)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    20.440000534057617,
+    34.72999954223633
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "0100000002000000000100000200000001000000000000003d0a57be0000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": true,
+   "order": 13,
+   "side_x": 1,
+   "above": true,
+   "y_offset": -0.20999999344348907
+  },
+  {
+   "go": "Waypoint (7)",
+   "path": "Map_Tower/Waypoints/Waypoint (7)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    2.559999942779541,
+    27.399999618530273
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "0100000002000000010000000200000001000000000000008fc2f5bd0000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": true,
+   "order": 8,
+   "side_x": -1,
+   "above": true,
+   "y_offset": -0.11999999731779099
+  },
+  {
+   "go": "Waypoint (1)",
+   "path": "Map_Tower/Waypoints/Waypoint (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -6.909999847412109,
+    -3.9100000858306885
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "000000000200000000010000020000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": false,
+   "order": 1,
+   "side_x": 1,
+   "above": false,
+   "y_offset": 0.0
+  },
+  {
+   "go": "Waypoint (5)",
+   "path": "Map_Tower/Waypoints/Waypoint (5)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    26.257999420166016,
+    3.250999927520752
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "0000000002000000000100000200000001000000000000008fc2f5bd000000000000000066050000000000000000c8420000c03f0200000001000000",
+   "spawnable": false,
+   "order": 5,
+   "side_x": 1,
+   "above": true,
+   "y_offset": -0.11999999731779099
+  },
+  {
+   "go": "Waypoint (8)",
+   "path": "Map_Tower/Waypoints/Waypoint (8)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -6.480000019073486,
+    28.34600067138672
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "000000000200000000010000020000000100000000000000000000000000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": false,
+   "order": 9,
+   "side_x": 1,
+   "above": true,
+   "y_offset": 0.0
+  },
+  {
+   "go": "Waypoint (4)",
+   "path": "Map_Tower/Waypoints/Waypoint (4)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    21.649999618530273,
+    8.729999542236328
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "0100000002000000000100000200000001000000000000008fc2f5bd0000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": true,
+   "order": 4,
+   "side_x": 1,
+   "above": true,
+   "y_offset": -0.11999999731779099
+  },
+  {
+   "go": "Waypoint (0)",
+   "path": "Map_Tower/Waypoints/Waypoint (0)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -15.65999984741211,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "010000000200000000010000020000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": true,
+   "order": 0,
+   "side_x": 1,
+   "above": false,
+   "y_offset": 0.0
+  },
+  {
+   "go": "Waypoint (10)",
+   "path": "Map_Tower/Waypoints/Waypoint (10)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -1.100000023841858,
+    33.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "0000000002000000000100000200000001000000000000003d0a57be0000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": false,
+   "order": 11,
+   "side_x": 1,
+   "above": true,
+   "y_offset": -0.20999999344348907
+  },
+  {
+   "go": "Waypoint (5.5)",
+   "path": "Map_Tower/Waypoints/Waypoint (5.5)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    29.020000457763672,
+    27.399999618530273
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "0000000002000000010000000200000001000000000000008fc2f5bd0000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": false,
+   "order": 6,
+   "side_x": -1,
+   "above": true,
+   "y_offset": -0.11999999731779099
+  },
+  {
+   "go": "Waypoint (11)",
+   "path": "Map_Tower/Waypoints/Waypoint (11)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    1.8700000047683716,
+    34.72999954223633
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "0100000002000000000100000200000001000000000000003d0a57be0000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": true,
+   "order": 12,
+   "side_x": 1,
+   "above": true,
+   "y_offset": -0.20999999344348907
+  },
+  {
+   "go": "Waypoint (3)",
+   "path": "Map_Tower/Waypoints/Waypoint (3)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    4.190000057220459,
+    8.729999542236328
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "0100000002000000000100000200000001000000000000008fc2f5bd0000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": true,
+   "order": 3,
+   "side_x": 1,
+   "above": true,
+   "y_offset": -0.11999999731779099
+  },
+  {
+   "go": "Waypoint (13)",
+   "path": "Map_Tower/Waypoints/Waypoint (13)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    34.310001373291016,
+    37.220001220703125
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "0000000002000000000100000200000000000000000000003d0a57be0000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": false,
+   "order": 14,
+   "side_x": 1,
+   "above": false,
+   "y_offset": -0.20999999344348907
+  },
+  {
+   "go": "Waypoint (2)",
+   "path": "Map_Tower/Waypoints/Waypoint (2)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    1.0140000581741333,
+    4.896999835968018
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "00000000020000000001000002000000010000000000000000000000000000000000000030050000000000000000c8420000c03f0200000001000000",
+   "spawnable": false,
+   "order": 2,
+   "side_x": 1,
+   "above": true,
+   "y_offset": 0.0
+  },
+  {
+   "go": "Waypoint (9)",
+   "path": "Map_Tower/Waypoints/Waypoint (9)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -2.890000104904175,
+    31.290000915527344
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "0000000002000000000100000200000001000000000000007b14aebe0000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": false,
+   "order": 10,
+   "side_x": 1,
+   "above": true,
+   "y_offset": -0.3400000035762787
+  },
+  {
+   "go": "Waypoint (6)",
+   "path": "Map_Tower/Waypoints/Waypoint (6)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    25.516000747680664,
+    27.399999618530273
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "0100000002000000010000000200000001000000000000008fc2f5bd0000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": true,
+   "order": 7,
+   "side_x": -1,
+   "above": true,
+   "y_offset": -0.11999999731779099
+  }
+ ],
+ "animators": [
+  {
+   "go": "ArmPivot",
+   "path": "Map_Tower/Tower/Room2/MapTiles_TowerWindow/Rail/Washer/PlayerGraphics/ArmPivot",
+   "tag": "Untagged",
+   "layer": 8,
+   "active": true,
+   "pos": [
+    13.367500305175781,
+    30.09375
+   ],
+   "angle": -110.00000345046718,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "ArmPivot",
+   "enabled": true
+  },
+  {
+   "go": "ArmPivot",
+   "path": "Map_Tower/Tower/Room2/MapTiles_TowerWindow/Rail/Washer (1)/PlayerGraphics/ArmPivot",
+   "tag": "Untagged",
+   "layer": 8,
+   "active": true,
+   "pos": [
+    16.212499976158142,
+    30.09375
+   ],
+   "angle": -69.99999654953284,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "ArmPivot",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_RoofSpinner1 (1)",
+   "path": "Map_Tower/Tower/Roof/MapObj_RoofSpinner1 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    21.639999389648438,
+    35.09375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_RoofSpinner",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_RoofSpinner1",
+   "path": "Map_Tower/Tower/Roof/MapObj_RoofSpinner1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    10.09000015258789,
+    35.09375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_RoofSpinner",
+   "enabled": true
+  },
+  {
+   "go": "Helicopter_Body",
+   "path": "Map_Tower/Tower/Helicopter/Helicopter_Body",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    33.70000076293945,
+    37.9699981212616
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "Helicopter_Body",
+   "enabled": true
+  },
+  {
+   "go": "Helicopter_Blade",
+   "path": "Map_Tower/Tower/Helicopter/Helicopter_Body/Helicopter_Blade",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    33.70000076293945,
+    39.627498388290405
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "Helicopter_Blade",
+   "enabled": true
+  },
+  {
+   "go": "Helicopter_SideBlade",
+   "path": "Map_Tower/Tower/Helicopter/Helicopter_Body/Helicopter_SideBlade",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    31.543701171875,
+    38.8449981212616
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "Helicopter_SideBlade",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_Computer3",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_WallV (3)/MapObj_Computer3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    19.243000030517578,
+    9.287499994039536
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_Computer1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_Computer3 (2)",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_WallV (3)/MapObj_Computer3 (2)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    20.242999970912933,
+    9.287500381469727
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_Computer1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_Computer3 (1)",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_WallV (3)/MapObj_Computer3 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    19.743000030517578,
+    9.287500381469727
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_Computer1",
+   "enabled": true
+  },
+  {
+   "go": "MapObj_Computer3",
+   "path": "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_Desk/MapObj_Computer3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    7.6875,
+    8.9375
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "MapObj_Computer1",
+   "enabled": true
+  }
+ ]
+}

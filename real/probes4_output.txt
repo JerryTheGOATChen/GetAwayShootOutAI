@@ -1,0 +1,11 @@
+real/probes/stand_10.json: 2 key changes over 2.20 s
+real/probes/stand_15.json: 2 key changes over 2.30 s
+real/probes/stand_20.json: 2 key changes over 2.40 s
+real/probes/stand_25.json: 2 key changes over 2.50 s
+real/probes/stand_05.json: 2 key changes over 2.10 s
+07:32:37 probes_stand_10_00: done
+07:32:43 probes_stand_15_00: done
+07:32:50 probes_stand_20_00: done
+07:32:57 probes_stand_25_00: done
+07:33:03 probes_stand_05_00: done
+saved in C:\Users\ogjec\Desktop\Projects\GetAwayShootOut\real\trials\2026-10-20 07-32-31

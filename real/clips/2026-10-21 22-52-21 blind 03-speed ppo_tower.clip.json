@@ -1,0 +1,1 @@
+{"video": "2026-10-21 22-52-21 blind 03-speed ppo_tower.mp4", "t0": 31839.9452385, "fps": 30, "frames": 576, "start": 31842.602857150003, "agent": "runs/03-speed/ppo_tower.pt", "kind": "blind", "length_s": 15.0}

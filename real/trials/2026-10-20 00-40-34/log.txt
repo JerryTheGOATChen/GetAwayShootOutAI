@@ -1,0 +1,37 @@
+real/probes/landA_00.json: 4 key changes over 2.86 s
+real/probes/landA_02.json: 4 key changes over 2.90 s
+real/probes/landA_05.json: 4 key changes over 2.96 s
+real/probes/landA_10.json: 4 key changes over 3.06 s
+real/probes/landA_15.json: 4 key changes over 3.16 s
+real/probes/landA_25.json: 4 key changes over 3.36 s
+real/probes/landB_00.json: 3 key changes over 2.90 s
+real/probes/landB_02.json: 3 key changes over 2.94 s
+real/probes/landB_05.json: 3 key changes over 3.00 s
+real/probes/landB_10.json: 3 key changes over 3.10 s
+real/probes/landB_15.json: 3 key changes over 3.20 s
+real/probes/landB_25.json: 3 key changes over 3.40 s
+00:40:41 probes_landA_00_00: done
+00:40:48 probes_landA_02_00: done
+00:40:56 probes_landA_05_00: done
+00:41:03 probes_landA_10_00: done
+00:41:10 probes_landA_15_00: done
+00:41:17 probes_landA_25_00: done
+00:41:24 probes_landB_00_00: done
+00:41:31 probes_landB_02_00: done
+00:41:39 probes_landB_05_00: done
+00:41:46 probes_landB_10_00: done
+00:41:53 probes_landB_15_00: done
+00:42:01 probes_landB_25_00: done
+00:42:07 probes_landA_00_01: done
+00:42:14 probes_landA_02_01: done
+00:42:22 probes_landA_05_01: done
+00:42:29 probes_landA_10_01: done
+00:42:36 probes_landA_15_01: done
+00:42:43 probes_landA_25_01: done
+00:42:50 probes_landB_00_01: done
+00:42:58 probes_landB_02_01: done
+00:43:05 probes_landB_05_01: done
+00:43:12 probes_landB_10_01: done
+00:43:19 probes_landB_15_01: done
+00:43:27 probes_landB_25_01: done
+saved in C:\Users\ogjec\Desktop\Projects\GetAwayShootOut\real\trials\2026-10-20 00-40-34

@@ -1,0 +1,17 @@
+runs/02-your-run/ppo_tower.pt: 150 key changes over 32.84 s
+runs/03-speed/ppo_tower.pt: 116 key changes over 31.42 s
+runs/02-your-run/genetic_tower.pt: 92 key changes over 34.68 s
+runs/pb_Tower.json: 61 key changes over 42.42 s
+23:58:35 02-your-run_ppo_tower_00: done
+23:59:11 03-speed_ppo_tower_00: done
+23:59:50 02-your-run_genetic_tower_00: done
+00:00:34 runs_pb_Tower_00: done
+00:01:11 02-your-run_ppo_tower_01: done
+00:01:47 03-speed_ppo_tower_01: done
+00:02:26 02-your-run_genetic_tower_01: done
+00:03:10 runs_pb_Tower_01: done
+00:03:47 02-your-run_ppo_tower_02: done
+00:04:23 03-speed_ppo_tower_02: done
+00:05:02 02-your-run_genetic_tower_02: done
+00:05:46 runs_pb_Tower_02: done
+saved in C:\Users\ogjec\Desktop\Projects\GetAwayShootOut\real\trials\2026-10-19 23-57-57

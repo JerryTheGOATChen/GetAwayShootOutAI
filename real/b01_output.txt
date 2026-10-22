@@ -1,0 +1,7 @@
+runs/01-from-the-start/genetic_tower.pt: 96 key changes over 39.00 s
+09:57:24 01-from-the-start_genetic_tower_00: done
+09:58:07 01-from-the-start_genetic_tower_01: done
+09:58:51 01-from-the-start_genetic_tower_02: done
+09:59:34 01-from-the-start_genetic_tower_03: done
+10:00:17 01-from-the-start_genetic_tower_04: done
+saved in C:\Users\ogjec\Desktop\Projects\GetAwayShootOut\real\trials\2026-10-20 09-56-40

@@ -1,0 +1,28 @@
+real/probes/stand_05.json: 2 key changes over 2.10 s
+real/probes/stand_10.json: 2 key changes over 2.20 s
+real/probes/stand_15.json: 2 key changes over 2.30 s
+real/probes/stand_20.json: 2 key changes over 2.40 s
+real/probes/stand_25.json: 2 key changes over 2.50 s
+real/probes/stand_30.json: 2 key changes over 2.60 s
+real/probes/stand_40.json: 2 key changes over 2.80 s
+real/probes/stand_60.json: 2 key changes over 3.20 s
+real/probes/stand_90.json: 2 key changes over 3.80 s
+07:28:00 probes_stand_05_00: done
+07:28:06 probes_stand_10_00: done
+07:28:12 probes_stand_15_00: done
+07:28:19 probes_stand_20_00: done
+07:28:25 probes_stand_25_00: done
+07:28:32 probes_stand_30_00: done
+07:28:39 probes_stand_40_00: done
+07:28:46 probes_stand_60_00: done
+07:28:54 probes_stand_90_00: done
+07:29:00 probes_stand_05_01: done
+07:29:06 probes_stand_10_01: done
+07:29:13 probes_stand_15_01: done
+07:29:19 probes_stand_20_01: done
+07:29:26 probes_stand_25_01: done
+07:29:32 probes_stand_30_01: done
+07:29:39 probes_stand_40_01: done
+07:29:47 probes_stand_60_01: done
+07:29:54 probes_stand_90_01: done
+saved in C:\Users\ogjec\Desktop\Projects\GetAwayShootOut\real\trials\2026-10-20 07-27-53

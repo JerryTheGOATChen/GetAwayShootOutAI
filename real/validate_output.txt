@@ -1,0 +1,10 @@
+runs/pb_Tower.json: 61 key changes over 42.42 s
+runs/old-physics-2026-10-19/02-your-run/ppo_tower_run.json: 150 key changes over 33.04 s
+07:58:52 runs_pb_Tower_00: done
+07:59:29 02-your-run_ppo_tower_run_00: done
+  no drop-in seen
+08:00:19 02-your-run_ppo_tower_run_01: done
+08:01:03 runs_pb_Tower_01: done
+08:01:41 02-your-run_ppo_tower_run_02: done
+08:02:25 runs_pb_Tower_02: done
+saved in C:\Users\ogjec\Desktop\Projects\GetAwayShootOut\real\trials\2026-10-20 07-58-08

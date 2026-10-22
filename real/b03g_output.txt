@@ -1,0 +1,6 @@
+runs/03-speed/genetic_tower.pt: 117 key changes over 42.84 s
+13:20:24 03-speed_genetic_tower_00: done
+13:21:08 03-speed_genetic_tower_01: done
+  dropped: the game left the front mid-run
+  dropped: the game isn't the window in front ('New Tab - Google Chrome')
+  the game isn't in front; waiting

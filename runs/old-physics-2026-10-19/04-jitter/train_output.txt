@@ -1,0 +1,1223 @@
+no checkpoint found, starting fresh
+PPO on Tower: 64 envs x 128 steps = 8,192 per update, training to 50,000,000 steps
+   0.04M steps     0.1 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg  1.5%  best time -
+   0.08M steps     0.2 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg  3.1%  best time -
+   0.12M steps     0.2 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg  5.7%  best time -
+   0.16M steps     0.3 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg  7.4%  best time -
+   0.20M steps     0.3 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg  8.9%  best time -
+   0.25M steps     0.4 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 11.5%  best time -
+   0.29M steps     0.4 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 13.5%  best time -
+   0.33M steps     0.5 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 14.0%  best time -
+   0.37M steps     0.5 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 15.5%  best time -
+   0.41M steps     0.6 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 18.1%  best time -
+   0.45M steps     0.7 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 20.2%  best time -
+   0.49M steps     0.7 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 21.9%  best time -
+   0.53M steps     0.9 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 23.0%  best time -
+   0.57M steps     1.1 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 25.5%  best time -
+   0.61M steps     1.4 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 24.3%  best time -
+   0.66M steps     1.6 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 22.4%  best time -
+   0.70M steps     1.8 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 23.8%  best time -
+   0.74M steps     2.0 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 21.2%  best time -
+   0.78M steps     2.3 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 21.9%  best time -
+   0.82M steps     2.5 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 23.4%  best time -
+   0.86M steps     2.7 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 20.8%  best time -
+   0.90M steps     2.9 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 21.0%  best time -
+   0.94M steps     3.1 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 18.7%  best time -
+   0.98M steps     3.3 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 15.9%  best time -
+   1.02M steps     3.5 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 16.6%  best time -
+   1.06M steps     3.7 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 16.6%  best time -
+   1.11M steps     3.9 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 20.4%  best time -
+   1.15M steps     4.1 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 23.5%  best time -
+   1.19M steps     4.3 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 25.4%  best time -
+   1.23M steps     4.5 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 28.1%  best time -
+   1.27M steps     4.7 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 29.2%  best time -
+   1.31M steps     4.9 min  test run:  49.2% of the route  (reward -2.50, deaths 0)  practice avg 27.4%  best time -
+   1.35M steps     5.1 min  test run:  50.3% of the route  (reward -2.55, deaths 0)  practice avg 27.4%  best time -
+   1.39M steps     5.3 min  test run:   9.9% of the route  (reward -11.33, deaths 3)  practice avg 30.1%  best time -
+   1.43M steps     5.5 min  test run:  21.0% of the route  (reward -5.26, deaths 0)  practice avg 30.5%  best time -
+   1.47M steps     5.7 min  test run:   9.4% of the route  (reward -11.45, deaths 3)  practice avg 31.9%  best time -
+   1.52M steps     5.9 min  test run:  18.3% of the route  (reward -5.63, deaths 0)  practice avg 32.8%  best time -
+   1.56M steps     6.1 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 32.9%  best time -
+   1.60M steps     6.4 min  test run:   8.7% of the route  (reward -11.35, deaths 3)  practice avg 32.4%  best time -
+   1.64M steps     6.5 min  test run:   9.0% of the route  (reward -11.35, deaths 3)  practice avg 36.5%  best time -
+   1.68M steps     6.5 min  test run:   8.7% of the route  (reward -8.12, deaths 2)  practice avg 40.5%  best time -
+   1.72M steps     6.6 min  test run:   9.6% of the route  (reward -8.20, deaths 2)  practice avg 41.8%  best time -
+   1.76M steps     6.6 min  test run:   9.8% of the route  (reward -8.23, deaths 2)  practice avg 47.4%  best time -
+   1.80M steps     6.7 min  test run:   9.9% of the route  (reward -7.91, deaths 2)  practice avg 51.7%  best time -
+   1.84M steps     6.7 min  test run:  49.0% of the route  (reward -2.39, deaths 0)  practice avg 59.4%  best time -
+   1.88M steps     6.8 min  test run:   9.8% of the route  (reward -8.18, deaths 2)  practice avg 65.4%  best time -
+   1.93M steps     6.8 min  test run:  56.0% of the route  (reward -1.03, deaths 0)  practice avg 68.2%  best time -
+   1.97M steps     6.9 min  test run:   9.9% of the route  (reward -8.89, deaths 2)  practice avg 72.1%  best time -
+   2.01M steps     6.9 min  test run:  55.2% of the route  (reward -1.14, deaths 0)  practice avg 75.0%  best time -
+   2.05M steps     7.0 min  test run:   9.6% of the route  (reward -8.03, deaths 2)  practice avg 78.9%  best time -
+   2.09M steps     7.0 min  test run:   9.6% of the route  (reward -8.20, deaths 2)  practice avg 81.4%  best time -
+   2.13M steps     7.1 min  test run:  38.5% of the route  (reward -8.88, deaths 4)  practice avg 78.9%  best time -
+   2.17M steps     7.1 min  test run:  56.0% of the route  (reward -1.03, deaths 0)  practice avg 81.4%  best time -
+   2.21M steps     7.2 min  test run:   9.4% of the route  (reward -8.18, deaths 2)  practice avg 82.8%  best time -
+   2.25M steps     7.2 min  test run:   9.3% of the route  (reward -8.18, deaths 2)  practice avg 82.6%  best time -
+   2.29M steps     7.3 min  test run:   9.3% of the route  (reward -8.12, deaths 2)  practice avg 82.6%  best time -
+   2.33M steps     7.3 min  test run:   9.7% of the route  (reward -8.05, deaths 2)  practice avg 83.4%  best time -
+   2.38M steps     7.4 min  test run:  18.2% of the route  (reward -5.63, deaths 0)  practice avg 88.8%  best time -
+   2.42M steps     7.4 min  test run:   9.7% of the route  (reward -8.02, deaths 2)  practice avg 86.4%  best time -
+   2.46M steps     7.5 min  test run:   9.2% of the route  (reward -8.27, deaths 2)  practice avg 86.5%  best time -
+   2.50M steps     7.5 min  test run:   9.3% of the route  (reward -8.84, deaths 2)  practice avg 84.6%  best time -
+   2.54M steps     7.6 min  test run:   9.2% of the route  (reward -8.08, deaths 2)  practice avg 85.4%  best time -
+   2.58M steps     7.7 min  test run:  61.9% of the route  (reward -1.46, deaths 1)  practice avg 85.6%  best time -
+   2.62M steps     7.7 min  test run:  55.1% of the route  (reward -2.09, deaths 1)  practice avg 88.5%  best time -
+   2.66M steps     7.8 min  test run:  53.9% of the route  (reward -2.31, deaths 1)  practice avg 91.0%  best time -
+   2.70M steps     7.8 min  test run:   8.9% of the route  (reward -8.11, deaths 2)  practice avg 94.1%  best time -
+   2.74M steps     7.9 min  test run:   8.8% of the route  (reward -8.18, deaths 2)  practice avg 94.0%  best time -
+   2.79M steps     7.9 min  test run:   9.2% of the route  (reward -8.68, deaths 2)  practice avg 93.1%  best time -
+   2.83M steps     8.0 min  test run:   9.0% of the route  (reward -8.08, deaths 2)  practice avg 95.0%  best time -
+   2.87M steps     8.1 min  test run:   8.8% of the route  (reward -8.08, deaths 2)  practice avg 93.9%  best time -
+   2.91M steps     8.1 min  test run:   8.9% of the route  (reward -8.24, deaths 2)  practice avg 92.5%  best time -
+   2.95M steps     8.2 min  test run:   9.2% of the route  (reward -8.23, deaths 2)  practice avg 91.6%  best time -
+   2.99M steps     8.2 min  test run:   9.0% of the route  (reward -8.14, deaths 2)  practice avg 91.9%  best time -
+   3.03M steps     8.3 min  test run:   9.2% of the route  (reward -8.13, deaths 2)  practice avg 91.5%  best time -
+   3.07M steps     8.4 min  test run:  18.3% of the route  (reward -6.62, deaths 1)  practice avg 92.9%  best time -
+   3.11M steps     8.4 min  test run: FINISHED in 40.16s  (reward +20.19, deaths 1)  practice avg 94.5%  best time 40.16s
+   3.15M steps     8.5 min  test run:   9.1% of the route  (reward -8.18, deaths 2)  practice avg 94.9%  best time 40.16s
+   3.19M steps     8.5 min  test run: FINISHED in 45.72s  (reward +18.58, deaths 2)  practice avg 93.3%  best time 40.16s
+   3.24M steps     8.6 min  test run:   9.1% of the route  (reward -8.06, deaths 2)  practice avg 94.0%  best time 40.16s
+   3.28M steps     8.7 min  test run:  53.5% of the route  (reward -2.37, deaths 1)  practice avg 94.7%  best time 40.16s
+   3.32M steps     8.7 min  test run: FINISHED in 46.28s  (reward +18.55, deaths 2)  practice avg 94.8%  best time 40.16s
+   3.36M steps     8.8 min  test run:  56.0% of the route  (reward -2.01, deaths 1)  practice avg 95.5%  best time 40.16s
+   3.40M steps     8.8 min  test run:  55.3% of the route  (reward -2.12, deaths 1)  practice avg 98.7%  best time 40.16s
+   3.44M steps     8.9 min  test run:   9.9% of the route  (reward -8.88, deaths 2)  practice avg 98.1%  best time 40.16s
+   3.48M steps     8.9 min  test run: FINISHED in 53.52s  (reward +18.85, deaths 1)  practice avg 97.2%  best time 40.16s
+   3.52M steps     9.0 min  test run:  55.7% of the route  (reward -2.06, deaths 1)  practice avg 97.2%  best time 40.16s
+   3.56M steps     9.1 min  test run: FINISHED in 48.02s  (reward +19.44, deaths 1)  practice avg 96.6%  best time 40.16s
+   3.60M steps     9.1 min  test run: FINISHED in 38.52s  (reward +20.37, deaths 1)  practice avg 96.2%  best time 38.52s
+   3.65M steps     9.2 min  test run:   9.9% of the route  (reward -8.87, deaths 2)  practice avg 95.7%  best time 38.52s
+   3.69M steps     9.3 min  test run: FINISHED in 67.78s  (reward +15.42, deaths 3)  practice avg 95.7%  best time 38.52s
+   3.73M steps     9.3 min  test run: FINISHED in 41.72s  (reward +20.00, deaths 1)  practice avg 95.4%  best time 38.52s
+   3.77M steps     9.4 min  test run:   9.2% of the route  (reward -8.25, deaths 2)  practice avg 95.8%  best time 38.52s
+   3.81M steps     9.4 min  test run:  56.0% of the route  (reward -2.07, deaths 1)  practice avg 96.7%  best time 38.52s
+   3.85M steps     9.5 min  test run:  18.3% of the route  (reward -6.65, deaths 1)  practice avg 97.8%  best time 38.52s
+   3.89M steps     9.5 min  test run:  18.3% of the route  (reward -6.65, deaths 1)  practice avg 97.9%  best time 38.52s
+   3.93M steps     9.6 min  test run: FINISHED in 66.36s  (reward +15.62, deaths 3)  practice avg 98.8%  best time 38.52s
+   3.97M steps     9.7 min  test run:  51.8% of the route  (reward -2.63, deaths 1)  practice avg 98.9%  best time 38.52s
+   4.01M steps     9.7 min  test run:   9.2% of the route  (reward -8.24, deaths 2)  practice avg 98.1%  best time 38.52s
+   4.06M steps     9.8 min  test run: FINISHED in 40.90s  (reward +20.10, deaths 1)  practice avg 98.1%  best time 38.52s
+   4.10M steps     9.8 min  test run: FINISHED in 41.66s  (reward +19.92, deaths 1)  practice avg 97.1%  best time 38.52s
+   4.14M steps     9.9 min  test run: FINISHED in 45.94s  (reward +18.51, deaths 2)  practice avg 96.1%  best time 38.52s
+   4.18M steps     9.9 min  test run: FINISHED in 52.24s  (reward +18.01, deaths 2)  practice avg 97.2%  best time 38.52s
+   4.22M steps    10.0 min  test run: FINISHED in 49.50s  (reward +18.29, deaths 2)  practice avg 97.2%  best time 38.52s
+   4.26M steps    10.1 min  test run:  74.1% of the route  (reward -0.05, deaths 1)  practice avg 96.2%  best time 38.52s
+   4.30M steps    10.1 min  test run:  52.4% of the route  (reward -2.64, deaths 1)  practice avg 98.1%  best time 38.52s
+   4.34M steps    10.2 min  test run: FINISHED in 54.62s  (reward +18.75, deaths 1)  practice avg 98.1%  best time 38.52s
+   4.38M steps    10.2 min  test run: FINISHED in 41.26s  (reward +20.03, deaths 1)  practice avg 98.1%  best time 38.52s
+   4.42M steps    10.3 min  test run: FINISHED in 52.54s  (reward +17.84, deaths 2)  practice avg 99.0%  best time 38.52s
+   4.46M steps    10.4 min  test run:   9.7% of the route  (reward -8.27, deaths 2)  practice avg 99.0%  best time 38.52s
+   4.51M steps    10.4 min  test run: FINISHED in 39.84s  (reward +20.19, deaths 1)  practice avg 98.9%  best time 38.52s
+   4.55M steps    10.5 min  test run:  52.5% of the route  (reward -2.64, deaths 1)  practice avg 96.7%  best time 38.52s
+   4.59M steps    10.6 min  test run:  52.1% of the route  (reward -7.15, deaths 4)  practice avg 96.7%  best time 38.52s
+   4.63M steps    10.6 min  test run: FINISHED in 45.06s  (reward +20.72, deaths 0)  practice avg 96.6%  best time 38.52s
+   4.67M steps    10.7 min  test run: FINISHED in 40.32s  (reward +20.22, deaths 1)  practice avg 95.8%  best time 38.52s
+   4.71M steps    10.7 min  test run: FINISHED in 58.12s  (reward +16.40, deaths 3)  practice avg 96.6%  best time 38.52s
+   4.75M steps    10.8 min  test run:  51.2% of the route  (reward -2.59, deaths 1)  practice avg 97.3%  best time 38.52s
+   4.79M steps    10.9 min  test run: FINISHED in 45.32s  (reward +19.72, deaths 1)  practice avg 97.3%  best time 38.52s
+   4.83M steps    10.9 min  test run: FINISHED in 49.50s  (reward +19.30, deaths 1)  practice avg 98.2%  best time 38.52s
+   4.87M steps    11.0 min  test run:  10.1% of the route  (reward -8.87, deaths 2)  practice avg 98.2%  best time 38.52s
+   4.92M steps    11.0 min  test run: FINISHED in 52.06s  (reward +19.03, deaths 1)  practice avg 98.2%  best time 38.52s
+   4.96M steps    11.1 min  test run:  10.0% of the route  (reward -8.77, deaths 2)  practice avg 98.2%  best time 38.52s
+   5.00M steps    11.2 min  test run:   9.6% of the route  (reward -8.12, deaths 2)  practice avg 98.3%  best time 38.52s
+   5.04M steps    11.2 min  test run: FINISHED in 71.26s  (reward +13.08, deaths 5)  practice avg 98.0%  best time 38.52s
+   5.08M steps    11.3 min  test run:  10.0% of the route  (reward -8.90, deaths 2)  practice avg 98.9%  best time 38.52s
+   5.12M steps    11.3 min  test run: FINISHED in 58.26s  (reward +16.39, deaths 3)  practice avg 98.9%  best time 38.52s
+   5.16M steps    11.4 min  test run:   9.7% of the route  (reward -8.10, deaths 2)  practice avg 98.8%  best time 38.52s
+   5.20M steps    11.4 min  test run:   9.9% of the route  (reward -11.26, deaths 3)  practice avg 98.8%  best time 38.52s
+   5.24M steps    11.5 min  test run: FINISHED in 43.24s  (reward +18.90, deaths 2)  practice avg 98.8%  best time 38.52s
+   5.28M steps    11.6 min  test run: FINISHED in 39.40s  (reward +20.16, deaths 1)  practice avg 98.8%  best time 38.52s
+   5.32M steps    11.6 min  test run: FINISHED in 56.76s  (reward +14.54, deaths 5)  practice avg 98.8%  best time 38.52s
+   5.37M steps    11.7 min  test run: FINISHED in 50.44s  (reward +19.21, deaths 1)  practice avg 99.1%  best time 38.52s
+   5.41M steps    11.7 min  test run: FINISHED in 69.48s  (reward +18.25, deaths 0)  practice avg 97.8%  best time 38.52s
+   5.45M steps    11.8 min  test run:   9.7% of the route  (reward -8.06, deaths 2)  practice avg 96.4%  best time 38.52s
+   5.49M steps    11.8 min  test run:   9.7% of the route  (reward -8.27, deaths 2)  practice avg 96.4%  best time 38.52s
+   5.53M steps    11.9 min  test run: FINISHED in 39.04s  (reward +20.26, deaths 1)  practice avg 95.7%  best time 38.52s
+   5.57M steps    12.0 min  test run:   9.7% of the route  (reward -11.20, deaths 3)  practice avg 96.9%  best time 38.52s
+   5.61M steps    12.0 min  test run:  52.4% of the route  (reward -1.76, deaths 0)  practice avg 98.6%  best time 38.52s
+   5.65M steps    12.1 min  test run:  55.0% of the route  (reward -7.81, deaths 5)  practice avg 98.6%  best time 38.52s
+   5.69M steps    12.1 min  test run: FINISHED in 48.50s  (reward +18.40, deaths 2)  practice avg 98.8%  best time 38.52s
+   5.73M steps    12.2 min  test run:  54.5% of the route  (reward -2.25, deaths 1)  practice avg 99.0%  best time 38.52s
+   5.78M steps    12.3 min  test run:  10.0% of the route  (reward -11.12, deaths 3)  practice avg 99.0%  best time 38.52s
+   5.82M steps    12.3 min  test run: FINISHED in 49.62s  (reward +19.27, deaths 1)  practice avg 99.1%  best time 38.52s
+   5.86M steps    12.4 min  test run: FINISHED in 58.94s  (reward +16.31, deaths 3)  practice avg 99.1%  best time 38.52s
+   5.90M steps    12.4 min  test run: FINISHED in 47.64s  (reward +19.49, deaths 1)  practice avg 99.1%  best time 38.52s
+   5.94M steps    12.5 min  test run: FINISHED in 46.06s  (reward +18.66, deaths 2)  practice avg 99.0%  best time 38.52s
+   5.98M steps    12.6 min  test run: FINISHED in 42.10s  (reward +20.00, deaths 1)  practice avg 99.0%  best time 38.52s
+   6.02M steps    12.6 min  test run: FINISHED in 42.22s  (reward +20.97, deaths 0)  practice avg 99.0%  best time 38.52s
+   6.06M steps    12.7 min  test run: FINISHED in 41.08s  (reward +21.10, deaths 0)  practice avg 99.0%  best time 38.52s
+   6.10M steps    12.7 min  test run:  54.2% of the route  (reward -2.33, deaths 1)  practice avg 99.0%  best time 38.52s
+   6.14M steps    12.8 min  test run: FINISHED in 49.70s  (reward +19.27, deaths 1)  practice avg 99.0%  best time 38.52s
+   6.18M steps    12.9 min  test run:   9.9% of the route  (reward -10.30, deaths 3)  practice avg 99.0%  best time 38.52s
+   6.23M steps    12.9 min  test run: FINISHED in 39.02s  (reward +20.18, deaths 1)  practice avg 99.0%  best time 38.52s
+   6.27M steps    13.0 min  test run: FINISHED in 40.68s  (reward +20.12, deaths 1)  practice avg 99.0%  best time 38.52s
+   6.31M steps    13.1 min  test run:   9.3% of the route  (reward -10.47, deaths 3)  practice avg 99.0%  best time 38.52s
+   6.35M steps    13.1 min  test run: FINISHED in 68.20s  (reward +17.39, deaths 1)  practice avg 99.0%  best time 38.52s
+   6.39M steps    13.2 min  test run: FINISHED in 54.08s  (reward +17.76, deaths 2)  practice avg 99.0%  best time 38.52s
+   6.43M steps    13.3 min  test run: FINISHED in 45.74s  (reward +18.64, deaths 2)  practice avg 98.0%  best time 38.52s
+   6.47M steps    13.3 min  test run: FINISHED in 41.02s  (reward +20.11, deaths 1)  practice avg 98.0%  best time 38.52s
+   6.51M steps    13.4 min  test run: FINISHED in 42.06s  (reward +18.99, deaths 2)  practice avg 98.1%  best time 38.52s
+   6.55M steps    13.5 min  test run: FINISHED in 52.22s  (reward +17.99, deaths 2)  practice avg 98.1%  best time 38.52s
+   6.59M steps    13.5 min  test run: FINISHED in 50.48s  (reward +19.21, deaths 1)  practice avg 98.9%  best time 38.52s
+   6.64M steps    13.6 min  test run:  55.5% of the route  (reward -2.02, deaths 1)  practice avg 98.9%  best time 38.52s
+   6.68M steps    13.6 min  test run: FINISHED in 59.60s  (reward +15.24, deaths 4)  practice avg 98.9%  best time 38.52s
+   6.72M steps    13.7 min  test run: FINISHED in 40.84s  (reward +19.05, deaths 2)  practice avg 99.0%  best time 38.52s
+   6.76M steps    13.8 min  test run: FINISHED in 41.14s  (reward +20.03, deaths 1)  practice avg 99.0%  best time 38.52s
+   6.80M steps    13.8 min  test run: FINISHED in 42.80s  (reward +18.91, deaths 2)  practice avg 99.0%  best time 38.52s
+   6.84M steps    13.9 min  test run: FINISHED in 55.92s  (reward +18.50, deaths 1)  practice avg 99.0%  best time 38.52s
+   6.88M steps    14.0 min  test run: FINISHED in 40.94s  (reward +20.12, deaths 1)  practice avg 99.0%  best time 38.52s
+   6.92M steps    14.0 min  test run: FINISHED in 39.24s  (reward +20.26, deaths 1)  practice avg 99.0%  best time 38.52s
+   6.96M steps    14.1 min  test run: FINISHED in 57.42s  (reward +17.45, deaths 2)  practice avg 98.7%  best time 38.52s
+   7.00M steps    14.2 min  test run: FINISHED in 39.54s  (reward +20.24, deaths 1)  practice avg 98.8%  best time 38.52s
+   7.05M steps    14.2 min  test run: FINISHED in 40.46s  (reward +20.16, deaths 1)  practice avg 98.8%  best time 38.52s
+   7.09M steps    14.3 min  test run: FINISHED in 39.98s  (reward +21.19, deaths 0)  practice avg 98.8%  best time 38.52s
+   7.13M steps    14.4 min  test run:   9.3% of the route  (reward -8.31, deaths 2)  practice avg 99.0%  best time 38.52s
+   7.17M steps    14.5 min  test run: FINISHED in 40.90s  (reward +20.12, deaths 1)  practice avg 99.0%  best time 38.52s
+   7.21M steps    14.5 min  test run: FINISHED in 39.60s  (reward +21.24, deaths 0)  practice avg 99.0%  best time 38.52s
+   7.25M steps    14.6 min  test run: FINISHED in 39.54s  (reward +20.23, deaths 1)  practice avg 99.0%  best time 38.52s
+   7.29M steps    14.7 min  test run: FINISHED in 40.58s  (reward +19.14, deaths 2)  practice avg 99.0%  best time 38.52s
+   7.33M steps    14.8 min  test run: FINISHED in 38.76s  (reward +19.31, deaths 2)  practice avg 98.8%  best time 38.52s
+   7.37M steps    14.8 min  test run:   9.9% of the route  (reward -8.86, deaths 2)  practice avg 98.7%  best time 38.52s
+   7.41M steps    14.9 min  test run: FINISHED in 48.14s  (reward +18.42, deaths 2)  practice avg 98.7%  best time 38.52s
+   7.45M steps    15.0 min  test run: FINISHED in 42.20s  (reward +19.95, deaths 1)  practice avg 97.8%  best time 38.52s
+   7.50M steps    15.1 min  test run: FINISHED in 37.74s  (reward +20.45, deaths 1)  practice avg 97.3%  best time 37.74s
+   7.54M steps    15.1 min  test run:   9.9% of the route  (reward -12.30, deaths 4)  practice avg 97.3%  best time 37.74s
+   7.58M steps    15.2 min  test run: FINISHED in 43.24s  (reward +18.77, deaths 2)  practice avg 97.4%  best time 37.74s
+   7.62M steps    15.3 min  test run: FINISHED in 42.66s  (reward +20.96, deaths 0)  practice avg 98.3%  best time 37.74s
+   7.66M steps    15.4 min  test run: FINISHED in 47.32s  (reward +19.47, deaths 1)  practice avg 98.9%  best time 37.74s
+   7.70M steps    15.4 min  test run: FINISHED in 75.22s  (reward +15.56, deaths 2)  practice avg 98.9%  best time 37.74s
+   7.74M steps    15.5 min  test run: FINISHED in 37.52s  (reward +19.45, deaths 2)  practice avg 98.9%  best time 37.52s
+   7.78M steps    15.6 min  test run:   9.8% of the route  (reward -10.03, deaths 3)  practice avg 98.9%  best time 37.52s
+   7.82M steps    15.6 min  test run:  15.1% of the route  (reward -7.90, deaths 1)  practice avg 98.9%  best time 37.52s
+   7.86M steps    15.7 min  test run: FINISHED in 42.94s  (reward +19.95, deaths 1)  practice avg 98.8%  best time 37.52s
+   7.91M steps    15.8 min  test run: FINISHED in 43.76s  (reward +19.84, deaths 1)  practice avg 98.7%  best time 37.52s
+   7.95M steps    15.9 min  test run:   9.9% of the route  (reward -10.19, deaths 3)  practice avg 98.7%  best time 37.52s
+   7.99M steps    15.9 min  test run:  53.2% of the route  (reward -1.74, deaths 0)  practice avg 98.8%  best time 37.52s
+   8.03M steps    16.0 min  test run: FINISHED in 41.46s  (reward +20.03, deaths 1)  practice avg 98.9%  best time 37.52s
+   8.07M steps    16.1 min  test run: FINISHED in 58.54s  (reward +17.34, deaths 2)  practice avg 98.9%  best time 37.52s
+   8.11M steps    16.1 min  test run: FINISHED in 51.30s  (reward +19.06, deaths 1)  practice avg 98.9%  best time 37.52s
+   8.15M steps    16.2 min  test run: FINISHED in 40.78s  (reward +20.10, deaths 1)  practice avg 98.8%  best time 37.52s
+   8.19M steps    16.3 min  test run: FINISHED in 39.30s  (reward +20.25, deaths 1)  practice avg 98.8%  best time 37.52s
+   8.23M steps    16.3 min  test run: FINISHED in 42.58s  (reward +20.83, deaths 0)  practice avg 98.8%  best time 37.52s
+   8.27M steps    16.4 min  test run: FINISHED in 37.52s  (reward +20.45, deaths 1)  practice avg 98.8%  best time 37.52s
+   8.31M steps    16.5 min  test run: FINISHED in 45.60s  (reward +18.63, deaths 2)  practice avg 99.0%  best time 37.52s
+   8.36M steps    16.6 min  test run:  55.8% of the route  (reward -2.04, deaths 1)  practice avg 99.1%  best time 37.52s
+   8.40M steps    16.6 min  test run: FINISHED in 41.68s  (reward +20.01, deaths 1)  practice avg 99.1%  best time 37.52s
+   8.44M steps    16.7 min  test run: FINISHED in 44.78s  (reward +18.74, deaths 2)  practice avg 99.2%  best time 37.52s
+   8.48M steps    16.8 min  test run: FINISHED in 54.34s  (reward +17.80, deaths 2)  practice avg 98.9%  best time 37.52s
+   8.52M steps    16.9 min  test run: FINISHED in 38.94s  (reward +20.31, deaths 1)  practice avg 98.9%  best time 37.52s
+   8.56M steps    16.9 min  test run: FINISHED in 55.20s  (reward +18.67, deaths 1)  practice avg 98.9%  best time 37.52s
+   8.60M steps    17.0 min  test run: FINISHED in 44.86s  (reward +18.71, deaths 2)  practice avg 98.9%  best time 37.52s
+   8.64M steps    17.1 min  test run: FINISHED in 39.60s  (reward +20.28, deaths 1)  practice avg 98.9%  best time 37.52s
+   8.68M steps    17.1 min  test run: FINISHED in 78.56s  (reward +14.35, deaths 3)  practice avg 99.1%  best time 37.52s
+   8.72M steps    17.2 min  test run: FINISHED in 51.10s  (reward +19.10, deaths 1)  practice avg 99.1%  best time 37.52s
+   8.77M steps    17.3 min  test run: FINISHED in 42.56s  (reward +20.95, deaths 0)  practice avg 99.1%  best time 37.52s
+   8.81M steps    17.4 min  test run: FINISHED in 45.14s  (reward +17.71, deaths 3)  practice avg 99.1%  best time 37.52s
+   8.85M steps    17.5 min  test run: FINISHED in 41.38s  (reward +20.05, deaths 1)  practice avg 99.1%  best time 37.52s
+   8.89M steps    17.5 min  test run: FINISHED in 42.98s  (reward +19.88, deaths 1)  practice avg 99.0%  best time 37.52s
+   8.93M steps    17.6 min  test run: FINISHED in 41.92s  (reward +19.98, deaths 1)  practice avg 98.1%  best time 37.52s
+   8.97M steps    17.7 min  test run: FINISHED in 40.60s  (reward +20.19, deaths 1)  practice avg 98.1%  best time 37.52s
+   9.01M steps    17.8 min  test run: FINISHED in 41.26s  (reward +19.08, deaths 2)  practice avg 98.2%  best time 37.52s
+   9.05M steps    17.9 min  test run: FINISHED in 58.38s  (reward +16.40, deaths 3)  practice avg 98.2%  best time 37.52s
+   9.09M steps    17.9 min  test run: FINISHED in 39.44s  (reward +21.23, deaths 0)  practice avg 99.0%  best time 37.52s
+   9.13M steps    18.0 min  test run:  15.5% of the route  (reward -9.44, deaths 0)  practice avg 99.0%  best time 37.52s
+   9.18M steps    18.1 min  test run: FINISHED in 42.98s  (reward +19.87, deaths 1)  practice avg 98.1%  best time 37.52s
+   9.22M steps    18.1 min  test run: FINISHED in 53.34s  (reward +16.83, deaths 3)  practice avg 98.1%  best time 37.52s
+   9.26M steps    18.2 min  test run: FINISHED in 43.18s  (reward +19.90, deaths 1)  practice avg 98.1%  best time 37.52s
+   9.30M steps    18.3 min  test run: FINISHED in 37.60s  (reward +21.33, deaths 0)  practice avg 97.9%  best time 37.52s
+   9.34M steps    18.4 min  test run: FINISHED in 39.88s  (reward +20.19, deaths 1)  practice avg 98.8%  best time 37.52s
+   9.38M steps    18.4 min  test run: FINISHED in 48.30s  (reward +18.36, deaths 2)  practice avg 98.8%  best time 37.52s
+   9.42M steps    18.5 min  test run: FINISHED in 45.12s  (reward +18.68, deaths 2)  practice avg 98.8%  best time 37.52s
+   9.46M steps    18.6 min  test run: FINISHED in 40.36s  (reward +20.19, deaths 1)  practice avg 99.0%  best time 37.52s
+   9.50M steps    18.7 min  test run: FINISHED in 37.30s  (reward +21.46, deaths 0)  practice avg 99.0%  best time 37.30s
+   9.54M steps    18.7 min  test run: FINISHED in 44.12s  (reward +18.77, deaths 2)  practice avg 99.1%  best time 37.30s
+   9.58M steps    18.8 min  test run: FINISHED in 48.50s  (reward +18.38, deaths 2)  practice avg 99.1%  best time 37.30s
+   9.63M steps    18.9 min  test run: FINISHED in 39.22s  (reward +20.16, deaths 1)  practice avg 99.0%  best time 37.30s
+   9.67M steps    19.0 min  test run: FINISHED in 38.50s  (reward +21.23, deaths 0)  practice avg 99.0%  best time 37.30s
+   9.71M steps    19.1 min  test run: FINISHED in 39.14s  (reward +21.16, deaths 0)  practice avg 99.0%  best time 37.30s
+   9.75M steps    19.1 min  test run: FINISHED in 39.32s  (reward +21.23, deaths 0)  practice avg 98.3%  best time 37.30s
+   9.79M steps    19.2 min  test run: FINISHED in 38.36s  (reward +19.24, deaths 2)  practice avg 98.3%  best time 37.30s
+   9.83M steps    19.3 min  test run: FINISHED in 39.62s  (reward +20.23, deaths 1)  practice avg 98.2%  best time 37.30s
+   9.87M steps    19.4 min  test run: FINISHED in 37.60s  (reward +20.47, deaths 1)  practice avg 98.3%  best time 37.30s
+   9.91M steps    19.5 min  test run: FINISHED in 42.80s  (reward +20.91, deaths 0)  practice avg 99.0%  best time 37.30s
+   9.95M steps    19.6 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 99.0%  best time 37.30s
+   9.99M steps    19.7 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.1%  best time 37.30s
+  10.04M steps    19.7 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 97.2%  best time 37.30s
+  10.08M steps    19.8 min  test run: FINISHED in 54.16s  (reward +18.75, deaths 1)  practice avg 96.4%  best time 37.30s
+  10.12M steps    19.9 min  test run: FINISHED in 40.40s  (reward +21.15, deaths 0)  practice avg 96.3%  best time 37.30s
+  10.16M steps    20.0 min  test run: FINISHED in 69.56s  (reward +16.23, deaths 2)  practice avg 96.4%  best time 37.30s
+  10.20M steps    20.1 min  test run: FINISHED in 39.64s  (reward +20.14, deaths 1)  practice avg 97.8%  best time 37.30s
+  10.24M steps    20.1 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.6%  best time 37.30s
+  10.28M steps    20.2 min  test run: FINISHED in 45.04s  (reward +19.70, deaths 1)  practice avg 98.7%  best time 37.30s
+  10.32M steps    20.3 min  test run: FINISHED in 41.04s  (reward +20.04, deaths 1)  practice avg 98.7%  best time 37.30s
+  10.36M steps    20.4 min  test run: FINISHED in 40.78s  (reward +20.09, deaths 1)  practice avg 99.0%  best time 37.30s
+  10.40M steps    20.4 min  test run: FINISHED in 44.46s  (reward +19.81, deaths 1)  practice avg 97.9%  best time 37.30s
+  10.44M steps    20.5 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 97.3%  best time 37.30s
+  10.49M steps    20.6 min  test run: FINISHED in 44.66s  (reward +20.75, deaths 0)  practice avg 96.8%  best time 37.30s
+  10.53M steps    20.7 min  test run: FINISHED in 53.12s  (reward +19.87, deaths 0)  practice avg 96.8%  best time 37.30s
+  10.57M steps    20.7 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 97.9%  best time 37.30s
+  10.61M steps    20.8 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.8%  best time 37.30s
+  10.65M steps    20.9 min  test run: FINISHED in 51.74s  (reward +19.02, deaths 1)  practice avg 97.5%  best time 37.30s
+  10.69M steps    20.9 min  test run: FINISHED in 43.32s  (reward +20.89, deaths 0)  practice avg 97.5%  best time 37.30s
+  10.73M steps    21.0 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 97.4%  best time 37.30s
+  10.77M steps    21.1 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 96.5%  best time 37.30s
+  10.81M steps    21.2 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 97.4%  best time 37.30s
+  10.85M steps    21.2 min  test run: FINISHED in 48.02s  (reward +19.41, deaths 1)  practice avg 97.4%  best time 37.30s
+  10.90M steps    21.3 min  test run: FINISHED in 41.20s  (reward +21.09, deaths 0)  practice avg 97.5%  best time 37.30s
+  10.94M steps    21.4 min  test run: FINISHED in 38.72s  (reward +21.32, deaths 0)  practice avg 97.7%  best time 37.30s
+  10.98M steps    21.5 min  test run: FINISHED in 56.16s  (reward +18.57, deaths 1)  practice avg 98.4%  best time 37.30s
+  11.02M steps    21.5 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.4%  best time 37.30s
+  11.06M steps    21.6 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.5%  best time 37.30s
+  11.10M steps    21.7 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 99.0%  best time 37.30s
+  11.14M steps    21.7 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 99.0%  best time 37.30s
+  11.18M steps    21.8 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.9%  best time 37.30s
+  11.22M steps    21.9 min  test run: FINISHED in 46.88s  (reward +18.51, deaths 2)  practice avg 98.8%  best time 37.30s
+  11.26M steps    21.9 min  test run: FINISHED in 42.44s  (reward +20.95, deaths 0)  practice avg 98.8%  best time 37.30s
+  11.30M steps    22.0 min  test run: FINISHED in 39.96s  (reward +20.18, deaths 1)  practice avg 98.8%  best time 37.30s
+  11.35M steps    22.1 min  test run: FINISHED in 40.70s  (reward +20.13, deaths 1)  practice avg 99.0%  best time 37.30s
+  11.39M steps    22.1 min  test run: FINISHED in 40.86s  (reward +21.11, deaths 0)  practice avg 99.0%  best time 37.30s
+  11.43M steps    22.2 min  test run: FINISHED in 47.22s  (reward +19.50, deaths 1)  practice avg 99.0%  best time 37.30s
+  11.47M steps    22.3 min  test run: FINISHED in 45.62s  (reward +19.64, deaths 1)  practice avg 99.0%  best time 37.30s
+  11.51M steps    22.4 min  test run: FINISHED in 39.42s  (reward +20.28, deaths 1)  practice avg 99.0%  best time 37.30s
+  11.55M steps    22.4 min  test run: FINISHED in 48.04s  (reward +19.36, deaths 1)  practice avg 99.0%  best time 37.30s
+  11.59M steps    22.5 min  test run: FINISHED in 39.42s  (reward +21.24, deaths 0)  practice avg 98.9%  best time 37.30s
+  11.63M steps    22.6 min  test run: FINISHED in 42.32s  (reward +20.94, deaths 0)  practice avg 98.9%  best time 37.30s
+  11.67M steps    22.6 min  test run: FINISHED in 54.44s  (reward +17.72, deaths 2)  practice avg 98.8%  best time 37.30s
+  11.71M steps    22.7 min  test run: FINISHED in 41.20s  (reward +19.97, deaths 1)  practice avg 98.8%  best time 37.30s
+  11.76M steps    22.8 min  test run: FINISHED in 45.36s  (reward +19.61, deaths 1)  practice avg 98.9%  best time 37.30s
+  11.80M steps    22.8 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.9%  best time 37.30s
+  11.84M steps    22.9 min  test run: FINISHED in 43.88s  (reward +19.75, deaths 1)  practice avg 98.8%  best time 37.30s
+  11.88M steps    23.0 min  test run: FINISHED in 42.50s  (reward +18.88, deaths 2)  practice avg 98.8%  best time 37.30s
+  11.92M steps    23.0 min  test run: FINISHED in 38.42s  (reward +20.37, deaths 1)  practice avg 98.8%  best time 37.30s
+  11.96M steps    23.1 min  test run: FINISHED in 41.92s  (reward +19.98, deaths 1)  practice avg 98.8%  best time 37.30s
+  12.00M steps    23.1 min  test run: FINISHED in 43.30s  (reward +19.83, deaths 1)  practice avg 98.9%  best time 37.30s
+  12.04M steps    23.2 min  test run: FINISHED in 40.34s  (reward +21.13, deaths 0)  practice avg 98.9%  best time 37.30s
+  12.08M steps    23.3 min  test run: FINISHED in 42.90s  (reward +20.92, deaths 0)  practice avg 98.9%  best time 37.30s
+  12.12M steps    23.4 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.9%  best time 37.30s
+  12.17M steps    23.4 min  test run: FINISHED in 45.84s  (reward +19.57, deaths 1)  practice avg 98.9%  best time 37.30s
+  12.21M steps    23.5 min  test run: FINISHED in 44.88s  (reward +18.67, deaths 2)  practice avg 98.9%  best time 37.30s
+  12.25M steps    23.6 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.9%  best time 37.30s
+  12.29M steps    23.6 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.9%  best time 37.30s
+  12.33M steps    23.7 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.8%  best time 37.30s
+  12.37M steps    23.8 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.8%  best time 37.30s
+  12.41M steps    23.8 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.8%  best time 37.30s
+  12.45M steps    23.9 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.8%  best time 37.30s
+  12.49M steps    24.0 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.9%  best time 37.30s
+  12.53M steps    24.0 min  test run: FINISHED in 44.22s  (reward +18.78, deaths 2)  practice avg 97.9%  best time 37.30s
+  12.57M steps    24.1 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.0%  best time 37.30s
+  12.62M steps    24.1 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.1%  best time 37.30s
+  12.66M steps    24.2 min  test run: FINISHED in 40.82s  (reward +20.08, deaths 1)  practice avg 98.1%  best time 37.30s
+  12.70M steps    24.3 min  test run: FINISHED in 42.72s  (reward +19.91, deaths 1)  practice avg 99.0%  best time 37.30s
+  12.74M steps    24.3 min  test run: FINISHED in 43.58s  (reward +17.85, deaths 3)  practice avg 98.9%  best time 37.30s
+  12.78M steps    24.4 min  test run: FINISHED in 40.36s  (reward +20.17, deaths 1)  practice avg 98.9%  best time 37.30s
+  12.82M steps    24.4 min  test run: FINISHED in 40.24s  (reward +21.14, deaths 0)  practice avg 98.9%  best time 37.30s
+  12.86M steps    24.5 min  test run: FINISHED in 41.26s  (reward +21.08, deaths 0)  practice avg 98.9%  best time 37.30s
+  12.90M steps    24.6 min  test run: FINISHED in 39.98s  (reward +20.14, deaths 1)  practice avg 99.0%  best time 37.30s
+  12.94M steps    24.6 min  test run: FINISHED in 40.80s  (reward +20.05, deaths 1)  practice avg 98.9%  best time 37.30s
+  12.98M steps    24.7 min  test run: FINISHED in 42.36s  (reward +19.97, deaths 1)  practice avg 98.9%  best time 37.30s
+  13.03M steps    24.8 min  test run: FINISHED in 42.98s  (reward +19.89, deaths 1)  practice avg 98.9%  best time 37.30s
+  13.07M steps    24.8 min  test run: FINISHED in 40.76s  (reward +21.10, deaths 0)  practice avg 98.9%  best time 37.30s
+  13.11M steps    24.9 min  test run: FINISHED in 40.32s  (reward +20.14, deaths 1)  practice avg 98.9%  best time 37.30s
+  13.15M steps    25.0 min  test run: FINISHED in 45.28s  (reward +19.63, deaths 1)  practice avg 98.9%  best time 37.30s
+  13.19M steps    25.0 min  test run: FINISHED in 40.80s  (reward +21.07, deaths 0)  practice avg 99.0%  best time 37.30s
+  13.23M steps    25.1 min  test run: FINISHED in 41.24s  (reward +20.11, deaths 1)  practice avg 99.0%  best time 37.30s
+  13.27M steps    25.1 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 99.0%  best time 37.30s
+  13.31M steps    25.2 min  test run: FINISHED in 41.00s  (reward +20.07, deaths 1)  practice avg 99.0%  best time 37.30s
+  13.35M steps    25.3 min  test run: FINISHED in 39.50s  (reward +21.21, deaths 0)  practice avg 99.0%  best time 37.30s
+  13.39M steps    25.3 min  test run: FINISHED in 41.94s  (reward +20.99, deaths 0)  practice avg 99.0%  best time 37.30s
+  13.43M steps    25.4 min  test run: FINISHED in 44.00s  (reward +20.80, deaths 0)  practice avg 99.0%  best time 37.30s
+  13.48M steps    25.5 min  test run: FINISHED in 39.68s  (reward +21.23, deaths 0)  practice avg 99.0%  best time 37.30s
+  13.52M steps    25.5 min  test run: FINISHED in 42.70s  (reward +19.93, deaths 1)  practice avg 99.0%  best time 37.30s
+  13.56M steps    25.6 min  test run: FINISHED in 43.92s  (reward +20.69, deaths 0)  practice avg 99.0%  best time 37.30s
+  13.60M steps    25.7 min  test run: FINISHED in 40.62s  (reward +21.11, deaths 0)  practice avg 98.9%  best time 37.30s
+  13.64M steps    25.7 min  test run: FINISHED in 41.82s  (reward +21.10, deaths 0)  practice avg 98.9%  best time 37.30s
+  13.68M steps    25.8 min  test run: FINISHED in 42.24s  (reward +20.97, deaths 0)  practice avg 98.9%  best time 37.30s
+  13.72M steps    25.9 min  test run: FINISHED in 42.16s  (reward +21.04, deaths 0)  practice avg 98.9%  best time 37.30s
+  13.76M steps    25.9 min  test run: FINISHED in 41.22s  (reward +21.09, deaths 0)  practice avg 99.0%  best time 37.30s
+  13.80M steps    26.0 min  test run: FINISHED in 39.74s  (reward +21.09, deaths 0)  practice avg 99.0%  best time 37.30s
+  13.84M steps    26.0 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.9%  best time 37.30s
+  13.89M steps    26.1 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.9%  best time 37.30s
+  13.93M steps    26.2 min  test run: FINISHED in 40.22s  (reward +21.06, deaths 0)  practice avg 98.9%  best time 37.30s
+  13.97M steps    26.2 min  test run: FINISHED in 38.28s  (reward +21.38, deaths 0)  practice avg 98.9%  best time 37.30s
+  14.01M steps    26.3 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.9%  best time 37.30s
+  14.05M steps    26.4 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.9%  best time 37.30s
+  14.09M steps    26.4 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.9%  best time 37.30s
+  14.13M steps    26.5 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.9%  best time 37.30s
+  14.17M steps    26.6 min  test run:   0.0% of the route  (reward -7.00, deaths 0)  practice avg 98.9%  best time 37.30s
+  14.21M steps    26.7 min  test run: FINISHED in 40.66s  (reward +21.14, deaths 0)  practice avg 98.9%  best time 37.30s
+  14.25M steps    26.8 min  test run: FINISHED in 41.76s  (reward +20.90, deaths 0)  practice avg 98.9%  best time 37.30s
+  14.30M steps    26.8 min  test run: FINISHED in 40.10s  (reward +21.18, deaths 0)  practice avg 98.9%  best time 37.30s
+  14.34M steps    26.9 min  test run: FINISHED in 45.28s  (reward +19.64, deaths 1)  practice avg 98.9%  best time 37.30s
+  14.38M steps    27.0 min  test run: FINISHED in 44.94s  (reward +19.60, deaths 1)  practice avg 98.9%  best time 37.30s
+  14.42M steps    27.1 min  test run: FINISHED in 41.64s  (reward +21.04, deaths 0)  practice avg 98.9%  best time 37.30s
+  14.46M steps    27.1 min  test run: FINISHED in 39.76s  (reward +20.27, deaths 1)  practice avg 99.0%  best time 37.30s
+  14.50M steps    27.2 min  test run: FINISHED in 43.60s  (reward +19.82, deaths 1)  practice avg 99.0%  best time 37.30s
+  14.54M steps    27.3 min  test run: FINISHED in 42.58s  (reward +19.98, deaths 1)  practice avg 99.1%  best time 37.30s
+  14.58M steps    27.4 min  test run: FINISHED in 42.22s  (reward +20.96, deaths 0)  practice avg 99.1%  best time 37.30s
+  14.62M steps    27.4 min  test run: FINISHED in 40.50s  (reward +21.12, deaths 0)  practice avg 99.1%  best time 37.30s
+  14.66M steps    27.5 min  test run: FINISHED in 42.08s  (reward +19.98, deaths 1)  practice avg 99.0%  best time 37.30s
+  14.70M steps    27.6 min  test run: FINISHED in 43.92s  (reward +19.79, deaths 1)  practice avg 99.0%  best time 37.30s
+  14.75M steps    27.7 min  test run: FINISHED in 40.46s  (reward +21.06, deaths 0)  practice avg 99.0%  best time 37.30s
+  14.79M steps    27.8 min  test run: FINISHED in 40.04s  (reward +21.22, deaths 0)  practice avg 99.0%  best time 37.30s
+  14.83M steps    27.8 min  test run: FINISHED in 40.14s  (reward +21.13, deaths 0)  practice avg 99.0%  best time 37.30s
+  14.87M steps    27.9 min  test run: FINISHED in 42.72s  (reward +20.88, deaths 0)  practice avg 99.0%  best time 37.30s
+  14.91M steps    28.0 min  test run: FINISHED in 46.80s  (reward +19.52, deaths 1)  practice avg 98.9%  best time 37.30s
+  14.95M steps    28.1 min  test run: FINISHED in 48.14s  (reward +19.36, deaths 1)  practice avg 98.9%  best time 37.30s
+  14.99M steps    28.1 min  test run: FINISHED in 40.58s  (reward +21.11, deaths 0)  practice avg 98.9%  best time 37.30s
+  15.03M steps    28.2 min  test run: FINISHED in 38.86s  (reward +21.29, deaths 0)  practice avg 98.9%  best time 37.30s
+  15.07M steps    28.3 min  test run: FINISHED in 43.26s  (reward +20.89, deaths 0)  practice avg 99.0%  best time 37.30s
+  15.11M steps    28.4 min  test run: FINISHED in 40.08s  (reward +21.15, deaths 0)  practice avg 99.0%  best time 37.30s
+  15.16M steps    28.4 min  test run: FINISHED in 42.66s  (reward +20.82, deaths 0)  practice avg 99.0%  best time 37.30s
+  15.20M steps    28.5 min  test run: FINISHED in 41.02s  (reward +21.13, deaths 0)  practice avg 98.9%  best time 37.30s
+  15.24M steps    28.6 min  test run: FINISHED in 44.12s  (reward +20.78, deaths 0)  practice avg 98.9%  best time 37.30s
+  15.28M steps    28.7 min  test run: FINISHED in 41.46s  (reward +21.08, deaths 0)  practice avg 98.9%  best time 37.30s
+  15.32M steps    28.7 min  test run: FINISHED in 39.74s  (reward +21.11, deaths 0)  practice avg 98.9%  best time 37.30s
+  15.36M steps    28.8 min  test run: FINISHED in 42.06s  (reward +19.96, deaths 1)  practice avg 98.9%  best time 37.30s
+  15.40M steps    28.9 min  test run: FINISHED in 40.76s  (reward +21.06, deaths 0)  practice avg 99.0%  best time 37.30s
+  15.44M steps    28.9 min  test run: FINISHED in 40.46s  (reward +21.04, deaths 0)  practice avg 98.9%  best time 37.30s
+  15.48M steps    29.0 min  test run: FINISHED in 40.40s  (reward +21.11, deaths 0)  practice avg 98.9%  best time 37.30s
+  15.52M steps    29.1 min  test run: FINISHED in 40.52s  (reward +21.10, deaths 0)  practice avg 98.9%  best time 37.30s
+  15.56M steps    29.2 min  test run: FINISHED in 39.36s  (reward +21.17, deaths 0)  practice avg 99.0%  best time 37.30s
+  15.61M steps    29.2 min  test run: FINISHED in 40.84s  (reward +21.08, deaths 0)  practice avg 99.0%  best time 37.30s
+  15.65M steps    29.3 min  test run: FINISHED in 43.70s  (reward +20.82, deaths 0)  practice avg 98.9%  best time 37.30s
+  15.69M steps    29.4 min  test run: FINISHED in 41.76s  (reward +21.02, deaths 0)  practice avg 99.0%  best time 37.30s
+  15.73M steps    29.5 min  test run: FINISHED in 38.70s  (reward +21.35, deaths 0)  practice avg 98.9%  best time 37.30s
+  15.77M steps    29.5 min  test run: FINISHED in 45.18s  (reward +19.65, deaths 1)  practice avg 98.8%  best time 37.30s
+  15.81M steps    29.6 min  test run: FINISHED in 39.78s  (reward +20.18, deaths 1)  practice avg 98.8%  best time 37.30s
+  15.85M steps    29.7 min  test run: FINISHED in 37.90s  (reward +21.28, deaths 0)  practice avg 98.8%  best time 37.30s
+  15.89M steps    29.8 min  test run: FINISHED in 39.58s  (reward +21.19, deaths 0)  practice avg 98.9%  best time 37.30s
+  15.93M steps    29.8 min  test run: FINISHED in 40.38s  (reward +21.15, deaths 0)  practice avg 99.0%  best time 37.30s
+  15.97M steps    29.9 min  test run: FINISHED in 42.22s  (reward +19.95, deaths 1)  practice avg 99.0%  best time 37.30s
+  16.02M steps    30.0 min  test run: FINISHED in 40.32s  (reward +21.19, deaths 0)  practice avg 99.0%  best time 37.30s
+  16.06M steps    30.0 min  test run: FINISHED in 39.80s  (reward +21.22, deaths 0)  practice avg 98.9%  best time 37.30s
+  16.10M steps    30.1 min  test run: FINISHED in 45.46s  (reward +19.63, deaths 1)  practice avg 98.9%  best time 37.30s
+  16.14M steps    30.2 min  test run: FINISHED in 39.20s  (reward +21.17, deaths 0)  practice avg 98.9%  best time 37.30s
+  16.18M steps    30.3 min  test run: FINISHED in 40.40s  (reward +21.10, deaths 0)  practice avg 98.9%  best time 37.30s
+  16.22M steps    30.4 min  test run: FINISHED in 43.02s  (reward +19.79, deaths 1)  practice avg 98.9%  best time 37.30s
+  16.26M steps    30.4 min  test run: FINISHED in 38.86s  (reward +21.21, deaths 0)  practice avg 98.9%  best time 37.30s
+  16.30M steps    30.5 min  test run: FINISHED in 39.10s  (reward +21.29, deaths 0)  practice avg 98.9%  best time 37.30s
+  16.34M steps    30.6 min  test run: FINISHED in 40.42s  (reward +21.13, deaths 0)  practice avg 98.9%  best time 37.30s
+  16.38M steps    30.6 min  test run: FINISHED in 38.44s  (reward +21.34, deaths 0)  practice avg 98.9%  best time 37.30s
+  16.42M steps    30.7 min  test run: FINISHED in 40.74s  (reward +21.13, deaths 0)  practice avg 99.0%  best time 37.30s
+  16.47M steps    30.8 min  test run: FINISHED in 41.32s  (reward +21.06, deaths 0)  practice avg 99.0%  best time 37.30s
+  16.51M steps    30.9 min  test run: FINISHED in 41.46s  (reward +21.07, deaths 0)  practice avg 99.0%  best time 37.30s
+  16.55M steps    30.9 min  test run: FINISHED in 37.12s  (reward +21.51, deaths 0)  practice avg 99.0%  best time 37.12s
+  16.59M steps    31.0 min  test run: FINISHED in 42.64s  (reward +18.92, deaths 2)  practice avg 99.0%  best time 37.12s
+  16.63M steps    31.1 min  test run: FINISHED in 40.38s  (reward +21.14, deaths 0)  practice avg 99.0%  best time 37.12s
+  16.67M steps    31.2 min  test run: FINISHED in 40.34s  (reward +21.19, deaths 0)  practice avg 98.9%  best time 37.12s
+  16.71M steps    31.2 min  test run: FINISHED in 39.26s  (reward +21.21, deaths 0)  practice avg 98.9%  best time 37.12s
+  16.75M steps    31.3 min  test run: FINISHED in 40.76s  (reward +21.12, deaths 0)  practice avg 98.9%  best time 37.12s
+  16.79M steps    31.4 min  test run: FINISHED in 40.72s  (reward +21.09, deaths 0)  practice avg 98.9%  best time 37.12s
+  16.83M steps    31.5 min  test run: FINISHED in 39.60s  (reward +21.13, deaths 0)  practice avg 98.9%  best time 37.12s
+  16.88M steps    31.5 min  test run: FINISHED in 47.34s  (reward +19.48, deaths 1)  practice avg 98.9%  best time 37.12s
+  16.92M steps    31.6 min  test run: FINISHED in 38.12s  (reward +21.41, deaths 0)  practice avg 98.9%  best time 37.12s
+  16.96M steps    31.7 min  test run: FINISHED in 45.32s  (reward +20.68, deaths 0)  practice avg 98.9%  best time 37.12s
+  17.00M steps    31.8 min  test run: FINISHED in 45.82s  (reward +19.64, deaths 1)  practice avg 98.9%  best time 37.12s
+  17.04M steps    31.8 min  test run: FINISHED in 43.38s  (reward +19.88, deaths 1)  practice avg 98.8%  best time 37.12s
+  17.08M steps    31.9 min  test run: FINISHED in 50.32s  (reward +20.19, deaths 0)  practice avg 98.9%  best time 37.12s
+  17.12M steps    32.0 min  test run: FINISHED in 43.02s  (reward +19.90, deaths 1)  practice avg 98.9%  best time 37.12s
+  17.16M steps    32.1 min  test run: FINISHED in 37.30s  (reward +21.34, deaths 0)  practice avg 98.9%  best time 37.12s
+  17.20M steps    32.1 min  test run: FINISHED in 39.04s  (reward +21.31, deaths 0)  practice avg 98.9%  best time 37.12s
+  17.24M steps    32.2 min  test run: FINISHED in 41.56s  (reward +19.96, deaths 1)  practice avg 98.9%  best time 37.12s
+  17.29M steps    32.3 min  test run: FINISHED in 40.50s  (reward +20.12, deaths 1)  practice avg 98.9%  best time 37.12s
+  17.33M steps    32.4 min  test run: FINISHED in 39.64s  (reward +21.20, deaths 0)  practice avg 98.9%  best time 37.12s
+  17.37M steps    32.4 min  test run: FINISHED in 40.16s  (reward +21.13, deaths 0)  practice avg 98.8%  best time 37.12s
+  17.41M steps    32.5 min  test run: FINISHED in 39.80s  (reward +21.21, deaths 0)  practice avg 98.8%  best time 37.12s
+  17.45M steps    32.6 min  test run: FINISHED in 38.60s  (reward +21.36, deaths 0)  practice avg 98.8%  best time 37.12s
+  17.49M steps    32.7 min  test run: FINISHED in 39.10s  (reward +21.30, deaths 0)  practice avg 98.8%  best time 37.12s
+  17.53M steps    32.8 min  test run: FINISHED in 54.36s  (reward +18.75, deaths 1)  practice avg 98.9%  best time 37.12s
+  17.57M steps    32.8 min  test run: FINISHED in 38.30s  (reward +21.39, deaths 0)  practice avg 98.9%  best time 37.12s
+  17.61M steps    32.9 min  test run: FINISHED in 38.68s  (reward +20.29, deaths 1)  practice avg 98.9%  best time 37.12s
+  17.65M steps    33.0 min  test run: FINISHED in 48.14s  (reward +19.41, deaths 1)  practice avg 98.9%  best time 37.12s
+  17.69M steps    33.0 min  test run: FINISHED in 39.64s  (reward +21.19, deaths 0)  practice avg 98.8%  best time 37.12s
+  17.74M steps    33.1 min  test run: FINISHED in 41.86s  (reward +20.99, deaths 0)  practice avg 98.8%  best time 37.12s
+  17.78M steps    33.2 min  test run: FINISHED in 42.94s  (reward +19.88, deaths 1)  practice avg 98.8%  best time 37.12s
+  17.82M steps    33.3 min  test run: FINISHED in 41.88s  (reward +21.00, deaths 0)  practice avg 98.8%  best time 37.12s
+  17.86M steps    33.3 min  test run: FINISHED in 40.68s  (reward +20.11, deaths 1)  practice avg 98.9%  best time 37.12s
+  17.90M steps    33.4 min  test run: FINISHED in 40.40s  (reward +21.11, deaths 0)  practice avg 98.9%  best time 37.12s
+  17.94M steps    33.5 min  test run: FINISHED in 39.30s  (reward +21.21, deaths 0)  practice avg 98.9%  best time 37.12s
+  17.98M steps    33.6 min  test run: FINISHED in 41.34s  (reward +21.04, deaths 0)  practice avg 99.0%  best time 37.12s
+  18.02M steps    33.6 min  test run: FINISHED in 38.46s  (reward +21.40, deaths 0)  practice avg 99.0%  best time 37.12s
+  18.06M steps    33.7 min  test run: FINISHED in 43.58s  (reward +19.81, deaths 1)  practice avg 99.0%  best time 37.12s
+  18.10M steps    33.8 min  test run: FINISHED in 42.84s  (reward +19.92, deaths 1)  practice avg 99.0%  best time 37.12s
+  18.15M steps    33.9 min  test run: FINISHED in 37.34s  (reward +21.37, deaths 0)  practice avg 99.0%  best time 37.12s
+  18.19M steps    33.9 min  test run: FINISHED in 47.70s  (reward +18.49, deaths 2)  practice avg 99.0%  best time 37.12s
+  18.23M steps    34.0 min  test run: FINISHED in 37.24s  (reward +21.45, deaths 0)  practice avg 98.9%  best time 37.12s
+  18.27M steps    34.1 min  test run: FINISHED in 40.92s  (reward +20.09, deaths 1)  practice avg 98.9%  best time 37.12s
+  18.31M steps    34.2 min  test run: FINISHED in 41.54s  (reward +21.08, deaths 0)  practice avg 98.9%  best time 37.12s
+  18.35M steps    34.2 min  test run: FINISHED in 41.86s  (reward +20.03, deaths 1)  practice avg 98.7%  best time 37.12s
+  18.39M steps    34.3 min  test run: FINISHED in 39.72s  (reward +21.16, deaths 0)  practice avg 98.8%  best time 37.12s
+  18.43M steps    34.4 min  test run: FINISHED in 42.14s  (reward +20.98, deaths 0)  practice avg 98.8%  best time 37.12s
+  18.47M steps    34.5 min  test run: FINISHED in 39.52s  (reward +21.20, deaths 0)  practice avg 98.8%  best time 37.12s
+  18.51M steps    34.5 min  test run: FINISHED in 37.88s  (reward +20.42, deaths 1)  practice avg 99.0%  best time 37.12s
+  18.55M steps    34.6 min  test run: FINISHED in 39.16s  (reward +20.24, deaths 1)  practice avg 99.0%  best time 37.12s
+  18.60M steps    34.7 min  test run: FINISHED in 41.98s  (reward +21.02, deaths 0)  practice avg 99.0%  best time 37.12s
+  18.64M steps    34.7 min  test run: FINISHED in 42.14s  (reward +20.97, deaths 0)  practice avg 99.0%  best time 37.12s
+  18.68M steps    34.8 min  test run: FINISHED in 37.48s  (reward +21.44, deaths 0)  practice avg 99.0%  best time 37.12s
+  18.72M steps    34.9 min  test run: FINISHED in 39.22s  (reward +21.24, deaths 0)  practice avg 99.0%  best time 37.12s
+  18.76M steps    35.0 min  test run:  10.2% of the route  (reward -16.10, deaths 5)  practice avg 99.0%  best time 37.12s
+  18.80M steps    35.0 min  test run: FINISHED in 39.42s  (reward +21.29, deaths 0)  practice avg 98.9%  best time 37.12s
+  18.84M steps    35.1 min  test run: FINISHED in 40.78s  (reward +20.07, deaths 1)  practice avg 99.0%  best time 37.12s
+  18.88M steps    35.2 min  test run: FINISHED in 42.50s  (reward +20.87, deaths 0)  practice avg 99.0%  best time 37.12s
+  18.92M steps    35.3 min  test run: FINISHED in 41.32s  (reward +21.02, deaths 0)  practice avg 99.0%  best time 37.12s
+  18.96M steps    35.3 min  test run: FINISHED in 41.24s  (reward +20.04, deaths 1)  practice avg 99.0%  best time 37.12s
+  19.01M steps    35.4 min  test run: FINISHED in 43.46s  (reward +20.88, deaths 0)  practice avg 98.9%  best time 37.12s
+  19.05M steps    35.5 min  test run: FINISHED in 41.02s  (reward +20.08, deaths 1)  practice avg 98.9%  best time 37.12s
+  19.09M steps    35.6 min  test run: FINISHED in 40.12s  (reward +21.12, deaths 0)  practice avg 98.9%  best time 37.12s
+  19.13M steps    35.6 min  test run: FINISHED in 40.78s  (reward +21.08, deaths 0)  practice avg 98.9%  best time 37.12s
+  19.17M steps    35.7 min  test run: FINISHED in 39.46s  (reward +21.24, deaths 0)  practice avg 99.0%  best time 37.12s
+  19.21M steps    35.8 min  test run: FINISHED in 39.90s  (reward +21.09, deaths 0)  practice avg 98.9%  best time 37.12s
+  19.25M steps    35.9 min  test run: FINISHED in 41.10s  (reward +21.11, deaths 0)  practice avg 98.9%  best time 37.12s
+  19.29M steps    35.9 min  test run: FINISHED in 41.00s  (reward +20.05, deaths 1)  practice avg 98.9%  best time 37.12s
+  19.33M steps    36.0 min  test run: FINISHED in 41.04s  (reward +21.07, deaths 0)  practice avg 98.9%  best time 37.12s
+  19.37M steps    36.1 min  test run: FINISHED in 39.68s  (reward +21.18, deaths 0)  practice avg 98.9%  best time 37.12s
+  19.42M steps    36.1 min  test run:  49.2% of the route  (reward -2.35, deaths 0)  practice avg 98.9%  best time 37.12s
+  19.46M steps    36.2 min  test run: FINISHED in 39.70s  (reward +21.24, deaths 0)  practice avg 98.9%  best time 37.12s
+  19.50M steps    36.3 min  test run: FINISHED in 58.30s  (reward +18.34, deaths 1)  practice avg 98.9%  best time 37.12s
+  19.54M steps    36.4 min  test run: FINISHED in 54.12s  (reward +18.74, deaths 1)  practice avg 98.9%  best time 37.12s
+  19.58M steps    36.4 min  test run: FINISHED in 62.90s  (reward +17.94, deaths 1)  practice avg 98.9%  best time 37.12s
+  19.62M steps    36.5 min  test run: FINISHED in 40.64s  (reward +21.17, deaths 0)  practice avg 99.0%  best time 37.12s
+  19.66M steps    36.6 min  test run: FINISHED in 42.54s  (reward +21.01, deaths 0)  practice avg 99.0%  best time 37.12s
+  19.70M steps    36.7 min  test run: FINISHED in 38.48s  (reward +21.35, deaths 0)  practice avg 99.0%  best time 37.12s
+  19.74M steps    36.7 min  test run: FINISHED in 39.26s  (reward +21.29, deaths 0)  practice avg 99.0%  best time 37.12s
+  19.78M steps    36.8 min  test run: FINISHED in 40.36s  (reward +21.10, deaths 0)  practice avg 98.9%  best time 37.12s
+  19.82M steps    36.9 min  test run: FINISHED in 38.88s  (reward +21.36, deaths 0)  practice avg 98.9%  best time 37.12s
+  19.87M steps    36.9 min  test run: FINISHED in 41.30s  (reward +21.08, deaths 0)  practice avg 98.9%  best time 37.12s
+  19.91M steps    37.0 min  test run: FINISHED in 37.22s  (reward +21.43, deaths 0)  practice avg 98.9%  best time 37.12s
+  19.95M steps    37.1 min  test run: FINISHED in 39.48s  (reward +21.28, deaths 0)  practice avg 98.9%  best time 37.12s
+  19.99M steps    37.2 min  test run: FINISHED in 57.32s  (reward +19.42, deaths 0)  practice avg 98.9%  best time 37.12s
+  20.03M steps    37.2 min  test run: FINISHED in 42.02s  (reward +20.94, deaths 0)  practice avg 98.9%  best time 37.12s
+  20.07M steps    37.3 min  test run:  49.2% of the route  (reward -2.33, deaths 0)  practice avg 98.9%  best time 37.12s
+  20.11M steps    37.4 min  test run: FINISHED in 39.58s  (reward +21.28, deaths 0)  practice avg 99.0%  best time 37.12s
+  20.15M steps    37.5 min  test run: FINISHED in 37.82s  (reward +21.31, deaths 0)  practice avg 99.0%  best time 37.12s
+  20.19M steps    37.5 min  test run: FINISHED in 41.04s  (reward +21.04, deaths 0)  practice avg 99.0%  best time 37.12s
+  20.23M steps    37.6 min  test run: FINISHED in 36.80s  (reward +21.41, deaths 0)  practice avg 99.0%  best time 36.80s
+  20.28M steps    37.7 min  test run: FINISHED in 40.30s  (reward +20.12, deaths 1)  practice avg 99.0%  best time 36.80s
+  20.32M steps    37.8 min  test run: FINISHED in 39.76s  (reward +20.26, deaths 1)  practice avg 99.0%  best time 36.80s
+  20.36M steps    37.8 min  test run: FINISHED in 40.30s  (reward +21.07, deaths 0)  practice avg 99.0%  best time 36.80s
+  20.40M steps    37.9 min  test run: FINISHED in 42.38s  (reward +19.99, deaths 1)  practice avg 99.0%  best time 36.80s
+  20.44M steps    38.0 min  test run: FINISHED in 38.80s  (reward +21.34, deaths 0)  practice avg 99.0%  best time 36.80s
+  20.48M steps    38.1 min  test run: FINISHED in 43.14s  (reward +19.91, deaths 1)  practice avg 99.0%  best time 36.80s
+  20.52M steps    38.1 min  test run: FINISHED in 38.20s  (reward +21.42, deaths 0)  practice avg 98.9%  best time 36.80s
+  20.56M steps    38.2 min  test run: FINISHED in 37.36s  (reward +21.50, deaths 0)  practice avg 98.9%  best time 36.80s
+  20.60M steps    38.3 min  test run: FINISHED in 41.26s  (reward +21.04, deaths 0)  practice avg 99.0%  best time 36.80s
+  20.64M steps    38.3 min  test run: FINISHED in 53.46s  (reward +15.89, deaths 4)  practice avg 99.0%  best time 36.80s
+  20.68M steps    38.4 min  test run:  49.2% of the route  (reward -2.31, deaths 0)  practice avg 98.9%  best time 36.80s
+  20.73M steps    38.5 min  test run: FINISHED in 38.74s  (reward +21.34, deaths 0)  practice avg 98.9%  best time 36.80s
+  20.77M steps    38.6 min  test run:  49.2% of the route  (reward -2.38, deaths 0)  practice avg 98.8%  best time 36.80s
+  20.81M steps    38.7 min  test run:  49.2% of the route  (reward -2.33, deaths 0)  practice avg 98.8%  best time 36.80s
+  20.85M steps    38.7 min  test run: FINISHED in 39.14s  (reward +20.31, deaths 1)  practice avg 98.8%  best time 36.80s
+  20.89M steps    38.8 min  test run: FINISHED in 40.10s  (reward +21.21, deaths 0)  practice avg 98.8%  best time 36.80s
+  20.93M steps    38.9 min  test run: FINISHED in 38.40s  (reward +21.37, deaths 0)  practice avg 98.9%  best time 36.80s
+  20.97M steps    39.0 min  test run: FINISHED in 38.26s  (reward +21.38, deaths 0)  practice avg 98.9%  best time 36.80s
+  21.01M steps    39.0 min  test run: FINISHED in 40.10s  (reward +21.19, deaths 0)  practice avg 99.0%  best time 36.80s
+  21.05M steps    39.1 min  test run: FINISHED in 38.70s  (reward +21.37, deaths 0)  practice avg 99.0%  best time 36.80s
+  21.09M steps    39.2 min  test run: FINISHED in 44.50s  (reward +19.71, deaths 1)  practice avg 99.0%  best time 36.80s
+  21.14M steps    39.3 min  test run: FINISHED in 43.78s  (reward +19.79, deaths 1)  practice avg 99.0%  best time 36.80s
+  21.18M steps    39.4 min  test run: FINISHED in 41.50s  (reward +21.04, deaths 0)  practice avg 99.0%  best time 36.80s
+  21.22M steps    39.4 min  test run: FINISHED in 43.58s  (reward +20.84, deaths 0)  practice avg 99.0%  best time 36.80s
+  21.26M steps    39.5 min  test run: FINISHED in 38.54s  (reward +21.39, deaths 0)  practice avg 99.0%  best time 36.80s
+  21.30M steps    39.6 min  test run: FINISHED in 40.52s  (reward +21.07, deaths 0)  practice avg 98.9%  best time 36.80s
+  21.34M steps    39.7 min  test run: FINISHED in 39.66s  (reward +21.24, deaths 0)  practice avg 98.9%  best time 36.80s
+  21.38M steps    39.7 min  test run: FINISHED in 55.22s  (reward +19.63, deaths 0)  practice avg 98.9%  best time 36.80s
+  21.42M steps    39.8 min  test run: FINISHED in 38.08s  (reward +21.28, deaths 0)  practice avg 98.9%  best time 36.80s
+  21.46M steps    39.9 min  test run: FINISHED in 39.12s  (reward +21.16, deaths 0)  practice avg 98.9%  best time 36.80s
+  21.50M steps    39.9 min  test run: FINISHED in 38.08s  (reward +21.41, deaths 0)  practice avg 98.9%  best time 36.80s
+  21.54M steps    40.0 min  test run: FINISHED in 37.78s  (reward +21.43, deaths 0)  practice avg 98.9%  best time 36.80s
+  21.59M steps    40.1 min  test run: FINISHED in 42.38s  (reward +19.98, deaths 1)  practice avg 98.9%  best time 36.80s
+  21.63M steps    40.2 min  test run: FINISHED in 37.34s  (reward +21.48, deaths 0)  practice avg 98.9%  best time 36.80s
+  21.67M steps    40.2 min  test run: FINISHED in 39.10s  (reward +21.32, deaths 0)  practice avg 98.8%  best time 36.80s
+  21.71M steps    40.3 min  test run: FINISHED in 42.02s  (reward +20.98, deaths 0)  practice avg 98.8%  best time 36.80s
+  21.75M steps    40.4 min  test run: FINISHED in 52.02s  (reward +19.03, deaths 1)  practice avg 98.8%  best time 36.80s
+  21.79M steps    40.5 min  test run: FINISHED in 38.92s  (reward +21.29, deaths 0)  practice avg 98.9%  best time 36.80s
+  21.83M steps    40.5 min  test run: FINISHED in 38.30s  (reward +21.39, deaths 0)  practice avg 98.9%  best time 36.80s
+  21.87M steps    40.6 min  test run: FINISHED in 39.52s  (reward +21.24, deaths 0)  practice avg 98.9%  best time 36.80s
+  21.91M steps    40.7 min  test run: FINISHED in 39.68s  (reward +21.19, deaths 0)  practice avg 98.9%  best time 36.80s
+  21.95M steps    40.8 min  test run: FINISHED in 37.86s  (reward +21.40, deaths 0)  practice avg 99.0%  best time 36.80s
+  22.00M steps    40.8 min  test run: FINISHED in 37.38s  (reward +21.52, deaths 0)  practice avg 98.9%  best time 36.80s
+  22.04M steps    40.9 min  test run: FINISHED in 40.42s  (reward +20.14, deaths 1)  practice avg 99.0%  best time 36.80s
+  22.08M steps    41.0 min  test run: FINISHED in 39.52s  (reward +21.22, deaths 0)  practice avg 98.9%  best time 36.80s
+  22.12M steps    41.1 min  test run: FINISHED in 38.08s  (reward +21.40, deaths 0)  practice avg 99.0%  best time 36.80s
+  22.16M steps    41.1 min  test run: FINISHED in 41.30s  (reward +21.06, deaths 0)  practice avg 99.0%  best time 36.80s
+  22.20M steps    41.2 min  test run: FINISHED in 36.96s  (reward +21.52, deaths 0)  practice avg 99.0%  best time 36.80s
+  22.24M steps    41.3 min  test run: FINISHED in 36.84s  (reward +21.48, deaths 0)  practice avg 99.0%  best time 36.80s
+  22.28M steps    41.4 min  test run: FINISHED in 42.42s  (reward +19.92, deaths 1)  practice avg 99.0%  best time 36.80s
+  22.32M steps    41.5 min  test run: FINISHED in 41.38s  (reward +19.96, deaths 1)  practice avg 99.0%  best time 36.80s
+  22.36M steps    41.5 min  test run: FINISHED in 44.02s  (reward +19.77, deaths 1)  practice avg 98.9%  best time 36.80s
+  22.41M steps    41.6 min  test run: FINISHED in 37.44s  (reward +21.49, deaths 0)  practice avg 99.0%  best time 36.80s
+  22.45M steps    41.7 min  test run: FINISHED in 39.08s  (reward +21.32, deaths 0)  practice avg 99.0%  best time 36.80s
+  22.49M steps    41.7 min  test run: FINISHED in 38.34s  (reward +20.25, deaths 1)  practice avg 98.7%  best time 36.80s
+  22.53M steps    41.8 min  test run: FINISHED in 40.04s  (reward +21.22, deaths 0)  practice avg 98.7%  best time 36.80s
+  22.57M steps    41.9 min  test run: FINISHED in 36.14s  (reward +21.64, deaths 0)  practice avg 98.7%  best time 36.14s
+  22.61M steps    42.0 min  test run: FINISHED in 39.40s  (reward +21.23, deaths 0)  practice avg 98.7%  best time 36.14s
+  22.65M steps    42.0 min  test run: FINISHED in 38.58s  (reward +20.37, deaths 1)  practice avg 99.0%  best time 36.14s
+  22.69M steps    42.1 min  test run: FINISHED in 37.76s  (reward +21.45, deaths 0)  practice avg 98.9%  best time 36.14s
+  22.73M steps    42.2 min  test run: FINISHED in 42.60s  (reward +19.90, deaths 1)  practice avg 98.3%  best time 36.14s
+  22.77M steps    42.3 min  test run: FINISHED in 40.80s  (reward +21.00, deaths 0)  practice avg 98.3%  best time 36.14s
+  22.81M steps    42.3 min  test run: FINISHED in 37.68s  (reward +20.47, deaths 1)  practice avg 98.3%  best time 36.14s
+  22.86M steps    42.4 min  test run: FINISHED in 43.36s  (reward +20.82, deaths 0)  practice avg 98.3%  best time 36.14s
+  22.90M steps    42.5 min  test run: FINISHED in 39.52s  (reward +21.20, deaths 0)  practice avg 98.9%  best time 36.14s
+  22.94M steps    42.5 min  test run: FINISHED in 40.58s  (reward +20.17, deaths 1)  practice avg 98.9%  best time 36.14s
+  22.98M steps    42.6 min  test run: FINISHED in 44.38s  (reward +19.72, deaths 1)  practice avg 99.0%  best time 36.14s
+  23.02M steps    42.7 min  test run: FINISHED in 38.92s  (reward +20.34, deaths 1)  practice avg 99.0%  best time 36.14s
+  23.06M steps    42.8 min  test run: FINISHED in 40.32s  (reward +21.18, deaths 0)  practice avg 99.1%  best time 36.14s
+  23.10M steps    42.8 min  test run: FINISHED in 38.14s  (reward +21.40, deaths 0)  practice avg 99.1%  best time 36.14s
+  23.14M steps    42.9 min  test run: FINISHED in 41.96s  (reward +19.04, deaths 2)  practice avg 99.1%  best time 36.14s
+  23.18M steps    43.0 min  test run: FINISHED in 36.18s  (reward +21.58, deaths 0)  practice avg 99.1%  best time 36.14s
+  23.22M steps    43.1 min  test run: FINISHED in 39.06s  (reward +20.30, deaths 1)  practice avg 99.0%  best time 36.14s
+  23.27M steps    43.1 min  test run: FINISHED in 37.08s  (reward +21.52, deaths 0)  practice avg 99.0%  best time 36.14s
+  23.31M steps    43.2 min  test run: FINISHED in 41.32s  (reward +20.97, deaths 0)  practice avg 99.0%  best time 36.14s
+  23.35M steps    43.3 min  test run: FINISHED in 40.42s  (reward +21.05, deaths 0)  practice avg 98.9%  best time 36.14s
+  23.39M steps    43.4 min  test run: FINISHED in 65.00s  (reward +16.67, deaths 2)  practice avg 99.0%  best time 36.14s
+  23.43M steps    43.4 min  test run: FINISHED in 41.12s  (reward +21.06, deaths 0)  practice avg 99.0%  best time 36.14s
+  23.47M steps    43.5 min  test run: FINISHED in 38.08s  (reward +21.42, deaths 0)  practice avg 99.0%  best time 36.14s
+  23.51M steps    43.6 min  test run: FINISHED in 38.94s  (reward +21.34, deaths 0)  practice avg 99.0%  best time 36.14s
+  23.55M steps    43.7 min  test run: FINISHED in 39.52s  (reward +21.25, deaths 0)  practice avg 98.9%  best time 36.14s
+  23.59M steps    43.8 min  test run: FINISHED in 39.72s  (reward +21.20, deaths 0)  practice avg 98.9%  best time 36.14s
+  23.63M steps    43.8 min  test run: FINISHED in 39.22s  (reward +21.24, deaths 0)  practice avg 98.9%  best time 36.14s
+  23.67M steps    43.9 min  test run: FINISHED in 43.50s  (reward +19.87, deaths 1)  practice avg 98.9%  best time 36.14s
+  23.72M steps    44.0 min  test run: FINISHED in 57.08s  (reward +15.43, deaths 4)  practice avg 98.9%  best time 36.14s
+  23.76M steps    44.1 min  test run: FINISHED in 38.80s  (reward +21.34, deaths 0)  practice avg 99.0%  best time 36.14s
+  23.80M steps    44.1 min  test run: FINISHED in 38.48s  (reward +21.38, deaths 0)  practice avg 99.0%  best time 36.14s
+  23.84M steps    44.2 min  test run: FINISHED in 36.56s  (reward +21.57, deaths 0)  practice avg 98.9%  best time 36.14s
+  23.88M steps    44.3 min  test run: FINISHED in 38.40s  (reward +21.34, deaths 0)  practice avg 98.9%  best time 36.14s
+  23.92M steps    44.4 min  test run: FINISHED in 39.44s  (reward +20.23, deaths 1)  practice avg 98.9%  best time 36.14s
+  23.96M steps    44.4 min  test run: FINISHED in 38.82s  (reward +21.28, deaths 0)  practice avg 98.8%  best time 36.14s
+  24.00M steps    44.5 min  test run: FINISHED in 38.46s  (reward +21.33, deaths 0)  practice avg 98.8%  best time 36.14s
+  24.04M steps    44.6 min  test run: FINISHED in 37.86s  (reward +21.42, deaths 0)  practice avg 98.8%  best time 36.14s
+  24.08M steps    44.7 min  test run: FINISHED in 38.74s  (reward +21.34, deaths 0)  practice avg 98.9%  best time 36.14s
+  24.13M steps    44.7 min  test run: FINISHED in 42.44s  (reward +19.96, deaths 1)  practice avg 98.9%  best time 36.14s
+  24.17M steps    44.8 min  test run: FINISHED in 38.90s  (reward +21.19, deaths 0)  practice avg 98.9%  best time 36.14s
+  24.21M steps    44.9 min  test run: FINISHED in 39.18s  (reward +21.31, deaths 0)  practice avg 98.9%  best time 36.14s
+  24.25M steps    45.0 min  test run: FINISHED in 37.90s  (reward +21.38, deaths 0)  practice avg 98.9%  best time 36.14s
+  24.29M steps    45.0 min  test run: FINISHED in 46.22s  (reward +19.59, deaths 1)  practice avg 98.9%  best time 36.14s
+  24.33M steps    45.1 min  test run: FINISHED in 55.42s  (reward +18.62, deaths 1)  practice avg 98.9%  best time 36.14s
+  24.37M steps    45.2 min  test run: FINISHED in 39.58s  (reward +20.21, deaths 1)  practice avg 98.9%  best time 36.14s
+  24.41M steps    45.3 min  test run: FINISHED in 36.66s  (reward +20.57, deaths 1)  practice avg 98.9%  best time 36.14s
+  24.45M steps    45.3 min  test run: FINISHED in 41.98s  (reward +21.00, deaths 0)  practice avg 99.0%  best time 36.14s
+  24.49M steps    45.4 min  test run: FINISHED in 42.12s  (reward +20.00, deaths 1)  practice avg 99.0%  best time 36.14s
+  24.54M steps    45.5 min  test run: FINISHED in 38.34s  (reward +21.39, deaths 0)  practice avg 99.0%  best time 36.14s
+  24.58M steps    45.6 min  test run: FINISHED in 40.68s  (reward +20.14, deaths 1)  practice avg 99.0%  best time 36.14s
+  24.62M steps    45.6 min  test run: FINISHED in 37.14s  (reward +21.37, deaths 0)  practice avg 98.9%  best time 36.14s
+  24.66M steps    45.7 min  test run: FINISHED in 39.48s  (reward +21.27, deaths 0)  practice avg 98.9%  best time 36.14s
+  24.70M steps    45.8 min  test run: FINISHED in 39.30s  (reward +21.29, deaths 0)  practice avg 98.9%  best time 36.14s
+  24.74M steps    45.9 min  test run: FINISHED in 40.22s  (reward +21.08, deaths 0)  practice avg 98.9%  best time 36.14s
+  24.78M steps    45.9 min  test run: FINISHED in 38.80s  (reward +21.35, deaths 0)  practice avg 99.0%  best time 36.14s
+  24.82M steps    46.0 min  test run: FINISHED in 37.78s  (reward +21.41, deaths 0)  practice avg 99.0%  best time 36.14s
+  24.86M steps    46.1 min  test run: FINISHED in 53.38s  (reward +18.84, deaths 1)  practice avg 98.9%  best time 36.14s
+  24.90M steps    46.2 min  test run: FINISHED in 42.38s  (reward +19.93, deaths 1)  practice avg 98.9%  best time 36.14s
+  24.94M steps    46.2 min  test run: FINISHED in 40.02s  (reward +20.14, deaths 1)  practice avg 99.0%  best time 36.14s
+  24.99M steps    46.3 min  test run: FINISHED in 37.82s  (reward +21.44, deaths 0)  practice avg 99.0%  best time 36.14s
+  25.03M steps    46.4 min  test run: FINISHED in 40.16s  (reward +21.16, deaths 0)  practice avg 99.0%  best time 36.14s
+  25.07M steps    46.5 min  test run: FINISHED in 38.70s  (reward +21.31, deaths 0)  practice avg 98.9%  best time 36.14s
+  25.11M steps    46.5 min  test run: FINISHED in 39.02s  (reward +21.32, deaths 0)  practice avg 98.9%  best time 36.14s
+  25.15M steps    46.6 min  test run: FINISHED in 40.78s  (reward +21.12, deaths 0)  practice avg 99.0%  best time 36.14s
+  25.19M steps    46.7 min  test run: FINISHED in 40.76s  (reward +21.08, deaths 0)  practice avg 98.9%  best time 36.14s
+  25.23M steps    46.8 min  test run: FINISHED in 40.80s  (reward +21.11, deaths 0)  practice avg 99.0%  best time 36.14s
+  25.27M steps    46.8 min  test run: FINISHED in 38.96s  (reward +21.34, deaths 0)  practice avg 99.0%  best time 36.14s
+  25.31M steps    46.9 min  test run: FINISHED in 39.74s  (reward +21.19, deaths 0)  practice avg 98.9%  best time 36.14s
+  25.35M steps    47.0 min  test run: FINISHED in 38.72s  (reward +21.36, deaths 0)  practice avg 98.9%  best time 36.14s
+  25.40M steps    47.0 min  test run: FINISHED in 40.94s  (reward +21.11, deaths 0)  practice avg 99.0%  best time 36.14s
+  25.44M steps    47.1 min  test run: FINISHED in 37.96s  (reward +21.44, deaths 0)  practice avg 99.0%  best time 36.14s
+  25.48M steps    47.2 min  test run: FINISHED in 40.92s  (reward +20.15, deaths 1)  practice avg 99.0%  best time 36.14s
+  25.52M steps    47.3 min  test run: FINISHED in 42.30s  (reward +20.00, deaths 1)  practice avg 99.0%  best time 36.14s
+  25.56M steps    47.3 min  test run: FINISHED in 39.04s  (reward +21.33, deaths 0)  practice avg 99.0%  best time 36.14s
+  25.60M steps    47.4 min  test run: FINISHED in 39.40s  (reward +21.26, deaths 0)  practice avg 99.0%  best time 36.14s
+  25.64M steps    47.5 min  test run: FINISHED in 39.52s  (reward +21.22, deaths 0)  practice avg 99.0%  best time 36.14s
+  25.68M steps    47.6 min  test run: FINISHED in 38.76s  (reward +21.30, deaths 0)  practice avg 99.0%  best time 36.14s
+  25.72M steps    47.6 min  test run: FINISHED in 37.00s  (reward +21.52, deaths 0)  practice avg 98.2%  best time 36.14s
+  25.76M steps    47.7 min  test run: FINISHED in 39.72s  (reward +21.25, deaths 0)  practice avg 98.2%  best time 36.14s
+  25.80M steps    47.8 min  test run: FINISHED in 38.74s  (reward +21.38, deaths 0)  practice avg 98.2%  best time 36.14s
+  25.85M steps    47.9 min  test run: FINISHED in 39.62s  (reward +21.11, deaths 0)  practice avg 98.2%  best time 36.14s
+  25.89M steps    48.0 min  test run: FINISHED in 39.24s  (reward +21.29, deaths 0)  practice avg 99.0%  best time 36.14s
+  25.93M steps    48.0 min  test run: FINISHED in 39.74s  (reward +20.24, deaths 1)  practice avg 99.0%  best time 36.14s
+  25.97M steps    48.1 min  test run: FINISHED in 38.40s  (reward +21.21, deaths 0)  practice avg 99.0%  best time 36.14s
+  26.01M steps    48.2 min  test run: FINISHED in 42.54s  (reward +19.94, deaths 1)  practice avg 99.1%  best time 36.14s
+  26.05M steps    48.3 min  test run: FINISHED in 40.16s  (reward +21.23, deaths 0)  practice avg 99.1%  best time 36.14s
+  26.09M steps    48.4 min  test run: FINISHED in 44.94s  (reward +19.71, deaths 1)  practice avg 99.1%  best time 36.14s
+  26.13M steps    48.4 min  test run: FINISHED in 42.58s  (reward +20.87, deaths 0)  practice avg 99.1%  best time 36.14s
+  26.17M steps    48.5 min  test run: FINISHED in 39.10s  (reward +21.34, deaths 0)  practice avg 99.1%  best time 36.14s
+  26.21M steps    48.6 min  test run: FINISHED in 38.56s  (reward +20.38, deaths 1)  practice avg 99.1%  best time 36.14s
+  26.26M steps    48.7 min  test run: FINISHED in 44.06s  (reward +19.79, deaths 1)  practice avg 99.0%  best time 36.14s
+  26.30M steps    48.8 min  test run: FINISHED in 37.90s  (reward +21.41, deaths 0)  practice avg 99.0%  best time 36.14s
+  26.34M steps    48.8 min  test run: FINISHED in 41.80s  (reward +21.06, deaths 0)  practice avg 99.0%  best time 36.14s
+  26.38M steps    48.9 min  test run: FINISHED in 37.10s  (reward +21.50, deaths 0)  practice avg 98.9%  best time 36.14s
+  26.42M steps    49.0 min  test run: FINISHED in 40.02s  (reward +20.20, deaths 1)  practice avg 98.9%  best time 36.14s
+  26.46M steps    49.0 min  test run: FINISHED in 37.64s  (reward +21.46, deaths 0)  practice avg 99.0%  best time 36.14s
+  26.50M steps    49.1 min  test run: FINISHED in 38.84s  (reward +21.34, deaths 0)  practice avg 99.0%  best time 36.14s
+  26.54M steps    49.2 min  test run: FINISHED in 42.08s  (reward +20.98, deaths 0)  practice avg 99.0%  best time 36.14s
+  26.58M steps    49.3 min  test run: FINISHED in 39.48s  (reward +21.23, deaths 0)  practice avg 99.0%  best time 36.14s
+  26.62M steps    49.4 min  test run: FINISHED in 38.64s  (reward +21.38, deaths 0)  practice avg 99.0%  best time 36.14s
+  26.66M steps    49.4 min  test run: FINISHED in 38.34s  (reward +21.37, deaths 0)  practice avg 98.9%  best time 36.14s
+  26.71M steps    49.5 min  test run: FINISHED in 40.68s  (reward +21.17, deaths 0)  practice avg 98.8%  best time 36.14s
+  26.75M steps    49.6 min  test run: FINISHED in 39.24s  (reward +20.25, deaths 1)  practice avg 98.9%  best time 36.14s
+  26.79M steps    49.6 min  test run: FINISHED in 38.48s  (reward +21.33, deaths 0)  practice avg 98.9%  best time 36.14s
+  26.83M steps    49.7 min  test run: FINISHED in 42.42s  (reward +20.94, deaths 0)  practice avg 98.9%  best time 36.14s
+  26.87M steps    49.8 min  test run: FINISHED in 38.82s  (reward +21.22, deaths 0)  practice avg 98.9%  best time 36.14s
+  26.91M steps    49.9 min  test run: FINISHED in 40.86s  (reward +21.08, deaths 0)  practice avg 98.9%  best time 36.14s
+  26.95M steps    49.9 min  test run: FINISHED in 37.46s  (reward +21.48, deaths 0)  practice avg 99.0%  best time 36.14s
+  26.99M steps    50.0 min  test run: FINISHED in 38.92s  (reward +21.32, deaths 0)  practice avg 98.9%  best time 36.14s
+  27.03M steps    50.1 min  test run: FINISHED in 38.74s  (reward +21.37, deaths 0)  practice avg 98.9%  best time 36.14s
+  27.07M steps    50.2 min  test run: FINISHED in 38.96s  (reward +21.27, deaths 0)  practice avg 98.9%  best time 36.14s
+  27.12M steps    50.2 min  test run: FINISHED in 39.82s  (reward +21.23, deaths 0)  practice avg 98.9%  best time 36.14s
+  27.16M steps    50.3 min  test run: FINISHED in 44.18s  (reward +19.74, deaths 1)  practice avg 98.9%  best time 36.14s
+  27.20M steps    50.4 min  test run: FINISHED in 39.08s  (reward +21.29, deaths 0)  practice avg 98.9%  best time 36.14s
+  27.24M steps    50.4 min  test run: FINISHED in 36.34s  (reward +21.59, deaths 0)  practice avg 98.9%  best time 36.14s
+  27.28M steps    50.5 min  test run: FINISHED in 37.18s  (reward +21.51, deaths 0)  practice avg 98.9%  best time 36.14s
+  27.32M steps    50.6 min  test run: FINISHED in 36.18s  (reward +21.48, deaths 0)  practice avg 98.9%  best time 36.14s
+  27.36M steps    50.7 min  test run: FINISHED in 34.78s  (reward +21.75, deaths 0)  practice avg 98.9%  best time 34.78s
+  27.40M steps    50.7 min  test run: FINISHED in 39.06s  (reward +21.30, deaths 0)  practice avg 98.9%  best time 34.78s
+  27.44M steps    50.8 min  test run: FINISHED in 38.84s  (reward +21.33, deaths 0)  practice avg 99.0%  best time 34.78s
+  27.48M steps    50.9 min  test run: FINISHED in 38.82s  (reward +21.21, deaths 0)  practice avg 99.0%  best time 34.78s
+  27.53M steps    50.9 min  test run: FINISHED in 39.14s  (reward +21.30, deaths 0)  practice avg 99.0%  best time 34.78s
+  27.57M steps    51.0 min  test run: FINISHED in 38.50s  (reward +21.32, deaths 0)  practice avg 99.0%  best time 34.78s
+  27.61M steps    51.1 min  test run: FINISHED in 36.64s  (reward +20.54, deaths 1)  practice avg 99.0%  best time 34.78s
+  27.65M steps    51.1 min  test run: FINISHED in 36.14s  (reward +21.59, deaths 0)  practice avg 99.0%  best time 34.78s
+  27.69M steps    51.2 min  test run: FINISHED in 39.20s  (reward +21.24, deaths 0)  practice avg 98.9%  best time 34.78s
+  27.73M steps    51.3 min  test run: FINISHED in 37.56s  (reward +21.45, deaths 0)  practice avg 98.9%  best time 34.78s
+  27.77M steps    51.3 min  test run: FINISHED in 41.32s  (reward +20.08, deaths 1)  practice avg 99.0%  best time 34.78s
+  27.81M steps    51.4 min  test run: FINISHED in 42.08s  (reward +20.00, deaths 1)  practice avg 99.0%  best time 34.78s
+  27.85M steps    51.5 min  test run: FINISHED in 38.14s  (reward +21.43, deaths 0)  practice avg 99.0%  best time 34.78s
+  27.89M steps    51.5 min  test run: FINISHED in 38.50s  (reward +21.38, deaths 0)  practice avg 99.0%  best time 34.78s
+  27.93M steps    51.6 min  test run: FINISHED in 37.02s  (reward +21.51, deaths 0)  practice avg 98.9%  best time 34.78s
+  27.98M steps    51.7 min  test run: FINISHED in 37.06s  (reward +21.49, deaths 0)  practice avg 98.9%  best time 34.78s
+  28.02M steps    51.7 min  test run: FINISHED in 37.94s  (reward +21.30, deaths 0)  practice avg 98.9%  best time 34.78s
+  28.06M steps    51.8 min  test run: FINISHED in 37.84s  (reward +21.44, deaths 0)  practice avg 98.9%  best time 34.78s
+  28.10M steps    51.9 min  test run: FINISHED in 37.90s  (reward +21.42, deaths 0)  practice avg 98.9%  best time 34.78s
+  28.14M steps    51.9 min  test run: FINISHED in 36.52s  (reward +21.55, deaths 0)  practice avg 98.8%  best time 34.78s
+  28.18M steps    52.0 min  test run: FINISHED in 38.08s  (reward +21.41, deaths 0)  practice avg 98.9%  best time 34.78s
+  28.22M steps    52.1 min  test run: FINISHED in 38.56s  (reward +21.40, deaths 0)  practice avg 98.9%  best time 34.78s
+  28.26M steps    52.1 min  test run: FINISHED in 37.98s  (reward +21.39, deaths 0)  practice avg 98.9%  best time 34.78s
+  28.30M steps    52.2 min  test run: FINISHED in 37.84s  (reward +20.43, deaths 1)  practice avg 98.9%  best time 34.78s
+  28.34M steps    52.3 min  test run: FINISHED in 41.60s  (reward +21.00, deaths 0)  practice avg 98.9%  best time 34.78s
+  28.39M steps    52.3 min  test run: FINISHED in 36.98s  (reward +21.54, deaths 0)  practice avg 98.8%  best time 34.78s
+  28.43M steps    52.4 min  test run: FINISHED in 37.76s  (reward +21.31, deaths 0)  practice avg 98.9%  best time 34.78s
+  28.47M steps    52.5 min  test run: FINISHED in 37.62s  (reward +21.37, deaths 0)  practice avg 98.9%  best time 34.78s
+  28.51M steps    52.5 min  test run: FINISHED in 37.46s  (reward +21.50, deaths 0)  practice avg 98.9%  best time 34.78s
+  28.55M steps    52.6 min  test run: FINISHED in 36.74s  (reward +21.47, deaths 0)  practice avg 98.9%  best time 34.78s
+  28.59M steps    52.7 min  test run: FINISHED in 38.94s  (reward +21.22, deaths 0)  practice avg 98.9%  best time 34.78s
+  28.63M steps    52.7 min  test run: FINISHED in 39.10s  (reward +21.31, deaths 0)  practice avg 98.9%  best time 34.78s
+  28.67M steps    52.8 min  test run: FINISHED in 39.58s  (reward +20.20, deaths 1)  practice avg 98.9%  best time 34.78s
+  28.71M steps    52.9 min  test run: FINISHED in 39.60s  (reward +21.11, deaths 0)  practice avg 98.9%  best time 34.78s
+  28.75M steps    52.9 min  test run: FINISHED in 39.98s  (reward +21.21, deaths 0)  practice avg 98.8%  best time 34.78s
+  28.79M steps    53.0 min  test run: FINISHED in 37.94s  (reward +21.41, deaths 0)  practice avg 98.8%  best time 34.78s
+  28.84M steps    53.1 min  test run: FINISHED in 37.90s  (reward +21.32, deaths 0)  practice avg 98.9%  best time 34.78s
+  28.88M steps    53.1 min  test run: FINISHED in 38.04s  (reward +21.27, deaths 0)  practice avg 98.9%  best time 34.78s
+  28.92M steps    53.2 min  test run: FINISHED in 38.08s  (reward +21.40, deaths 0)  practice avg 98.9%  best time 34.78s
+  28.96M steps    53.3 min  test run: FINISHED in 38.30s  (reward +21.41, deaths 0)  practice avg 98.9%  best time 34.78s
+  29.00M steps    53.3 min  test run: FINISHED in 39.42s  (reward +21.26, deaths 0)  practice avg 98.3%  best time 34.78s
+  29.04M steps    53.4 min  test run: FINISHED in 37.80s  (reward +21.44, deaths 0)  practice avg 98.3%  best time 34.78s
+  29.08M steps    53.5 min  test run: FINISHED in 37.70s  (reward +21.44, deaths 0)  practice avg 98.3%  best time 34.78s
+  29.12M steps    53.5 min  test run: FINISHED in 38.24s  (reward +21.41, deaths 0)  practice avg 98.9%  best time 34.78s
+  29.16M steps    53.6 min  test run: FINISHED in 38.96s  (reward +21.31, deaths 0)  practice avg 98.9%  best time 34.78s
+  29.20M steps    53.6 min  test run: FINISHED in 40.14s  (reward +21.06, deaths 0)  practice avg 98.9%  best time 34.78s
+  29.25M steps    53.7 min  test run: FINISHED in 37.56s  (reward +21.33, deaths 0)  practice avg 98.9%  best time 34.78s
+  29.29M steps    53.8 min  test run: FINISHED in 38.58s  (reward +21.36, deaths 0)  practice avg 98.9%  best time 34.78s
+  29.33M steps    53.8 min  test run: FINISHED in 37.02s  (reward +21.50, deaths 0)  practice avg 98.9%  best time 34.78s
+  29.37M steps    53.9 min  test run: FINISHED in 37.54s  (reward +21.33, deaths 0)  practice avg 98.9%  best time 34.78s
+  29.41M steps    54.0 min  test run: FINISHED in 39.12s  (reward +20.29, deaths 1)  practice avg 98.9%  best time 34.78s
+  29.45M steps    54.0 min  test run: FINISHED in 38.18s  (reward +21.27, deaths 0)  practice avg 98.9%  best time 34.78s
+  29.49M steps    54.1 min  test run: FINISHED in 36.42s  (reward +21.45, deaths 0)  practice avg 98.9%  best time 34.78s
+  29.53M steps    54.1 min  test run: FINISHED in 41.56s  (reward +20.07, deaths 1)  practice avg 98.9%  best time 34.78s
+  29.57M steps    54.3 min  test run: FINISHED in 38.60s  (reward +21.35, deaths 0)  practice avg 98.9%  best time 34.78s
+  29.61M steps    54.5 min  test run: FINISHED in 36.16s  (reward +20.49, deaths 1)  practice avg 98.9%  best time 34.78s
+  29.66M steps    54.6 min  test run: FINISHED in 43.36s  (reward +19.90, deaths 1)  practice avg 98.9%  best time 34.78s
+  29.70M steps    54.8 min  test run: FINISHED in 41.08s  (reward +21.11, deaths 0)  practice avg 98.9%  best time 34.78s
+  29.74M steps    55.0 min  test run: FINISHED in 41.32s  (reward +21.03, deaths 0)  practice avg 99.0%  best time 34.78s
+  29.78M steps    55.1 min  test run: FINISHED in 36.90s  (reward +21.51, deaths 0)  practice avg 99.0%  best time 34.78s
+  29.82M steps    55.3 min  test run: FINISHED in 41.36s  (reward +21.06, deaths 0)  practice avg 99.0%  best time 34.78s
+  29.86M steps    55.5 min  test run: FINISHED in 38.14s  (reward +21.35, deaths 0)  practice avg 99.0%  best time 34.78s
+  29.90M steps    55.6 min  test run: FINISHED in 37.38s  (reward +20.48, deaths 1)  practice avg 99.0%  best time 34.78s
+  29.94M steps    55.7 min  test run: FINISHED in 39.46s  (reward +21.12, deaths 0)  practice avg 99.0%  best time 34.78s
+  29.98M steps    55.9 min  test run: FINISHED in 37.92s  (reward +20.39, deaths 1)  practice avg 98.9%  best time 34.78s
+  30.02M steps    56.0 min  test run: FINISHED in 38.42s  (reward +20.28, deaths 1)  practice avg 99.0%  best time 34.78s
+  30.06M steps    56.0 min  test run: FINISHED in 41.82s  (reward +19.99, deaths 1)  practice avg 99.0%  best time 34.78s
+  30.11M steps    56.1 min  test run: FINISHED in 37.06s  (reward +21.51, deaths 0)  practice avg 99.0%  best time 34.78s
+  30.15M steps    56.2 min  test run: FINISHED in 37.72s  (reward +21.45, deaths 0)  practice avg 99.1%  best time 34.78s
+  30.19M steps    56.2 min  test run: FINISHED in 38.38s  (reward +21.38, deaths 0)  practice avg 99.0%  best time 34.78s
+  30.23M steps    56.3 min  test run: FINISHED in 38.16s  (reward +21.41, deaths 0)  practice avg 99.0%  best time 34.78s
+  30.27M steps    56.4 min  test run: FINISHED in 37.96s  (reward +21.41, deaths 0)  practice avg 99.0%  best time 34.78s
+  30.31M steps    56.5 min  test run: FINISHED in 38.34s  (reward +21.40, deaths 0)  practice avg 99.0%  best time 34.78s
+  30.35M steps    56.5 min  test run: FINISHED in 41.08s  (reward +20.09, deaths 1)  practice avg 99.0%  best time 34.78s
+  30.39M steps    56.6 min  test run: FINISHED in 38.58s  (reward +21.35, deaths 0)  practice avg 99.0%  best time 34.78s
+  30.43M steps    56.6 min  test run: FINISHED in 39.02s  (reward +21.22, deaths 0)  practice avg 99.0%  best time 34.78s
+  30.47M steps    56.7 min  test run: FINISHED in 37.92s  (reward +21.45, deaths 0)  practice avg 99.0%  best time 34.78s
+  30.52M steps    56.8 min  test run: FINISHED in 37.86s  (reward +21.44, deaths 0)  practice avg 99.0%  best time 34.78s
+  30.56M steps    56.9 min  test run: FINISHED in 37.56s  (reward +21.47, deaths 0)  practice avg 99.0%  best time 34.78s
+  30.60M steps    56.9 min  test run: FINISHED in 41.60s  (reward +20.05, deaths 1)  practice avg 98.9%  best time 34.78s
+  30.64M steps    57.0 min  test run: FINISHED in 37.08s  (reward +21.50, deaths 0)  practice avg 98.9%  best time 34.78s
+  30.68M steps    57.1 min  test run: FINISHED in 37.64s  (reward +21.43, deaths 0)  practice avg 98.9%  best time 34.78s
+  30.72M steps    57.2 min  test run: FINISHED in 37.72s  (reward +21.45, deaths 0)  practice avg 98.9%  best time 34.78s
+  30.76M steps    57.3 min  test run: FINISHED in 37.48s  (reward +21.45, deaths 0)  practice avg 98.9%  best time 34.78s
+  30.80M steps    57.4 min  test run: FINISHED in 39.24s  (reward +21.30, deaths 0)  practice avg 99.0%  best time 34.78s
+  30.84M steps    57.4 min  test run: FINISHED in 38.58s  (reward +21.38, deaths 0)  practice avg 99.0%  best time 34.78s
+  30.88M steps    57.5 min  test run: FINISHED in 39.68s  (reward +21.26, deaths 0)  practice avg 99.0%  best time 34.78s
+  30.92M steps    57.6 min  test run: FINISHED in 37.96s  (reward +21.40, deaths 0)  practice avg 99.0%  best time 34.78s
+  30.97M steps    57.7 min  test run: FINISHED in 37.46s  (reward +21.33, deaths 0)  practice avg 99.0%  best time 34.78s
+  31.01M steps    57.8 min  test run: FINISHED in 38.20s  (reward +21.31, deaths 0)  practice avg 99.0%  best time 34.78s
+  31.05M steps    57.9 min  test run: FINISHED in 38.30s  (reward +20.43, deaths 1)  practice avg 99.0%  best time 34.78s
+  31.09M steps    57.9 min  test run: FINISHED in 38.30s  (reward +21.32, deaths 0)  practice avg 99.1%  best time 34.78s
+  31.13M steps    58.0 min  test run: FINISHED in 38.24s  (reward +21.27, deaths 0)  practice avg 99.1%  best time 34.78s
+  31.17M steps    58.1 min  test run: FINISHED in 37.22s  (reward +21.56, deaths 0)  practice avg 99.1%  best time 34.78s
+  31.21M steps    58.2 min  test run: FINISHED in 41.38s  (reward +19.09, deaths 2)  practice avg 99.0%  best time 34.78s
+  31.25M steps    58.3 min  test run: FINISHED in 39.70s  (reward +21.27, deaths 0)  practice avg 99.0%  best time 34.78s
+  31.29M steps    58.4 min  test run: FINISHED in 39.52s  (reward +21.14, deaths 0)  practice avg 99.0%  best time 34.78s
+  31.33M steps    58.4 min  test run: FINISHED in 52.90s  (reward +18.94, deaths 1)  practice avg 99.0%  best time 34.78s
+  31.38M steps    58.5 min  test run: FINISHED in 38.28s  (reward +21.39, deaths 0)  practice avg 99.0%  best time 34.78s
+  31.42M steps    58.6 min  test run: FINISHED in 38.00s  (reward +21.39, deaths 0)  practice avg 99.0%  best time 34.78s
+  31.46M steps    58.7 min  test run: FINISHED in 37.36s  (reward +21.36, deaths 0)  practice avg 99.1%  best time 34.78s
+  31.50M steps    58.8 min  test run: FINISHED in 38.26s  (reward +21.34, deaths 0)  practice avg 99.0%  best time 34.78s
+  31.54M steps    58.9 min  test run: FINISHED in 37.92s  (reward +21.44, deaths 0)  practice avg 98.9%  best time 34.78s
+  31.58M steps    59.0 min  test run: FINISHED in 38.50s  (reward +21.27, deaths 0)  practice avg 99.0%  best time 34.78s
+  31.62M steps    59.1 min  test run: FINISHED in 40.88s  (reward +20.11, deaths 1)  practice avg 98.9%  best time 34.78s
+  31.66M steps    59.1 min  test run: FINISHED in 37.84s  (reward +21.38, deaths 0)  practice avg 98.9%  best time 34.78s
+  31.70M steps    59.2 min  test run: FINISHED in 36.60s  (reward +21.55, deaths 0)  practice avg 98.9%  best time 34.78s
+  31.74M steps    59.3 min  test run: FINISHED in 38.64s  (reward +21.29, deaths 0)  practice avg 98.9%  best time 34.78s
+  31.78M steps    59.4 min  test run: FINISHED in 36.78s  (reward +20.56, deaths 1)  practice avg 98.9%  best time 34.78s
+  31.83M steps    59.5 min  test run: FINISHED in 37.76s  (reward +21.41, deaths 0)  practice avg 98.9%  best time 34.78s
+  31.87M steps    59.5 min  test run: FINISHED in 36.68s  (reward +21.60, deaths 0)  practice avg 98.9%  best time 34.78s
+  31.91M steps    59.6 min  test run: FINISHED in 39.04s  (reward +21.25, deaths 0)  practice avg 98.9%  best time 34.78s
+  31.95M steps    59.7 min  test run: FINISHED in 41.74s  (reward +20.00, deaths 1)  practice avg 98.9%  best time 34.78s
+  31.99M steps    59.8 min  test run: FINISHED in 38.02s  (reward +21.39, deaths 0)  practice avg 98.9%  best time 34.78s
+  32.03M steps    59.8 min  test run: FINISHED in 37.78s  (reward +21.33, deaths 0)  practice avg 98.9%  best time 34.78s
+  32.07M steps    59.9 min  test run: FINISHED in 35.98s  (reward +21.62, deaths 0)  practice avg 98.4%  best time 34.78s
+  32.11M steps    60.0 min  test run: FINISHED in 42.38s  (reward +19.99, deaths 1)  practice avg 98.4%  best time 34.78s
+  32.15M steps    60.0 min  test run: FINISHED in 37.52s  (reward +21.43, deaths 0)  practice avg 97.6%  best time 34.78s
+  32.19M steps    60.1 min  test run: FINISHED in 41.20s  (reward +20.09, deaths 1)  practice avg 97.6%  best time 34.78s
+  32.24M steps    60.2 min  test run: FINISHED in 53.30s  (reward +17.87, deaths 2)  practice avg 98.2%  best time 34.78s
+  32.28M steps    60.2 min  test run: FINISHED in 37.38s  (reward +21.48, deaths 0)  practice avg 98.3%  best time 34.78s
+  32.32M steps    60.3 min  test run: FINISHED in 38.42s  (reward +21.37, deaths 0)  practice avg 99.0%  best time 34.78s
+  32.36M steps    60.4 min  test run: FINISHED in 53.56s  (reward +18.83, deaths 1)  practice avg 99.0%  best time 34.78s
+  32.40M steps    60.5 min  test run: FINISHED in 53.40s  (reward +18.85, deaths 1)  practice avg 99.0%  best time 34.78s
+  32.44M steps    60.5 min  test run: FINISHED in 37.32s  (reward +21.35, deaths 0)  practice avg 99.0%  best time 34.78s
+  32.48M steps    60.6 min  test run: FINISHED in 38.40s  (reward +21.38, deaths 0)  practice avg 99.0%  best time 34.78s
+  32.52M steps    60.7 min  test run: FINISHED in 39.42s  (reward +21.14, deaths 0)  practice avg 99.0%  best time 34.78s
+  32.56M steps    60.7 min  test run: FINISHED in 37.60s  (reward +21.33, deaths 0)  practice avg 98.9%  best time 34.78s
+  32.60M steps    60.8 min  test run: FINISHED in 37.56s  (reward +21.33, deaths 0)  practice avg 98.9%  best time 34.78s
+  32.65M steps    60.9 min  test run: FINISHED in 38.60s  (reward +21.34, deaths 0)  practice avg 98.9%  best time 34.78s
+  32.69M steps    60.9 min  test run: FINISHED in 39.22s  (reward +21.28, deaths 0)  practice avg 98.9%  best time 34.78s
+  32.73M steps    61.0 min  test run: FINISHED in 37.98s  (reward +21.36, deaths 0)  practice avg 98.9%  best time 34.78s
+  32.77M steps    61.1 min  test run: FINISHED in 38.76s  (reward +21.23, deaths 0)  practice avg 99.0%  best time 34.78s
+  32.81M steps    61.1 min  test run: FINISHED in 37.56s  (reward +21.52, deaths 0)  practice avg 98.9%  best time 34.78s
+  32.85M steps    61.2 min  test run: FINISHED in 38.22s  (reward +21.39, deaths 0)  practice avg 98.9%  best time 34.78s
+  32.89M steps    61.3 min  test run: FINISHED in 37.94s  (reward +21.40, deaths 0)  practice avg 98.9%  best time 34.78s
+  32.93M steps    61.3 min  test run: FINISHED in 36.12s  (reward +21.62, deaths 0)  practice avg 98.9%  best time 34.78s
+  32.97M steps    61.4 min  test run: FINISHED in 36.48s  (reward +21.52, deaths 0)  practice avg 98.9%  best time 34.78s
+  33.01M steps    61.5 min  test run: FINISHED in 37.32s  (reward +21.48, deaths 0)  practice avg 98.8%  best time 34.78s
+  33.05M steps    61.6 min  test run: FINISHED in 38.14s  (reward +21.36, deaths 0)  practice avg 98.9%  best time 34.78s
+  33.10M steps    61.6 min  test run: FINISHED in 37.66s  (reward +21.49, deaths 0)  practice avg 98.9%  best time 34.78s
+  33.14M steps    61.7 min  test run: FINISHED in 35.72s  (reward +21.53, deaths 0)  practice avg 99.0%  best time 34.78s
+  33.18M steps    61.8 min  test run: FINISHED in 38.76s  (reward +21.29, deaths 0)  practice avg 99.0%  best time 34.78s
+  33.22M steps    61.8 min  test run: FINISHED in 37.92s  (reward +21.42, deaths 0)  practice avg 99.0%  best time 34.78s
+  33.26M steps    61.9 min  test run: FINISHED in 36.00s  (reward +21.69, deaths 0)  practice avg 98.9%  best time 34.78s
+  33.30M steps    62.0 min  test run: FINISHED in 37.62s  (reward +21.45, deaths 0)  practice avg 98.9%  best time 34.78s
+  33.34M steps    62.0 min  test run: FINISHED in 45.22s  (reward +18.71, deaths 2)  practice avg 98.9%  best time 34.78s
+  33.38M steps    62.1 min  test run: FINISHED in 36.92s  (reward +20.44, deaths 1)  practice avg 98.9%  best time 34.78s
+  33.42M steps    62.2 min  test run: FINISHED in 38.76s  (reward +20.34, deaths 1)  practice avg 98.9%  best time 34.78s
+  33.46M steps    62.3 min  test run: FINISHED in 37.68s  (reward +21.34, deaths 0)  practice avg 98.9%  best time 34.78s
+  33.51M steps    62.3 min  test run: FINISHED in 40.82s  (reward +20.09, deaths 1)  practice avg 98.9%  best time 34.78s
+  33.55M steps    62.4 min  test run: FINISHED in 37.08s  (reward +21.51, deaths 0)  practice avg 98.9%  best time 34.78s
+  33.59M steps    62.4 min  test run: FINISHED in 37.80s  (reward +21.41, deaths 0)  practice avg 98.9%  best time 34.78s
+  33.63M steps    62.5 min  test run: FINISHED in 37.66s  (reward +20.45, deaths 1)  practice avg 98.9%  best time 34.78s
+  33.67M steps    62.6 min  test run: FINISHED in 39.08s  (reward +21.29, deaths 0)  practice avg 98.9%  best time 34.78s
+  33.71M steps    62.6 min  test run: FINISHED in 36.42s  (reward +21.46, deaths 0)  practice avg 98.9%  best time 34.78s
+  33.75M steps    62.7 min  test run: FINISHED in 36.36s  (reward +20.57, deaths 1)  practice avg 98.9%  best time 34.78s
+  33.79M steps    62.8 min  test run: FINISHED in 42.50s  (reward +18.98, deaths 2)  practice avg 98.9%  best time 34.78s
+  33.83M steps    62.8 min  test run: FINISHED in 37.26s  (reward +21.49, deaths 0)  practice avg 98.9%  best time 34.78s
+  33.87M steps    62.9 min  test run: FINISHED in 42.46s  (reward +19.91, deaths 1)  practice avg 98.9%  best time 34.78s
+  33.91M steps    63.0 min  test run: FINISHED in 39.40s  (reward +21.26, deaths 0)  practice avg 98.8%  best time 34.78s
+  33.96M steps    63.0 min  test run: FINISHED in 39.26s  (reward +21.23, deaths 0)  practice avg 98.8%  best time 34.78s
+  34.00M steps    63.1 min  test run: FINISHED in 37.48s  (reward +20.33, deaths 1)  practice avg 98.9%  best time 34.78s
+  34.04M steps    63.1 min  test run: FINISHED in 38.12s  (reward +21.41, deaths 0)  practice avg 98.9%  best time 34.78s
+  34.08M steps    63.2 min  test run: FINISHED in 35.92s  (reward +20.63, deaths 1)  practice avg 98.9%  best time 34.78s
+  34.12M steps    63.3 min  test run: FINISHED in 38.34s  (reward +21.25, deaths 0)  practice avg 98.9%  best time 34.78s
+  34.16M steps    63.3 min  test run: FINISHED in 39.18s  (reward +21.25, deaths 0)  practice avg 98.9%  best time 34.78s
+  34.20M steps    63.4 min  test run: FINISHED in 43.58s  (reward +20.81, deaths 0)  practice avg 98.9%  best time 34.78s
+  34.24M steps    63.5 min  test run: FINISHED in 37.64s  (reward +21.43, deaths 0)  practice avg 98.9%  best time 34.78s
+  34.28M steps    63.5 min  test run: FINISHED in 42.72s  (reward +19.89, deaths 1)  practice avg 98.9%  best time 34.78s
+  34.32M steps    63.6 min  test run: FINISHED in 36.98s  (reward +21.48, deaths 0)  practice avg 98.9%  best time 34.78s
+  34.37M steps    63.7 min  test run: FINISHED in 39.22s  (reward +21.32, deaths 0)  practice avg 98.9%  best time 34.78s
+  34.41M steps    63.8 min  test run: FINISHED in 38.44s  (reward +21.34, deaths 0)  practice avg 98.9%  best time 34.78s
+  34.45M steps    63.9 min  test run: FINISHED in 37.54s  (reward +21.45, deaths 0)  practice avg 98.0%  best time 34.78s
+  34.49M steps    63.9 min  test run: FINISHED in 38.82s  (reward +21.36, deaths 0)  practice avg 97.9%  best time 34.78s
+  34.53M steps    64.0 min  test run: FINISHED in 43.80s  (reward +19.78, deaths 1)  practice avg 97.9%  best time 34.78s
+  34.57M steps    64.1 min  test run: FINISHED in 40.04s  (reward +21.17, deaths 0)  practice avg 98.9%  best time 34.78s
+  34.61M steps    64.2 min  test run: FINISHED in 37.78s  (reward +21.43, deaths 0)  practice avg 98.9%  best time 34.78s
+  34.65M steps    64.2 min  test run: FINISHED in 37.16s  (reward +21.51, deaths 0)  practice avg 98.9%  best time 34.78s
+  34.69M steps    64.3 min  test run: FINISHED in 39.94s  (reward +21.09, deaths 0)  practice avg 98.9%  best time 34.78s
+  34.73M steps    64.4 min  test run: FINISHED in 42.26s  (reward +19.99, deaths 1)  practice avg 99.0%  best time 34.78s
+  34.78M steps    64.4 min  test run: FINISHED in 39.78s  (reward +20.11, deaths 1)  practice avg 99.0%  best time 34.78s
+  34.82M steps    64.5 min  test run: FINISHED in 38.06s  (reward +21.25, deaths 0)  practice avg 99.0%  best time 34.78s
+  34.86M steps    64.5 min  test run: FINISHED in 37.80s  (reward +21.34, deaths 0)  practice avg 99.0%  best time 34.78s
+  34.90M steps    64.6 min  test run: FINISHED in 38.82s  (reward +21.37, deaths 0)  practice avg 98.9%  best time 34.78s
+  34.94M steps    64.7 min  test run: FINISHED in 37.44s  (reward +21.53, deaths 0)  practice avg 98.9%  best time 34.78s
+  34.98M steps    64.7 min  test run: FINISHED in 38.90s  (reward +21.30, deaths 0)  practice avg 98.9%  best time 34.78s
+  35.02M steps    64.8 min  test run: FINISHED in 38.22s  (reward +21.35, deaths 0)  practice avg 98.9%  best time 34.78s
+  35.06M steps    64.9 min  test run: FINISHED in 38.12s  (reward +21.35, deaths 0)  practice avg 98.9%  best time 34.78s
+  35.10M steps    64.9 min  test run: FINISHED in 37.32s  (reward +20.49, deaths 1)  practice avg 98.9%  best time 34.78s
+  35.14M steps    65.0 min  test run: FINISHED in 39.84s  (reward +21.24, deaths 0)  practice avg 99.0%  best time 34.78s
+  35.18M steps    65.1 min  test run: FINISHED in 37.94s  (reward +21.36, deaths 0)  practice avg 99.0%  best time 34.78s
+  35.23M steps    65.1 min  test run: FINISHED in 37.34s  (reward +21.35, deaths 0)  practice avg 98.9%  best time 34.78s
+  35.27M steps    65.2 min  test run: FINISHED in 37.50s  (reward +21.34, deaths 0)  practice avg 98.9%  best time 34.78s
+  35.31M steps    65.3 min  test run: FINISHED in 38.22s  (reward +20.37, deaths 1)  practice avg 98.8%  best time 34.78s
+  35.35M steps    65.3 min  test run: FINISHED in 37.02s  (reward +21.49, deaths 0)  practice avg 98.9%  best time 34.78s
+  35.39M steps    65.4 min  test run: FINISHED in 37.26s  (reward +21.52, deaths 0)  practice avg 98.9%  best time 34.78s
+  35.43M steps    65.5 min  test run: FINISHED in 38.34s  (reward +21.37, deaths 0)  practice avg 98.9%  best time 34.78s
+  35.47M steps    65.5 min  test run: FINISHED in 37.36s  (reward +21.35, deaths 0)  practice avg 98.9%  best time 34.78s
+  35.51M steps    65.6 min  test run: FINISHED in 38.02s  (reward +21.33, deaths 0)  practice avg 98.9%  best time 34.78s
+  35.55M steps    65.6 min  test run: FINISHED in 36.02s  (reward +20.62, deaths 1)  practice avg 98.9%  best time 34.78s
+  35.59M steps    65.7 min  test run: FINISHED in 38.22s  (reward +21.39, deaths 0)  practice avg 98.9%  best time 34.78s
+  35.64M steps    65.8 min  test run: FINISHED in 38.16s  (reward +21.37, deaths 0)  practice avg 99.0%  best time 34.78s
+  35.68M steps    65.8 min  test run: FINISHED in 37.90s  (reward +21.44, deaths 0)  practice avg 99.0%  best time 34.78s
+  35.72M steps    65.9 min  test run: FINISHED in 37.14s  (reward +21.52, deaths 0)  practice avg 99.0%  best time 34.78s
+  35.76M steps    66.0 min  test run: FINISHED in 37.68s  (reward +21.48, deaths 0)  practice avg 99.0%  best time 34.78s
+  35.80M steps    66.0 min  test run: FINISHED in 39.60s  (reward +21.13, deaths 0)  practice avg 99.0%  best time 34.78s
+  35.84M steps    66.1 min  test run: FINISHED in 38.50s  (reward +20.31, deaths 1)  practice avg 98.9%  best time 34.78s
+  35.88M steps    66.2 min  test run: FINISHED in 36.86s  (reward +21.40, deaths 0)  practice avg 99.0%  best time 34.78s
+  35.92M steps    66.2 min  test run: FINISHED in 36.78s  (reward +21.50, deaths 0)  practice avg 99.0%  best time 34.78s
+  35.96M steps    66.3 min  test run: FINISHED in 37.62s  (reward +20.44, deaths 1)  practice avg 98.9%  best time 34.78s
+  36.00M steps    66.3 min  test run: FINISHED in 37.40s  (reward +21.34, deaths 0)  practice avg 98.9%  best time 34.78s
+  36.04M steps    66.4 min  test run: FINISHED in 37.00s  (reward +20.48, deaths 1)  practice avg 98.9%  best time 34.78s
+  36.09M steps    66.5 min  test run: FINISHED in 37.18s  (reward +20.51, deaths 1)  practice avg 99.0%  best time 34.78s
+  36.13M steps    66.5 min  test run: FINISHED in 37.12s  (reward +21.51, deaths 0)  practice avg 98.9%  best time 34.78s
+  36.17M steps    66.6 min  test run: FINISHED in 38.52s  (reward +21.32, deaths 0)  practice avg 98.9%  best time 34.78s
+  36.21M steps    66.7 min  test run: FINISHED in 41.86s  (reward +19.99, deaths 1)  practice avg 98.9%  best time 34.78s
+  36.25M steps    66.7 min  test run: FINISHED in 38.30s  (reward +20.36, deaths 1)  practice avg 98.8%  best time 34.78s
+  36.29M steps    66.8 min  test run: FINISHED in 37.48s  (reward +21.45, deaths 0)  practice avg 98.9%  best time 34.78s
+  36.33M steps    66.9 min  test run: FINISHED in 37.78s  (reward +21.33, deaths 0)  practice avg 98.9%  best time 34.78s
+  36.37M steps    66.9 min  test run: FINISHED in 36.72s  (reward +20.55, deaths 1)  practice avg 98.9%  best time 34.78s
+  36.41M steps    67.0 min  test run: FINISHED in 38.36s  (reward +21.37, deaths 0)  practice avg 98.9%  best time 34.78s
+  36.45M steps    67.0 min  test run: FINISHED in 39.92s  (reward +19.19, deaths 2)  practice avg 98.9%  best time 34.78s
+  36.50M steps    67.1 min  test run: FINISHED in 38.14s  (reward +20.39, deaths 1)  practice avg 98.9%  best time 34.78s
+  36.54M steps    67.2 min  test run: FINISHED in 37.44s  (reward +21.46, deaths 0)  practice avg 98.9%  best time 34.78s
+  36.58M steps    67.3 min  test run:  58.0% of the route  (reward -0.98, deaths 0)  practice avg 98.9%  best time 34.78s
+  36.62M steps    67.3 min  test run: FINISHED in 38.10s  (reward +20.43, deaths 1)  practice avg 98.9%  best time 34.78s
+  36.66M steps    67.4 min  test run: FINISHED in 37.98s  (reward +21.42, deaths 0)  practice avg 98.9%  best time 34.78s
+  36.70M steps    67.4 min  test run: FINISHED in 38.32s  (reward +20.39, deaths 1)  practice avg 98.9%  best time 34.78s
+  36.74M steps    67.5 min  test run: FINISHED in 37.08s  (reward +21.47, deaths 0)  practice avg 98.9%  best time 34.78s
+  36.78M steps    67.6 min  test run: FINISHED in 37.90s  (reward +20.41, deaths 1)  practice avg 98.9%  best time 34.78s
+  36.82M steps    67.6 min  test run: FINISHED in 43.14s  (reward +19.85, deaths 1)  practice avg 98.9%  best time 34.78s
+  36.86M steps    67.7 min  test run: FINISHED in 38.48s  (reward +20.37, deaths 1)  practice avg 98.9%  best time 34.78s
+  36.90M steps    67.8 min  test run: FINISHED in 39.24s  (reward +20.25, deaths 1)  practice avg 99.0%  best time 34.78s
+  36.95M steps    67.9 min  test run: FINISHED in 37.40s  (reward +20.47, deaths 1)  practice avg 99.0%  best time 34.78s
+  36.99M steps    67.9 min  test run: FINISHED in 37.90s  (reward +21.45, deaths 0)  practice avg 99.0%  best time 34.78s
+  37.03M steps    68.0 min  test run: FINISHED in 37.94s  (reward +21.41, deaths 0)  practice avg 99.0%  best time 34.78s
+  37.07M steps    68.1 min  test run: FINISHED in 38.06s  (reward +21.36, deaths 0)  practice avg 99.0%  best time 34.78s
+  37.11M steps    68.1 min  test run: FINISHED in 42.62s  (reward +18.91, deaths 2)  practice avg 99.0%  best time 34.78s
+  37.15M steps    68.2 min  test run: FINISHED in 39.04s  (reward +21.36, deaths 0)  practice avg 99.0%  best time 34.78s
+  37.19M steps    68.3 min  test run: FINISHED in 37.76s  (reward +21.43, deaths 0)  practice avg 99.0%  best time 34.78s
+  37.23M steps    68.3 min  test run: FINISHED in 37.68s  (reward +21.41, deaths 0)  practice avg 99.0%  best time 34.78s
+  37.27M steps    68.4 min  test run: FINISHED in 38.12s  (reward +21.39, deaths 0)  practice avg 98.9%  best time 34.78s
+  37.31M steps    68.5 min  test run: FINISHED in 39.88s  (reward +21.09, deaths 0)  practice avg 98.9%  best time 34.78s
+  37.36M steps    68.5 min  test run: FINISHED in 38.08s  (reward +20.39, deaths 1)  practice avg 98.9%  best time 34.78s
+  37.40M steps    68.6 min  test run: FINISHED in 38.48s  (reward +21.37, deaths 0)  practice avg 98.9%  best time 34.78s
+  37.44M steps    68.7 min  test run: FINISHED in 37.62s  (reward +21.33, deaths 0)  practice avg 98.9%  best time 34.78s
+  37.48M steps    68.7 min  test run: FINISHED in 36.18s  (reward +20.58, deaths 1)  practice avg 98.9%  best time 34.78s
+  37.52M steps    68.8 min  test run: FINISHED in 42.14s  (reward +19.96, deaths 1)  practice avg 98.9%  best time 34.78s
+  37.56M steps    68.9 min  test run: FINISHED in 43.40s  (reward +19.87, deaths 1)  practice avg 98.9%  best time 34.78s
+  37.60M steps    68.9 min  test run: FINISHED in 36.08s  (reward +20.64, deaths 1)  practice avg 98.9%  best time 34.78s
+  37.64M steps    69.0 min  test run: FINISHED in 38.32s  (reward +21.37, deaths 0)  practice avg 98.9%  best time 34.78s
+  37.68M steps    69.1 min  test run: FINISHED in 39.38s  (reward +21.14, deaths 0)  practice avg 98.9%  best time 34.78s
+  37.72M steps    69.1 min  test run: FINISHED in 37.50s  (reward +21.33, deaths 0)  practice avg 98.9%  best time 34.78s
+  37.77M steps    69.2 min  test run: FINISHED in 37.52s  (reward +21.33, deaths 0)  practice avg 98.9%  best time 34.78s
+  37.81M steps    69.2 min  test run: FINISHED in 38.72s  (reward +21.33, deaths 0)  practice avg 99.0%  best time 34.78s
+  37.85M steps    69.3 min  test run: FINISHED in 40.88s  (reward +20.12, deaths 1)  practice avg 99.0%  best time 34.78s
+  37.89M steps    69.4 min  test run: FINISHED in 39.68s  (reward +21.21, deaths 0)  practice avg 98.9%  best time 34.78s
+  37.93M steps    69.4 min  test run: FINISHED in 37.12s  (reward +21.57, deaths 0)  practice avg 99.0%  best time 34.78s
+  37.97M steps    69.5 min  test run: FINISHED in 38.96s  (reward +21.31, deaths 0)  practice avg 98.9%  best time 34.78s
+  38.01M steps    69.6 min  test run: FINISHED in 36.52s  (reward +21.45, deaths 0)  practice avg 98.9%  best time 34.78s
+  38.05M steps    69.6 min  test run: FINISHED in 38.54s  (reward +21.22, deaths 0)  practice avg 98.9%  best time 34.78s
+  38.09M steps    69.7 min  test run: FINISHED in 36.74s  (reward +21.48, deaths 0)  practice avg 98.9%  best time 34.78s
+  38.13M steps    69.8 min  test run: FINISHED in 37.84s  (reward +20.37, deaths 1)  practice avg 98.9%  best time 34.78s
+  38.17M steps    69.8 min  test run: FINISHED in 38.76s  (reward +21.30, deaths 0)  practice avg 98.9%  best time 34.78s
+  38.22M steps    69.9 min  test run: FINISHED in 38.56s  (reward +21.35, deaths 0)  practice avg 98.9%  best time 34.78s
+  38.26M steps    70.0 min  test run: FINISHED in 36.62s  (reward +21.58, deaths 0)  practice avg 98.9%  best time 34.78s
+  38.30M steps    70.0 min  test run: FINISHED in 38.20s  (reward +21.34, deaths 0)  practice avg 98.8%  best time 34.78s
+  38.34M steps    70.1 min  test run: FINISHED in 37.34s  (reward +21.44, deaths 0)  practice avg 98.8%  best time 34.78s
+  38.38M steps    70.2 min  test run: FINISHED in 37.84s  (reward +21.41, deaths 0)  practice avg 98.9%  best time 34.78s
+  38.42M steps    70.2 min  test run: FINISHED in 37.76s  (reward +21.40, deaths 0)  practice avg 98.9%  best time 34.78s
+  38.46M steps    70.3 min  test run: FINISHED in 39.50s  (reward +21.20, deaths 0)  practice avg 98.9%  best time 34.78s
+  38.50M steps    70.3 min  test run: FINISHED in 37.66s  (reward +21.48, deaths 0)  practice avg 98.9%  best time 34.78s
+  38.54M steps    70.4 min  test run: FINISHED in 37.20s  (reward +21.48, deaths 0)  practice avg 98.9%  best time 34.78s
+  38.58M steps    70.5 min  test run: FINISHED in 43.14s  (reward +19.91, deaths 1)  practice avg 98.9%  best time 34.78s
+  38.63M steps    70.5 min  test run: FINISHED in 42.50s  (reward +19.90, deaths 1)  practice avg 98.9%  best time 34.78s
+  38.67M steps    70.6 min  test run: FINISHED in 37.34s  (reward +21.45, deaths 0)  practice avg 98.9%  best time 34.78s
+  38.71M steps    70.7 min  test run: FINISHED in 36.42s  (reward +21.54, deaths 0)  practice avg 98.9%  best time 34.78s
+  38.75M steps    70.7 min  test run: FINISHED in 45.02s  (reward +18.65, deaths 2)  practice avg 98.9%  best time 34.78s
+  38.79M steps    70.8 min  test run: FINISHED in 42.82s  (reward +19.94, deaths 1)  practice avg 98.9%  best time 34.78s
+  38.83M steps    70.9 min  test run: FINISHED in 39.12s  (reward +21.27, deaths 0)  practice avg 98.9%  best time 34.78s
+  38.87M steps    70.9 min  test run: FINISHED in 42.24s  (reward +19.94, deaths 1)  practice avg 98.9%  best time 34.78s
+  38.91M steps    71.0 min  test run: FINISHED in 47.30s  (reward +18.49, deaths 2)  practice avg 98.9%  best time 34.78s
+  38.95M steps    71.1 min  test run: FINISHED in 36.72s  (reward +21.48, deaths 0)  practice avg 98.8%  best time 34.78s
+  38.99M steps    71.1 min  test run: FINISHED in 39.90s  (reward +21.19, deaths 0)  practice avg 98.8%  best time 34.78s
+  39.03M steps    71.2 min  test run: FINISHED in 39.90s  (reward +20.23, deaths 1)  practice avg 98.9%  best time 34.78s
+  39.08M steps    71.3 min  test run: FINISHED in 36.80s  (reward +21.52, deaths 0)  practice avg 98.9%  best time 34.78s
+  39.12M steps    71.3 min  test run: FINISHED in 37.44s  (reward +21.48, deaths 0)  practice avg 98.9%  best time 34.78s
+  39.16M steps    71.4 min  test run: FINISHED in 38.24s  (reward +21.40, deaths 0)  practice avg 98.9%  best time 34.78s
+  39.20M steps    71.4 min  test run: FINISHED in 37.60s  (reward +21.46, deaths 0)  practice avg 98.9%  best time 34.78s
+  39.24M steps    71.5 min  test run: FINISHED in 45.22s  (reward +17.65, deaths 3)  practice avg 99.0%  best time 34.78s
+  39.28M steps    71.6 min  test run: FINISHED in 37.92s  (reward +21.43, deaths 0)  practice avg 99.0%  best time 34.78s
+  39.32M steps    71.6 min  test run: FINISHED in 35.76s  (reward +21.61, deaths 0)  practice avg 99.0%  best time 34.78s
+  39.36M steps    71.7 min  test run: FINISHED in 37.68s  (reward +21.48, deaths 0)  practice avg 99.0%  best time 34.78s
+  39.40M steps    71.8 min  test run: FINISHED in 39.20s  (reward +21.31, deaths 0)  practice avg 99.0%  best time 34.78s
+  39.44M steps    71.9 min  test run: FINISHED in 36.26s  (reward +21.58, deaths 0)  practice avg 99.0%  best time 34.78s
+  39.49M steps    71.9 min  test run: FINISHED in 37.72s  (reward +21.50, deaths 0)  practice avg 99.1%  best time 34.78s
+  39.53M steps    72.0 min  test run: FINISHED in 37.42s  (reward +21.52, deaths 0)  practice avg 99.1%  best time 34.78s
+  39.57M steps    72.1 min  test run: FINISHED in 38.22s  (reward +21.38, deaths 0)  practice avg 99.0%  best time 34.78s
+  39.61M steps    72.1 min  test run: FINISHED in 38.58s  (reward +21.37, deaths 0)  practice avg 99.0%  best time 34.78s
+  39.65M steps    72.2 min  test run: FINISHED in 37.52s  (reward +21.49, deaths 0)  practice avg 99.0%  best time 34.78s
+  39.69M steps    72.2 min  test run: FINISHED in 37.42s  (reward +21.52, deaths 0)  practice avg 99.0%  best time 34.78s
+  39.73M steps    72.3 min  test run: FINISHED in 36.80s  (reward +21.59, deaths 0)  practice avg 99.1%  best time 34.78s
+  39.77M steps    72.4 min  test run: FINISHED in 43.74s  (reward +19.84, deaths 1)  practice avg 99.1%  best time 34.78s
+  39.81M steps    72.4 min  test run: FINISHED in 38.84s  (reward +21.36, deaths 0)  practice avg 99.0%  best time 34.78s
+  39.85M steps    72.5 min  test run: FINISHED in 39.20s  (reward +21.25, deaths 0)  practice avg 99.0%  best time 34.78s
+  39.90M steps    72.6 min  test run: FINISHED in 37.58s  (reward +21.52, deaths 0)  practice avg 99.1%  best time 34.78s
+  39.94M steps    72.6 min  test run: FINISHED in 38.02s  (reward +21.42, deaths 0)  practice avg 99.1%  best time 34.78s
+  39.98M steps    72.7 min  test run: FINISHED in 38.50s  (reward +21.36, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.02M steps    72.8 min  test run: FINISHED in 37.26s  (reward +21.47, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.06M steps    72.8 min  test run: FINISHED in 37.40s  (reward +21.50, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.10M steps    72.9 min  test run: FINISHED in 37.64s  (reward +21.48, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.14M steps    73.0 min  test run: FINISHED in 36.66s  (reward +21.42, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.18M steps    73.1 min  test run: FINISHED in 37.10s  (reward +21.49, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.22M steps    73.1 min  test run: FINISHED in 35.98s  (reward +21.66, deaths 0)  practice avg 98.9%  best time 34.78s
+  40.26M steps    73.2 min  test run: FINISHED in 37.80s  (reward +21.46, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.30M steps    73.2 min  test run: FINISHED in 36.58s  (reward +21.59, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.35M steps    73.3 min  test run: FINISHED in 37.22s  (reward +21.49, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.39M steps    73.4 min  test run: FINISHED in 37.46s  (reward +21.45, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.43M steps    73.4 min  test run: FINISHED in 38.22s  (reward +21.38, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.47M steps    73.5 min  test run: FINISHED in 38.60s  (reward +21.40, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.51M steps    73.6 min  test run: FINISHED in 39.78s  (reward +21.11, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.55M steps    73.6 min  test run: FINISHED in 38.82s  (reward +21.34, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.59M steps    73.7 min  test run: FINISHED in 37.44s  (reward +21.49, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.63M steps    73.7 min  test run: FINISHED in 37.86s  (reward +21.28, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.67M steps    73.8 min  test run: FINISHED in 37.96s  (reward +21.43, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.71M steps    73.9 min  test run: FINISHED in 39.46s  (reward +21.25, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.76M steps    73.9 min  test run: FINISHED in 37.52s  (reward +21.38, deaths 0)  practice avg 99.1%  best time 34.78s
+  40.80M steps    74.0 min  test run: FINISHED in 37.10s  (reward +21.51, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.84M steps    74.1 min  test run: FINISHED in 38.60s  (reward +21.35, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.88M steps    74.1 min  test run: FINISHED in 37.74s  (reward +21.42, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.92M steps    74.2 min  test run: FINISHED in 37.24s  (reward +21.47, deaths 0)  practice avg 99.0%  best time 34.78s
+  40.96M steps    74.3 min  test run: FINISHED in 38.00s  (reward +21.40, deaths 0)  practice avg 99.0%  best time 34.78s
+  41.00M steps    74.3 min  test run: FINISHED in 38.46s  (reward +21.36, deaths 0)  practice avg 98.9%  best time 34.78s
+  41.04M steps    74.4 min  test run: FINISHED in 55.82s  (reward +19.56, deaths 0)  practice avg 98.9%  best time 34.78s
+  41.08M steps    74.4 min  test run: FINISHED in 38.64s  (reward +21.32, deaths 0)  practice avg 98.9%  best time 34.78s
+  41.12M steps    74.5 min  test run: FINISHED in 37.80s  (reward +21.38, deaths 0)  practice avg 99.0%  best time 34.78s
+  41.16M steps    74.6 min  test run: FINISHED in 39.04s  (reward +21.30, deaths 0)  practice avg 99.0%  best time 34.78s
+  41.21M steps    74.6 min  test run: FINISHED in 39.34s  (reward +21.24, deaths 0)  practice avg 98.9%  best time 34.78s
+  41.25M steps    74.7 min  test run: FINISHED in 38.26s  (reward +21.30, deaths 0)  practice avg 99.0%  best time 34.78s
+  41.29M steps    74.8 min  test run: FINISHED in 35.96s  (reward +21.64, deaths 0)  practice avg 99.0%  best time 34.78s
+  41.33M steps    74.8 min  test run: FINISHED in 37.02s  (reward +21.53, deaths 0)  practice avg 99.0%  best time 34.78s
+  41.37M steps    74.9 min  test run: FINISHED in 37.06s  (reward +21.37, deaths 0)  practice avg 99.0%  best time 34.78s
+  41.41M steps    75.0 min  test run: FINISHED in 38.66s  (reward +20.32, deaths 1)  practice avg 99.0%  best time 34.78s
+  41.45M steps    75.0 min  test run: FINISHED in 36.74s  (reward +21.56, deaths 0)  practice avg 98.9%  best time 34.78s
+  41.49M steps    75.1 min  test run: FINISHED in 38.22s  (reward +20.42, deaths 1)  practice avg 98.9%  best time 34.78s
+  41.53M steps    75.2 min  test run: FINISHED in 37.46s  (reward +21.48, deaths 0)  practice avg 98.9%  best time 34.78s
+  41.57M steps    75.2 min  test run: FINISHED in 42.30s  (reward +19.98, deaths 1)  practice avg 98.9%  best time 34.78s
+  41.62M steps    75.3 min  test run: FINISHED in 38.64s  (reward +21.38, deaths 0)  practice avg 98.9%  best time 34.78s
+  41.66M steps    75.4 min  test run: FINISHED in 43.78s  (reward +19.78, deaths 1)  practice avg 98.9%  best time 34.78s
+  41.70M steps    75.4 min  test run: FINISHED in 38.78s  (reward +21.20, deaths 0)  practice avg 98.9%  best time 34.78s
+  41.74M steps    75.5 min  test run: FINISHED in 39.32s  (reward +21.29, deaths 0)  practice avg 98.9%  best time 34.78s
+  41.78M steps    75.6 min  test run: FINISHED in 38.46s  (reward +21.41, deaths 0)  practice avg 99.0%  best time 34.78s
+  41.82M steps    75.6 min  test run: FINISHED in 38.68s  (reward +21.34, deaths 0)  practice avg 99.1%  best time 34.78s
+  41.86M steps    75.7 min  test run: FINISHED in 37.90s  (reward +21.46, deaths 0)  practice avg 99.1%  best time 34.78s
+  41.90M steps    75.7 min  test run: FINISHED in 38.70s  (reward +21.36, deaths 0)  practice avg 99.1%  best time 34.78s
+  41.94M steps    75.8 min  test run: FINISHED in 36.90s  (reward +21.50, deaths 0)  practice avg 99.1%  best time 34.78s
+  41.98M steps    75.9 min  test run: FINISHED in 38.82s  (reward +20.32, deaths 1)  practice avg 99.0%  best time 34.78s
+  42.02M steps    75.9 min  test run: FINISHED in 39.48s  (reward +21.24, deaths 0)  practice avg 98.9%  best time 34.78s
+  42.07M steps    76.0 min  test run: FINISHED in 36.78s  (reward +21.55, deaths 0)  practice avg 98.9%  best time 34.78s
+  42.11M steps    76.0 min  test run: FINISHED in 37.08s  (reward +21.53, deaths 0)  practice avg 98.9%  best time 34.78s
+  42.15M steps    76.1 min  test run: FINISHED in 38.92s  (reward +21.34, deaths 0)  practice avg 98.9%  best time 34.78s
+  42.19M steps    76.2 min  test run: FINISHED in 42.10s  (reward +19.99, deaths 1)  practice avg 99.0%  best time 34.78s
+  42.23M steps    76.2 min  test run: FINISHED in 38.66s  (reward +21.37, deaths 0)  practice avg 99.0%  best time 34.78s
+  42.27M steps    76.3 min  test run: FINISHED in 37.04s  (reward +21.52, deaths 0)  practice avg 99.0%  best time 34.78s
+  42.31M steps    76.4 min  test run: FINISHED in 37.82s  (reward +21.46, deaths 0)  practice avg 98.9%  best time 34.78s
+  42.35M steps    76.4 min  test run: FINISHED in 38.08s  (reward +21.41, deaths 0)  practice avg 98.9%  best time 34.78s
+  42.39M steps    76.5 min  test run: FINISHED in 39.42s  (reward +21.20, deaths 0)  practice avg 98.9%  best time 34.78s
+  42.43M steps    76.6 min  test run: FINISHED in 43.62s  (reward +19.85, deaths 1)  practice avg 99.0%  best time 34.78s
+  42.48M steps    76.6 min  test run: FINISHED in 37.94s  (reward +21.41, deaths 0)  practice avg 99.1%  best time 34.78s
+  42.52M steps    76.7 min  test run: FINISHED in 37.82s  (reward +21.44, deaths 0)  practice avg 99.1%  best time 34.78s
+  42.56M steps    76.7 min  test run: FINISHED in 37.92s  (reward +21.44, deaths 0)  practice avg 99.1%  best time 34.78s
+  42.60M steps    76.8 min  test run: FINISHED in 37.98s  (reward +21.42, deaths 0)  practice avg 99.0%  best time 34.78s
+  42.64M steps    76.9 min  test run: FINISHED in 40.28s  (reward +21.12, deaths 0)  practice avg 99.1%  best time 34.78s
+  42.68M steps    76.9 min  test run: FINISHED in 45.86s  (reward +19.61, deaths 1)  practice avg 99.1%  best time 34.78s
+  42.72M steps    77.0 min  test run: FINISHED in 38.20s  (reward +21.43, deaths 0)  practice avg 98.0%  best time 34.78s
+  42.76M steps    77.0 min  test run: FINISHED in 38.84s  (reward +21.34, deaths 0)  practice avg 98.0%  best time 34.78s
+  42.80M steps    77.1 min  test run: FINISHED in 43.84s  (reward +19.83, deaths 1)  practice avg 98.1%  best time 34.78s
+  42.84M steps    77.2 min  test run: FINISHED in 38.92s  (reward +21.33, deaths 0)  practice avg 99.1%  best time 34.78s
+  42.89M steps    77.2 min  test run: FINISHED in 36.78s  (reward +21.57, deaths 0)  practice avg 99.0%  best time 34.78s
+  42.93M steps    77.3 min  test run: FINISHED in 36.74s  (reward +21.60, deaths 0)  practice avg 99.0%  best time 34.78s
+  42.97M steps    77.4 min  test run: FINISHED in 38.86s  (reward +21.29, deaths 0)  practice avg 99.0%  best time 34.78s
+  43.01M steps    77.4 min  test run: FINISHED in 39.60s  (reward +21.19, deaths 0)  practice avg 99.0%  best time 34.78s
+  43.05M steps    77.5 min  test run: FINISHED in 38.04s  (reward +21.40, deaths 0)  practice avg 99.0%  best time 34.78s
+  43.09M steps    77.6 min  test run: FINISHED in 38.06s  (reward +21.47, deaths 0)  practice avg 99.0%  best time 34.78s
+  43.13M steps    77.6 min  test run: FINISHED in 39.18s  (reward +21.18, deaths 0)  practice avg 99.1%  best time 34.78s
+  43.17M steps    77.7 min  test run: FINISHED in 37.14s  (reward +21.35, deaths 0)  practice avg 99.0%  best time 34.78s
+  43.21M steps    77.7 min  test run: FINISHED in 43.24s  (reward +19.88, deaths 1)  practice avg 99.0%  best time 34.78s
+  43.25M steps    77.8 min  test run: FINISHED in 37.82s  (reward +21.47, deaths 0)  practice avg 99.0%  best time 34.78s
+  43.29M steps    77.9 min  test run: FINISHED in 38.58s  (reward +21.37, deaths 0)  practice avg 99.0%  best time 34.78s
+  43.34M steps    77.9 min  test run: FINISHED in 38.22s  (reward +20.37, deaths 1)  practice avg 99.1%  best time 34.78s
+  43.38M steps    78.0 min  test run: FINISHED in 37.96s  (reward +21.40, deaths 0)  practice avg 99.1%  best time 34.78s
+  43.42M steps    78.1 min  test run: FINISHED in 38.38s  (reward +21.35, deaths 0)  practice avg 99.1%  best time 34.78s
+  43.46M steps    78.1 min  test run: FINISHED in 34.02s  (reward +21.86, deaths 0)  practice avg 99.1%  best time 34.02s
+  43.50M steps    78.2 min  test run: FINISHED in 39.36s  (reward +21.28, deaths 0)  practice avg 99.1%  best time 34.02s
+  43.54M steps    78.2 min  test run: FINISHED in 37.94s  (reward +21.42, deaths 0)  practice avg 99.1%  best time 34.02s
+  43.58M steps    78.3 min  test run: FINISHED in 38.62s  (reward +21.32, deaths 0)  practice avg 99.1%  best time 34.02s
+  43.62M steps    78.4 min  test run: FINISHED in 36.10s  (reward +21.58, deaths 0)  practice avg 99.1%  best time 34.02s
+  43.66M steps    78.4 min  test run: FINISHED in 41.78s  (reward +20.04, deaths 1)  practice avg 99.1%  best time 34.02s
+  43.70M steps    78.5 min  test run: FINISHED in 39.02s  (reward +21.28, deaths 0)  practice avg 99.0%  best time 34.02s
+  43.75M steps    78.6 min  test run: FINISHED in 34.76s  (reward +21.75, deaths 0)  practice avg 99.0%  best time 34.02s
+  43.79M steps    78.6 min  test run: FINISHED in 37.74s  (reward +21.44, deaths 0)  practice avg 99.0%  best time 34.02s
+  43.83M steps    78.7 min  test run: FINISHED in 37.20s  (reward +21.49, deaths 0)  practice avg 99.0%  best time 34.02s
+  43.87M steps    78.7 min  test run: FINISHED in 37.88s  (reward +21.43, deaths 0)  practice avg 99.0%  best time 34.02s
+  43.91M steps    78.8 min  test run: FINISHED in 39.14s  (reward +21.30, deaths 0)  practice avg 99.0%  best time 34.02s
+  43.95M steps    78.9 min  test run: FINISHED in 37.58s  (reward +20.49, deaths 1)  practice avg 99.0%  best time 34.02s
+  43.99M steps    78.9 min  test run: FINISHED in 37.28s  (reward +21.43, deaths 0)  practice avg 99.0%  best time 34.02s
+  44.03M steps    79.0 min  test run: FINISHED in 38.58s  (reward +21.35, deaths 0)  practice avg 99.0%  best time 34.02s
+  44.07M steps    79.1 min  test run: FINISHED in 36.88s  (reward +21.50, deaths 0)  practice avg 99.0%  best time 34.02s
+  44.11M steps    79.1 min  test run: FINISHED in 37.12s  (reward +21.46, deaths 0)  practice avg 98.9%  best time 34.02s
+  44.15M steps    79.2 min  test run: FINISHED in 38.64s  (reward +21.35, deaths 0)  practice avg 99.0%  best time 34.02s
+  44.20M steps    79.3 min  test run: FINISHED in 37.08s  (reward +21.39, deaths 0)  practice avg 99.0%  best time 34.02s
+  44.24M steps    79.3 min  test run: FINISHED in 37.44s  (reward +21.49, deaths 0)  practice avg 99.0%  best time 34.02s
+  44.28M steps    79.4 min  test run: FINISHED in 36.72s  (reward +21.56, deaths 0)  practice avg 99.0%  best time 34.02s
+  44.32M steps    79.5 min  test run: FINISHED in 43.78s  (reward +19.78, deaths 1)  practice avg 98.9%  best time 34.02s
+  44.36M steps    79.5 min  test run: FINISHED in 38.06s  (reward +21.37, deaths 0)  practice avg 98.9%  best time 34.02s
+  44.40M steps    79.6 min  test run: FINISHED in 37.18s  (reward +21.51, deaths 0)  practice avg 98.9%  best time 34.02s
+  44.44M steps    79.6 min  test run: FINISHED in 37.18s  (reward +21.51, deaths 0)  practice avg 98.9%  best time 34.02s
+  44.48M steps    79.7 min  test run: FINISHED in 37.34s  (reward +21.46, deaths 0)  practice avg 98.9%  best time 34.02s
+  44.52M steps    79.8 min  test run: FINISHED in 38.08s  (reward +21.42, deaths 0)  practice avg 99.0%  best time 34.02s
+  44.56M steps    79.8 min  test run: FINISHED in 37.36s  (reward +21.47, deaths 0)  practice avg 99.0%  best time 34.02s
+  44.61M steps    79.9 min  test run: FINISHED in 37.20s  (reward +21.46, deaths 0)  practice avg 99.0%  best time 34.02s
+  44.65M steps    80.0 min  test run: FINISHED in 37.76s  (reward +21.45, deaths 0)  practice avg 99.0%  best time 34.02s
+  44.69M steps    80.0 min  test run: FINISHED in 37.16s  (reward +20.51, deaths 1)  practice avg 98.9%  best time 34.02s
+  44.73M steps    80.1 min  test run: FINISHED in 37.66s  (reward +21.43, deaths 0)  practice avg 99.0%  best time 34.02s
+  44.77M steps    80.2 min  test run: FINISHED in 38.08s  (reward +21.40, deaths 0)  practice avg 99.0%  best time 34.02s
+  44.81M steps    80.2 min  test run: FINISHED in 37.72s  (reward +21.44, deaths 0)  practice avg 99.0%  best time 34.02s
+  44.85M steps    80.3 min  test run: FINISHED in 37.72s  (reward +21.45, deaths 0)  practice avg 99.0%  best time 34.02s
+  44.89M steps    80.4 min  test run: FINISHED in 37.80s  (reward +21.46, deaths 0)  practice avg 99.0%  best time 34.02s
+  44.93M steps    80.4 min  test run: FINISHED in 38.98s  (reward +21.31, deaths 0)  practice avg 99.0%  best time 34.02s
+  44.97M steps    80.5 min  test run: FINISHED in 40.46s  (reward +21.17, deaths 0)  practice avg 99.0%  best time 34.02s
+  45.02M steps    80.6 min  test run: FINISHED in 37.60s  (reward +21.38, deaths 0)  practice avg 99.0%  best time 34.02s
+  45.06M steps    80.6 min  test run: FINISHED in 36.00s  (reward +21.63, deaths 0)  practice avg 99.0%  best time 34.02s
+  45.10M steps    80.7 min  test run: FINISHED in 37.36s  (reward +21.46, deaths 0)  practice avg 99.0%  best time 34.02s
+  45.14M steps    80.7 min  test run: FINISHED in 38.10s  (reward +21.41, deaths 0)  practice avg 99.0%  best time 34.02s
+  45.18M steps    80.8 min  test run: FINISHED in 37.28s  (reward +21.50, deaths 0)  practice avg 99.0%  best time 34.02s
+  45.22M steps    80.9 min  test run: FINISHED in 41.80s  (reward +19.96, deaths 1)  practice avg 98.9%  best time 34.02s
+  45.26M steps    80.9 min  test run: FINISHED in 37.20s  (reward +21.47, deaths 0)  practice avg 98.9%  best time 34.02s
+  45.30M steps    81.0 min  test run: FINISHED in 38.92s  (reward +21.30, deaths 0)  practice avg 98.9%  best time 34.02s
+  45.34M steps    81.1 min  test run: FINISHED in 37.16s  (reward +21.50, deaths 0)  practice avg 98.9%  best time 34.02s
+  45.38M steps    81.1 min  test run: FINISHED in 42.84s  (reward +19.93, deaths 1)  practice avg 99.0%  best time 34.02s
+  45.42M steps    81.2 min  test run: FINISHED in 38.62s  (reward +21.39, deaths 0)  practice avg 99.0%  best time 34.02s
+  45.47M steps    81.3 min  test run: FINISHED in 42.44s  (reward +20.97, deaths 0)  practice avg 99.0%  best time 34.02s
+  45.51M steps    81.3 min  test run: FINISHED in 37.82s  (reward +21.46, deaths 0)  practice avg 99.0%  best time 34.02s
+  45.55M steps    81.4 min  test run: FINISHED in 42.56s  (reward +19.95, deaths 1)  practice avg 99.0%  best time 34.02s
+  45.59M steps    81.5 min  test run: FINISHED in 37.38s  (reward +21.36, deaths 0)  practice avg 98.9%  best time 34.02s
+  45.63M steps    81.5 min  test run: FINISHED in 42.04s  (reward +20.00, deaths 1)  practice avg 98.9%  best time 34.02s
+  45.67M steps    81.6 min  test run: FINISHED in 43.44s  (reward +19.80, deaths 1)  practice avg 98.9%  best time 34.02s
+  45.71M steps    81.6 min  test run: FINISHED in 42.20s  (reward +19.96, deaths 1)  practice avg 99.0%  best time 34.02s
+  45.75M steps    81.7 min  test run: FINISHED in 36.28s  (reward +21.60, deaths 0)  practice avg 99.0%  best time 34.02s
+  45.79M steps    81.8 min  test run: FINISHED in 38.28s  (reward +21.36, deaths 0)  practice avg 99.0%  best time 34.02s
+  45.83M steps    81.8 min  test run: FINISHED in 36.20s  (reward +21.59, deaths 0)  practice avg 99.0%  best time 34.02s
+  45.88M steps    81.9 min  test run: FINISHED in 35.14s  (reward +21.75, deaths 0)  practice avg 98.9%  best time 34.02s
+  45.92M steps    82.0 min  test run: FINISHED in 37.56s  (reward +21.41, deaths 0)  practice avg 98.9%  best time 34.02s
+  45.96M steps    82.0 min  test run: FINISHED in 37.38s  (reward +21.46, deaths 0)  practice avg 98.9%  best time 34.02s
+  46.00M steps    82.1 min  test run: FINISHED in 38.00s  (reward +21.42, deaths 0)  practice avg 98.9%  best time 34.02s
+  46.04M steps    82.2 min  test run: FINISHED in 36.36s  (reward +21.59, deaths 0)  practice avg 98.8%  best time 34.02s
+  46.08M steps    82.2 min  test run: FINISHED in 39.48s  (reward +20.27, deaths 1)  practice avg 98.8%  best time 34.02s
+  46.12M steps    82.3 min  test run: FINISHED in 35.80s  (reward +21.65, deaths 0)  practice avg 98.8%  best time 34.02s
+  46.16M steps    82.4 min  test run: FINISHED in 36.22s  (reward +21.58, deaths 0)  practice avg 99.0%  best time 34.02s
+  46.20M steps    82.4 min  test run: FINISHED in 41.80s  (reward +20.02, deaths 1)  practice avg 98.2%  best time 34.02s
+  46.24M steps    82.5 min  test run: FINISHED in 41.20s  (reward +20.10, deaths 1)  practice avg 98.2%  best time 34.02s
+  46.28M steps    82.6 min  test run: FINISHED in 35.80s  (reward +21.65, deaths 0)  practice avg 98.2%  best time 34.02s
+  46.33M steps    82.6 min  test run: FINISHED in 36.16s  (reward +21.60, deaths 0)  practice avg 99.0%  best time 34.02s
+  46.37M steps    82.7 min  test run: FINISHED in 36.06s  (reward +21.65, deaths 0)  practice avg 99.0%  best time 34.02s
+  46.41M steps    82.8 min  test run: FINISHED in 36.68s  (reward +21.55, deaths 0)  practice avg 98.9%  best time 34.02s
+  46.45M steps    82.8 min  test run: FINISHED in 38.14s  (reward +21.43, deaths 0)  practice avg 98.9%  best time 34.02s
+  46.49M steps    82.9 min  test run: FINISHED in 36.16s  (reward +21.61, deaths 0)  practice avg 99.0%  best time 34.02s
+  46.53M steps    83.0 min  test run: FINISHED in 36.48s  (reward +21.41, deaths 0)  practice avg 98.9%  best time 34.02s
+  46.57M steps    83.0 min  test run: FINISHED in 41.66s  (reward +20.03, deaths 1)  practice avg 99.0%  best time 34.02s
+  46.61M steps    83.1 min  test run: FINISHED in 37.64s  (reward +21.33, deaths 0)  practice avg 99.0%  best time 34.02s
+  46.65M steps    83.2 min  test run: FINISHED in 42.34s  (reward +21.00, deaths 0)  practice avg 99.0%  best time 34.02s
+  46.69M steps    83.2 min  test run: FINISHED in 36.44s  (reward +21.55, deaths 0)  practice avg 98.9%  best time 34.02s
+  46.74M steps    83.3 min  test run: FINISHED in 35.94s  (reward +21.65, deaths 0)  practice avg 98.9%  best time 34.02s
+  46.78M steps    83.3 min  test run: FINISHED in 37.70s  (reward +21.42, deaths 0)  practice avg 98.9%  best time 34.02s
+  46.82M steps    83.4 min  test run: FINISHED in 37.32s  (reward +21.44, deaths 0)  practice avg 99.0%  best time 34.02s
+  46.86M steps    83.5 min  test run: FINISHED in 41.22s  (reward +20.08, deaths 1)  practice avg 99.0%  best time 34.02s
+  46.90M steps    83.5 min  test run: FINISHED in 41.36s  (reward +20.00, deaths 1)  practice avg 99.0%  best time 34.02s
+  46.94M steps    83.6 min  test run: FINISHED in 35.48s  (reward +21.70, deaths 0)  practice avg 99.0%  best time 34.02s
+  46.98M steps    83.7 min  test run: FINISHED in 38.16s  (reward +21.37, deaths 0)  practice avg 98.9%  best time 34.02s
+  47.02M steps    83.7 min  test run: FINISHED in 36.12s  (reward +21.61, deaths 0)  practice avg 99.0%  best time 34.02s
+  47.06M steps    83.8 min  test run: FINISHED in 37.94s  (reward +21.40, deaths 0)  practice avg 98.9%  best time 34.02s
+  47.10M steps    83.9 min  test run: FINISHED in 37.26s  (reward +21.47, deaths 0)  practice avg 98.8%  best time 34.02s
+  47.14M steps    83.9 min  test run: FINISHED in 37.26s  (reward +21.47, deaths 0)  practice avg 98.8%  best time 34.02s
+  47.19M steps    84.0 min  test run: FINISHED in 38.48s  (reward +21.38, deaths 0)  practice avg 98.7%  best time 34.02s
+  47.23M steps    84.1 min  test run: FINISHED in 36.00s  (reward +20.63, deaths 1)  practice avg 98.8%  best time 34.02s
+  47.27M steps    84.1 min  test run: FINISHED in 36.00s  (reward +21.63, deaths 0)  practice avg 98.9%  best time 34.02s
+  47.31M steps    84.2 min  test run: FINISHED in 42.68s  (reward +19.89, deaths 1)  practice avg 98.9%  best time 34.02s
+  47.35M steps    84.3 min  test run: FINISHED in 36.00s  (reward +20.63, deaths 1)  practice avg 99.1%  best time 34.02s
+  47.39M steps    84.3 min  test run: FINISHED in 37.02s  (reward +21.53, deaths 0)  practice avg 99.0%  best time 34.02s
+  47.43M steps    84.4 min  test run: FINISHED in 37.66s  (reward +20.44, deaths 1)  practice avg 99.0%  best time 34.02s
+  47.47M steps    84.4 min  test run: FINISHED in 37.66s  (reward +20.44, deaths 1)  practice avg 99.0%  best time 34.02s
+  47.51M steps    84.5 min  test run: FINISHED in 37.70s  (reward +20.43, deaths 1)  practice avg 99.0%  best time 34.02s
+  47.55M steps    84.6 min  test run: FINISHED in 38.16s  (reward +21.37, deaths 0)  practice avg 99.0%  best time 34.02s
+  47.60M steps    84.6 min  test run: FINISHED in 35.78s  (reward +21.65, deaths 0)  practice avg 99.0%  best time 34.02s
+  47.64M steps    84.7 min  test run: FINISHED in 37.98s  (reward +20.39, deaths 1)  practice avg 98.9%  best time 34.02s
+  47.68M steps    84.8 min  test run: FINISHED in 36.76s  (reward +21.56, deaths 0)  practice avg 99.0%  best time 34.02s
+  47.72M steps    84.8 min  test run: FINISHED in 37.18s  (reward +21.51, deaths 0)  practice avg 99.0%  best time 34.02s
+  47.76M steps    84.9 min  test run: FINISHED in 37.76s  (reward +21.48, deaths 0)  practice avg 99.0%  best time 34.02s
+  47.80M steps    85.0 min  test run: FINISHED in 37.08s  (reward +21.43, deaths 0)  practice avg 99.0%  best time 34.02s
+  47.84M steps    85.0 min  test run: FINISHED in 38.02s  (reward +21.42, deaths 0)  practice avg 99.1%  best time 34.02s
+  47.88M steps    85.1 min  test run: FINISHED in 42.06s  (reward +20.00, deaths 1)  practice avg 99.1%  best time 34.02s
+  47.92M steps    85.2 min  test run: FINISHED in 36.28s  (reward +21.46, deaths 0)  practice avg 99.0%  best time 34.02s
+  47.96M steps    85.2 min  test run: FINISHED in 38.42s  (reward +21.39, deaths 0)  practice avg 99.0%  best time 34.02s
+  48.01M steps    85.3 min  test run: FINISHED in 39.20s  (reward +21.31, deaths 0)  practice avg 98.9%  best time 34.02s
+  48.05M steps    85.4 min  test run: FINISHED in 42.80s  (reward +19.92, deaths 1)  practice avg 99.0%  best time 34.02s
+  48.09M steps    85.4 min  test run: FINISHED in 38.80s  (reward +21.34, deaths 0)  practice avg 98.9%  best time 34.02s
+  48.13M steps    85.5 min  test run: FINISHED in 42.80s  (reward +19.93, deaths 1)  practice avg 98.9%  best time 34.02s
+  48.17M steps    85.6 min  test run: FINISHED in 37.84s  (reward +21.44, deaths 0)  practice avg 98.9%  best time 34.02s
+  48.21M steps    85.6 min  test run: FINISHED in 35.98s  (reward +21.63, deaths 0)  practice avg 98.9%  best time 34.02s
+  48.25M steps    85.7 min  test run: FINISHED in 37.60s  (reward +21.46, deaths 0)  practice avg 98.9%  best time 34.02s
+  48.29M steps    85.8 min  test run: FINISHED in 37.98s  (reward +20.45, deaths 1)  practice avg 98.9%  best time 34.02s
+  48.33M steps    85.8 min  test run: FINISHED in 36.88s  (reward +21.55, deaths 0)  practice avg 98.9%  best time 34.02s
+  48.37M steps    85.9 min  test run: FINISHED in 37.98s  (reward +21.45, deaths 0)  practice avg 98.9%  best time 34.02s
+  48.41M steps    86.0 min  test run: FINISHED in 37.38s  (reward +21.45, deaths 0)  practice avg 98.9%  best time 34.02s
+  48.46M steps    86.0 min  test run: FINISHED in 41.00s  (reward +20.09, deaths 1)  practice avg 98.9%  best time 34.02s
+  48.50M steps    86.1 min  test run: FINISHED in 37.24s  (reward +21.50, deaths 0)  practice avg 98.9%  best time 34.02s
+  48.54M steps    86.2 min  test run: FINISHED in 37.38s  (reward +21.45, deaths 0)  practice avg 98.9%  best time 34.02s
+  48.58M steps    86.2 min  test run: FINISHED in 37.96s  (reward +20.40, deaths 1)  practice avg 99.0%  best time 34.02s
+  48.62M steps    86.3 min  test run: FINISHED in 39.06s  (reward +21.28, deaths 0)  practice avg 98.9%  best time 34.02s
+  48.66M steps    86.4 min  test run: FINISHED in 39.06s  (reward +21.28, deaths 0)  practice avg 98.9%  best time 34.02s
+  48.70M steps    86.4 min  test run: FINISHED in 38.42s  (reward +20.34, deaths 1)  practice avg 98.9%  best time 34.02s
+  48.74M steps    86.5 min  test run: FINISHED in 37.96s  (reward +20.40, deaths 1)  practice avg 99.0%  best time 34.02s
+  48.78M steps    86.6 min  test run: FINISHED in 37.94s  (reward +21.34, deaths 0)  practice avg 98.9%  best time 34.02s
+  48.82M steps    86.6 min  test run: FINISHED in 36.42s  (reward +21.47, deaths 0)  practice avg 98.9%  best time 34.02s
+  48.87M steps    86.7 min  test run: FINISHED in 37.54s  (reward +21.48, deaths 0)  practice avg 98.9%  best time 34.02s
+  48.91M steps    86.8 min  test run: FINISHED in 43.66s  (reward +19.71, deaths 1)  practice avg 98.9%  best time 34.02s
+  48.95M steps    86.8 min  test run: FINISHED in 37.92s  (reward +21.39, deaths 0)  practice avg 99.0%  best time 34.02s
+  48.99M steps    86.9 min  test run: FINISHED in 38.06s  (reward +21.38, deaths 0)  practice avg 99.0%  best time 34.02s
+  49.03M steps    87.0 min  test run: FINISHED in 38.18s  (reward +21.25, deaths 0)  practice avg 99.0%  best time 34.02s
+  49.07M steps    87.0 min  test run: FINISHED in 41.62s  (reward +20.02, deaths 1)  practice avg 98.9%  best time 34.02s
+  49.11M steps    87.1 min  test run: FINISHED in 38.28s  (reward +21.30, deaths 0)  practice avg 98.9%  best time 34.02s
+  49.15M steps    87.1 min  test run: FINISHED in 38.28s  (reward +21.30, deaths 0)  practice avg 98.9%  best time 34.02s
+  49.19M steps    87.2 min  test run: FINISHED in 38.28s  (reward +21.30, deaths 0)  practice avg 98.9%  best time 34.02s
+  49.23M steps    87.3 min  test run: FINISHED in 38.36s  (reward +21.37, deaths 0)  practice avg 98.9%  best time 34.02s
+  49.27M steps    87.3 min  test run: FINISHED in 38.48s  (reward +21.35, deaths 0)  practice avg 98.9%  best time 34.02s
+  49.32M steps    87.4 min  test run: FINISHED in 38.34s  (reward +21.37, deaths 0)  practice avg 98.4%  best time 34.02s
+  49.36M steps    87.5 min  test run: FINISHED in 38.62s  (reward +21.33, deaths 0)  practice avg 98.3%  best time 34.02s
+  49.40M steps    87.5 min  test run: FINISHED in 37.54s  (reward +21.33, deaths 0)  practice avg 98.3%  best time 34.02s
+  49.44M steps    87.6 min  test run: FINISHED in 36.04s  (reward +21.64, deaths 0)  practice avg 98.3%  best time 34.02s
+  49.48M steps    87.7 min  test run: FINISHED in 37.54s  (reward +21.34, deaths 0)  practice avg 98.9%  best time 34.02s
+  49.52M steps    87.7 min  test run: FINISHED in 35.98s  (reward +21.66, deaths 0)  practice avg 98.9%  best time 34.02s
+  49.56M steps    87.8 min  test run: FINISHED in 38.34s  (reward +21.38, deaths 0)  practice avg 99.0%  best time 34.02s
+  49.60M steps    87.9 min  test run: FINISHED in 37.20s  (reward +21.50, deaths 0)  practice avg 99.0%  best time 34.02s
+  49.64M steps    87.9 min  test run: FINISHED in 37.20s  (reward +21.50, deaths 0)  practice avg 99.0%  best time 34.02s
+  49.68M steps    88.0 min  test run: FINISHED in 37.68s  (reward +21.42, deaths 0)  practice avg 99.0%  best time 34.02s
+  49.73M steps    88.1 min  test run: FINISHED in 46.18s  (reward +18.55, deaths 2)  practice avg 99.0%  best time 34.02s
+  49.77M steps    88.1 min  test run: FINISHED in 42.00s  (reward +20.01, deaths 1)  practice avg 99.0%  best time 34.02s
+  49.81M steps    88.2 min  test run: FINISHED in 35.34s  (reward +21.71, deaths 0)  practice avg 99.0%  best time 34.02s
+  49.85M steps    88.3 min  test run: FINISHED in 35.36s  (reward +21.70, deaths 0)  practice avg 99.0%  best time 34.02s
+  49.89M steps    88.3 min  test run: FINISHED in 35.36s  (reward +21.70, deaths 0)  practice avg 98.9%  best time 34.02s
+  49.93M steps    88.4 min  test run: FINISHED in 35.36s  (reward +21.70, deaths 0)  practice avg 99.0%  best time 34.02s
+  49.97M steps    88.5 min  test run: FINISHED in 35.36s  (reward +21.70, deaths 0)  practice avg 99.0%  best time 34.02s
+done.

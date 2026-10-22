@@ -1,0 +1,7 @@
+runs/03-speed/ppo_tower.pt: 147 key changes over 33.76 s
+12:39:04 03-speed_ppo_tower_00: done
+12:39:42 03-speed_ppo_tower_01: done
+12:40:21 03-speed_ppo_tower_02: done
+12:40:58 03-speed_ppo_tower_03: done
+12:41:36 03-speed_ppo_tower_04: done
+saved in C:\Users\ogjec\Desktop\Projects\GetAwayShootOut\real\trials\2026-10-20 12-38-26

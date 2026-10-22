@@ -1,0 +1,81 @@
+{
+ "map": "Tower",
+ "source": "tools/render_level.py",
+ "ppm": 32,
+ "bounds": [
+  -75.0,
+  -9.0,
+  125.0,
+  72.3499984741211
+ ],
+ "left_out": [
+  "Map_Tower/Ground/Taxi/MapObj_Taxi",
+  "Map_Tower/Ground/Taxi/MapObj_TaxiWheel",
+  "Map_Tower/Ground/Taxi/MapObj_TaxiWheel (1)",
+  "Map_Tower/Tower/Elevator (1)/MapObj_Elevator",
+  "Map_Tower/Tower/Elevator/MapObj_Elevator",
+  "Map_Tower/Tower/Helicopter/Helicopter_Body",
+  "Map_Tower/Tower/Helicopter/Helicopter_Body/Helicopter_Back",
+  "Map_Tower/Tower/Helicopter/Helicopter_Body/Helicopter_Blade",
+  "Map_Tower/Tower/Helicopter/Helicopter_Body/Helicopter_SideBlade",
+  "Map_Tower/Tower/Roof/MapObj_RoofSpinner1",
+  "Map_Tower/Tower/Roof/MapObj_RoofSpinner1 (1)",
+  "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_Desk (1)/MapObj_Box_2",
+  "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_Desk (1)/MapObj_Cup",
+  "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_Desk/MapObj_Computer3",
+  "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_Desk/MapObj_Cubicle_Computer",
+  "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_WallV (3)/MapObj_Computer3",
+  "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_WallV (3)/MapObj_Computer3 (1)",
+  "Map_Tower/Tower/Room1/MapObj_Cubicle_WallH/MapObj_Cubicle_WallV (3)/MapObj_Computer3 (2)",
+  "Map_Tower/Tower/Room2/MapObj_OfficeChairV",
+  "Map_Tower/Tower/Room2/MapObj_OfficeChairV (1)",
+  "Map_Tower/Tower/Room2/MapTiles_TowerWindow/Rail/Washer (1)/PlayerGraphics/ArmPivot/CharacterArm",
+  "Map_Tower/Tower/Room2/MapTiles_TowerWindow/Rail/Washer (1)/PlayerGraphics/ArmPivot/HoldingSpot/Costumes_Washer",
+  "Map_Tower/Tower/Room2/MapTiles_TowerWindow/Rail/Washer/PlayerGraphics/ArmPivot/CharacterArm",
+  "Map_Tower/Tower/Room2/MapTiles_TowerWindow/Rail/Washer/PlayerGraphics/ArmPivot/HoldingSpot/Costumes_Washer"
+ ],
+ "objects": [
+  {
+   "path": "Map_Tower/Tower/Elevator (1)/MapObj_Elevator",
+   "png": "Tower_art_0.png",
+   "bounds": [
+    26.25,
+    16.8125,
+    28.75,
+    21.1875
+   ],
+   "scene_pos": [
+    27.5,
+    19.0
+   ]
+  },
+  {
+   "path": "Map_Tower/Tower/Elevator/MapObj_Elevator",
+   "png": "Tower_art_1.png",
+   "bounds": [
+    1.0,
+    4.542500019073486,
+    3.5,
+    8.917500019073486
+   ],
+   "scene_pos": [
+    2.25,
+    6.730000019073486
+   ]
+  },
+  {
+   "path": "Map_Tower/Tower/Helicopter/Helicopter_Body",
+   "png": "Tower_art_2.png",
+   "bounds": [
+    30.825000762939453,
+    36.1262481212616,
+    36.57500076293945,
+    39.8137481212616
+   ],
+   "scene_pos": [
+    33.70000076293945,
+    37.9699981212616
+   ]
+  }
+ ]
+}

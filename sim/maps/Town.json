@@ -1,0 +1,2740 @@
+{
+ "name": "Town",
+ "source": "GetawayShootoutPoki (2019, Unity 2019.3.10f1)",
+ "bounds": [
+  -54.25,
+  -14.050000190734863,
+  156.9000015258789,
+  31.699999809265137
+ ],
+ "spawn": [
+  0.0,
+  0.0
+ ],
+ "shapes": [
+  {
+   "go": "Ground2",
+   "path": "Map_Town/Ground2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -28.0,
+    -8.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -48.0,
+     -10.5
+    ],
+    [
+     -8.0,
+     -10.5
+    ],
+    [
+     -8.0,
+     -5.5
+    ],
+    [
+     -48.0,
+     -5.5
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     40.0,
+     5.0
+    ]
+   }
+  },
+  {
+   "go": "BoundaryR",
+   "path": "Map_Town/BoundaryR",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    83.69999694824219,
+    11.699999809265137
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     78.69999694824219,
+     -8.300000190734863
+    ],
+    [
+     88.69999694824219,
+     -8.300000190734863
+    ],
+    [
+     88.69999694824219,
+     31.699999809265137
+    ],
+    [
+     78.69999694824219,
+     31.699999809265137
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     10.0,
+     40.0
+    ]
+   }
+  },
+  {
+   "go": "Ground3",
+   "path": "Map_Town/Ground3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    81.9000015258789,
+    -10.399999618530273
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     6.900001525878906,
+     -12.899999618530273
+    ],
+    [
+     156.9000015258789,
+     -12.899999618530273
+    ],
+    [
+     156.9000015258789,
+     -7.899999618530273
+    ],
+    [
+     6.900001525878906,
+     -7.899999618530273
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     150.0,
+     5.0
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Box_2",
+   "path": "Map_Town/MapObj_Box_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    5.039999961853027,
+    -1.7100000381469727
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": 0,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": {
+    "name": "Semi-Bouncy",
+    "friction": 0.10000000149011612,
+    "bounciness": 0.30000001192092896
+   },
+   "kind": "box",
+   "points": [
+    [
+     4.696249961853027,
+     -1.9287500381469727
+    ],
+    [
+     5.383749961853027,
+     -1.9287500381469727
+    ],
+    [
+     5.383749961853027,
+     -1.4912500381469727
+    ],
+    [
+     4.696249961853027,
+     -1.4912500381469727
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.6875,
+     0.4375
+    ]
+   }
+  },
+  {
+   "go": "MapTiles_Box",
+   "path": "Map_Town/MapTiles_Box",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -14.52299976348877,
+    -4.916999816894531
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": 1,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -15.02299976348877,
+     -5.416999816894531
+    ],
+    [
+     -14.02299976348877,
+     -5.416999816894531
+    ],
+    [
+     -14.02299976348877,
+     -4.416999816894531
+    ],
+    [
+     -15.02299976348877,
+     -4.416999816894531
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "go": "DeathTrigger",
+   "path": "Map_Town/DeathTrigger",
+   "tag": "Death",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    23.030000686645508,
+    -4.769999980926514
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     19.978668212890625,
+     -6.049941062927246
+    ],
+    [
+     26.08133316040039,
+     -6.049941062927246
+    ],
+    [
+     26.08133316040039,
+     -3.4900588989257812
+    ],
+    [
+     19.978668212890625,
+     -3.4900588989257812
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     6.102664947509766,
+     2.559882164001465
+    ]
+   }
+  },
+  {
+   "go": "AC",
+   "path": "Map_Town/AC",
+   "tag": "Ground",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    2.499999761581421,
+    0.5
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     1.999999761581421,
+     0.0
+    ],
+    [
+     2.999999761581421,
+     0.0
+    ],
+    [
+     2.999999761581421,
+     1.0
+    ],
+    [
+     1.999999761581421,
+     1.0
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "go": "Building1_Sushi",
+   "path": "Map_Town/Building1_Sushi",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -2.0,
+    3.5
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -6.0,
+     -0.5
+    ],
+    [
+     2.0,
+     -0.5
+    ],
+    [
+     2.0,
+     7.5
+    ],
+    [
+     -6.0,
+     7.5
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     8.0,
+     8.0
+    ]
+   }
+  },
+  {
+   "go": "Collider",
+   "path": "Map_Town/ZipLine/Collider",
+   "tag": "Zipline",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    0.0,
+    0.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -0.5,
+     -0.5
+    ],
+    [
+     0.5,
+     -0.5
+    ],
+    [
+     0.5,
+     0.5
+    ],
+    [
+     -0.5,
+     0.5
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "go": "Ground1",
+   "path": "Map_Town/Ground1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -2.5,
+    -9.050000190734863
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -14.0,
+     -14.050000190734863
+    ],
+    [
+     9.0,
+     -14.050000190734863
+    ],
+    [
+     9.0,
+     -4.050000190734863
+    ],
+    [
+     -14.0,
+     -4.050000190734863
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     23.0,
+     10.0
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Box",
+   "path": "Map_Town/MapObj_Box",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    5.632999897003174,
+    -1.1699999570846558
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": 2,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": {
+    "name": "Semi-Bouncy",
+    "friction": 0.10000000149011612,
+    "bounciness": 0.30000001192092896
+   },
+   "kind": "box",
+   "points": [
+    [
+     5.289249897003174,
+     -1.4512499570846558
+    ],
+    [
+     5.976749897003174,
+     -1.4512499570846558
+    ],
+    [
+     5.976749897003174,
+     -0.8887499570846558
+    ],
+    [
+     5.289249897003174,
+     -0.8887499570846558
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.6875,
+     0.5625
+    ]
+   }
+  },
+  {
+   "go": "DeathTrigger (2)",
+   "path": "Map_Town/DeathTrigger (2)",
+   "tag": "Death",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -40.0,
+    -7.699999809265137
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -54.25,
+     -8.97994089126587
+    ],
+    [
+     -25.75,
+     -8.97994089126587
+    ],
+    [
+     -25.75,
+     -6.420058727264404
+    ],
+    [
+     -54.25,
+     -6.420058727264404
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     28.5,
+     2.559882164001465
+    ]
+   }
+  },
+  {
+   "go": "PowerUpObj (2)",
+   "path": "Map_Town/PowerUps/PowerUpObj (2)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -4.53000020980835,
+    -1.9900000095367432
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -5.03000020980835,
+     -2.490000009536743
+    ],
+    [
+     -4.03000020980835,
+     -2.490000009536743
+    ],
+    [
+     -4.03000020980835,
+     -1.4900000095367432
+    ],
+    [
+     -5.03000020980835,
+     -1.4900000095367432
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.0,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "PowerUpObj",
+   "path": "Map_Town/PowerUps/PowerUpObj",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -23.600000381469727,
+    -2.6600000858306885
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -24.100000381469727,
+     -3.1600000858306885
+    ],
+    [
+     -23.100000381469727,
+     -3.1600000858306885
+    ],
+    [
+     -23.100000381469727,
+     -2.1600000858306885
+    ],
+    [
+     -24.100000381469727,
+     -2.1600000858306885
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.0,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "PowerUpObj (5)",
+   "path": "Map_Town/PowerUps/PowerUpObj (5)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    23.270000457763672,
+    6.159999847412109
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     22.770000457763672,
+     5.659999847412109
+    ],
+    [
+     23.770000457763672,
+     5.659999847412109
+    ],
+    [
+     23.770000457763672,
+     6.659999847412109
+    ],
+    [
+     22.770000457763672,
+     6.659999847412109
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.0,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "PowerUpObj (1)",
+   "path": "Map_Town/PowerUps/PowerUpObj (1)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -16.8799991607666,
+    -2.1700000762939453
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -17.3799991607666,
+     -2.6700000762939453
+    ],
+    [
+     -16.3799991607666,
+     -2.6700000762939453
+    ],
+    [
+     -16.3799991607666,
+     -1.6700000762939453
+    ],
+    [
+     -17.3799991607666,
+     -1.6700000762939453
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.0,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "PowerUpObj (4)",
+   "path": "Map_Town/PowerUps/PowerUpObj (4)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    12.039999961853027,
+    4.769999980926514
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     11.539999961853027,
+     4.269999980926514
+    ],
+    [
+     12.539999961853027,
+     4.269999980926514
+    ],
+    [
+     12.539999961853027,
+     5.269999980926514
+    ],
+    [
+     11.539999961853027,
+     5.269999980926514
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.0,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "PowerUpObj (3)",
+   "path": "Map_Town/PowerUps/PowerUpObj (3)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    4.789999961853027,
+    1.690000057220459
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     4.289999961853027,
+     1.190000057220459
+    ],
+    [
+     5.289999961853027,
+     1.190000057220459
+    ],
+    [
+     5.289999961853027,
+     2.190000057220459
+    ],
+    [
+     4.289999961853027,
+     2.190000057220459
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2.0,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "Door",
+   "path": "Map_Town/BigTruck/Door",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": false,
+   "pos": [
+    54.019999980926514,
+    -5.176250010728836
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     53.769999980926514,
+     -6.926250010728836
+    ],
+    [
+     54.269999980926514,
+     -6.926250010728836
+    ],
+    [
+     54.269999980926514,
+     -3.426250010728836
+    ],
+    [
+     53.769999980926514,
+     -3.426250010728836
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.5,
+     3.5
+    ]
+   }
+  },
+  {
+   "go": "BottomRight",
+   "path": "Map_Town/BigTruck/BottomRight",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    61.980000019073486,
+    -6.916249990463257
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     61.230000019073486,
+     -7.916249990463257
+    ],
+    [
+     62.730000019073486,
+     -7.916249990463257
+    ],
+    [
+     62.730000019073486,
+     -5.916249990463257
+    ],
+    [
+     61.230000019073486,
+     -5.916249990463257
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     1.5,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "TopRight",
+   "path": "Map_Town/BigTruck/TopRight",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    60.105000019073486,
+    -3.987249970436096
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     59.980000019073486,
+     -4.487249970436096
+    ],
+    [
+     60.230000019073486,
+     -4.487249970436096
+    ],
+    [
+     60.230000019073486,
+     -3.487249970436096
+    ],
+    [
+     59.980000019073486,
+     -3.487249970436096
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.25,
+     1.0
+    ]
+   }
+  },
+  {
+   "go": "Right",
+   "path": "Map_Town/BigTruck/Right",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    60.91000008583069,
+    -5.96875
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     60.16000008583069,
+     -7.46875
+    ],
+    [
+     61.66000008583069,
+     -7.46875
+    ],
+    [
+     61.66000008583069,
+     -4.46875
+    ],
+    [
+     60.16000008583069,
+     -4.46875
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     1.5,
+     3.0
+    ]
+   }
+  },
+  {
+   "go": "Bottom",
+   "path": "Map_Town/BigTruck/Bottom",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    57.0,
+    -7.226250052452087
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     53.75,
+     -7.726250052452087
+    ],
+    [
+     60.25,
+     -7.726250052452087
+    ],
+    [
+     60.25,
+     -6.726250052452087
+    ],
+    [
+     53.75,
+     -6.726250052452087
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     6.5,
+     1.0
+    ]
+   }
+  },
+  {
+   "go": "Trigger",
+   "path": "Map_Town/BigTruck/Trigger",
+   "tag": "Finish",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    57.25,
+    -5.296249985694885
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": true,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     54.5,
+     -6.521250009536743
+    ],
+    [
+     60.0,
+     -6.521250009536743
+    ],
+    [
+     60.0,
+     -4.071249961853027
+    ],
+    [
+     54.5,
+     -4.071249961853027
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     5.5,
+     2.450000047683716
+    ]
+   }
+  },
+  {
+   "go": "Top",
+   "path": "Map_Town/BigTruck/Top",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    57.012500047683716,
+    -3.526249885559082
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     53.762500047683716,
+     -3.651249885559082
+    ],
+    [
+     60.262500047683716,
+     -3.651249885559082
+    ],
+    [
+     60.262500047683716,
+     -3.401249885559082
+    ],
+    [
+     53.762500047683716,
+     -3.401249885559082
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     6.5,
+     0.25
+    ]
+   }
+  },
+  {
+   "go": "Building2 (1)",
+   "path": "Map_Town/Building2 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -42.0,
+    0.30000001192092896
+   ],
+   "angle": 0.0,
+   "scale": [
+    2.0,
+    2.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -48.125,
+     -5.699999988079071
+    ],
+    [
+     -35.875,
+     -5.699999988079071
+    ],
+    [
+     -35.875,
+     6.300000011920929
+    ],
+    [
+     -48.125,
+     6.300000011920929
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     6.125,
+     6.0
+    ]
+   }
+  },
+  {
+   "go": "Building2 (1)",
+   "path": "Map_Town/Building2 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -42.0,
+    0.30000001192092896
+   ],
+   "angle": 0.0,
+   "scale": [
+    2.0,
+    2.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -48.5,
+     5.800000011920929
+    ],
+    [
+     -35.5,
+     5.800000011920929
+    ],
+    [
+     -35.5,
+     6.300000011920929
+    ],
+    [
+     -48.5,
+     6.300000011920929
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     2.875
+    ],
+    "size": [
+     6.5,
+     0.25
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Box_2 (1)",
+   "path": "Map_Town/MapObj_Box_2 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    63.356998443603516,
+    -7.042999744415283
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": 3,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": {
+    "name": "Semi-Bouncy",
+    "friction": 0.10000000149011612,
+    "bounciness": 0.30000001192092896
+   },
+   "kind": "box",
+   "points": [
+    [
+     63.013248443603516,
+     -7.261749744415283
+    ],
+    [
+     63.700748443603516,
+     -7.261749744415283
+    ],
+    [
+     63.700748443603516,
+     -6.824249744415283
+    ],
+    [
+     63.013248443603516,
+     -6.824249744415283
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.6875,
+     0.4375
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Box (1)",
+   "path": "Map_Town/MapObj_Box (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    63.95000076293945,
+    -7.610000133514404
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": 4,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": {
+    "name": "Semi-Bouncy",
+    "friction": 0.10000000149011612,
+    "bounciness": 0.30000001192092896
+   },
+   "kind": "box",
+   "points": [
+    [
+     63.60625076293945,
+     -7.891250133514404
+    ],
+    [
+     64.29375076293945,
+     -7.891250133514404
+    ],
+    [
+     64.29375076293945,
+     -7.328750133514404
+    ],
+    [
+     63.60625076293945,
+     -7.328750133514404
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.6875,
+     0.5625
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Box (2)",
+   "path": "Map_Town/MapObj_Box (2)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    63.10300064086914,
+    -7.610000133514404
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": 5,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": {
+    "name": "Semi-Bouncy",
+    "friction": 0.10000000149011612,
+    "bounciness": 0.30000001192092896
+   },
+   "kind": "box",
+   "points": [
+    [
+     62.75925064086914,
+     -7.891250133514404
+    ],
+    [
+     63.44675064086914,
+     -7.891250133514404
+    ],
+    [
+     63.44675064086914,
+     -7.328750133514404
+    ],
+    [
+     62.75925064086914,
+     -7.328750133514404
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.6875,
+     0.5625
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Dumpster",
+   "path": "Map_Town/MapObj_Dumpster",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    6.400000095367432,
+    -2.990000009536743
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     4.900000095367432,
+     -3.990000009536743
+    ],
+    [
+     7.900000095367432,
+     -3.990000009536743
+    ],
+    [
+     7.900000095367432,
+     -1.9900000095367432
+    ],
+    [
+     4.900000095367432,
+     -1.9900000095367432
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     3.0,
+     2.0
+    ]
+   }
+  },
+  {
+   "go": "MapObj_Dumpster",
+   "path": "Map_Town/MapObj_Dumpster",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    6.400000095367432,
+    -2.990000009536743
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     4.650000095367432,
+     -3.990000009536743
+    ],
+    [
+     4.900000095367432,
+     -3.990000009536743
+    ],
+    [
+     4.900000095367432,
+     -2.740000009536743
+    ],
+    [
+     4.650000095367432,
+     -2.740000009536743
+    ]
+   ],
+   "local": {
+    "offset": [
+     -1.625,
+     -0.375
+    ],
+    "size": [
+     0.25,
+     1.25
+    ]
+   }
+  },
+  {
+   "go": "MapObj_GarbageBag1",
+   "path": "Map_Town/MapObj_Dumpster/MapObj_GarbageBag1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    4.709442615509033,
+    -3.7820000648498535
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     4.396942615509033,
+     -4.0007500648498535
+    ],
+    [
+     5.021942615509033,
+     -4.0007500648498535
+    ],
+    [
+     5.021942615509033,
+     -3.6882500648498535
+    ],
+    [
+     4.396942615509033,
+     -3.6882500648498535
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     -0.0625
+    ],
+    "size": [
+     0.625,
+     0.3125
+    ]
+   }
+  },
+  {
+   "go": "Building3",
+   "path": "Map_Town/Building3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    31.0,
+    -3.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     26.0,
+     -9.0
+    ],
+    [
+     36.0,
+     -9.0
+    ],
+    [
+     36.0,
+     3.0
+    ],
+    [
+     26.0,
+     3.0
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     10.0,
+     12.0
+    ]
+   }
+  },
+  {
+   "go": "MapTiles_TunnelTop",
+   "path": "Map_Town/MapTiles_Tunnel/MapTiles_TunnelTop",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    115.19000244140625,
+    0.9000000953674316
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     75.19000244140625,
+     -2.0999999046325684
+    ],
+    [
+     155.19000244140625,
+     -2.0999999046325684
+    ],
+    [
+     155.19000244140625,
+     3.9000000953674316
+    ],
+    [
+     75.19000244140625,
+     3.9000000953674316
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     80.0,
+     6.0
+    ]
+   }
+  },
+  {
+   "go": "MapTiles_Box (1)",
+   "path": "Map_Town/MapTiles_Box (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -15.440999984741211,
+    -5.059000015258789
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "body": 6,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     -15.815999984741211,
+     -5.434000015258789
+    ],
+    [
+     -15.065999984741211,
+     -5.434000015258789
+    ],
+    [
+     -15.065999984741211,
+     -4.684000015258789
+    ],
+    [
+     -15.815999984741211,
+     -4.684000015258789
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.75,
+     0.75
+    ]
+   }
+  },
+  {
+   "go": "Building2",
+   "path": "Map_Town/Building2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    14.0,
+    -3.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    2.0,
+    2.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     7.875,
+     -9.0
+    ],
+    [
+     20.125,
+     -9.0
+    ],
+    [
+     20.125,
+     3.0
+    ],
+    [
+     7.875,
+     3.0
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     6.125,
+     6.0
+    ]
+   }
+  },
+  {
+   "go": "Building2",
+   "path": "Map_Town/Building2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    14.0,
+    -3.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    2.0,
+    2.0
+   ],
+   "body": null,
+   "trigger": false,
+   "enabled": true,
+   "effector": false,
+   "material": null,
+   "kind": "box",
+   "points": [
+    [
+     7.5,
+     2.5
+    ],
+    [
+     20.5,
+     2.5
+    ],
+    [
+     20.5,
+     3.0
+    ],
+    [
+     7.5,
+     3.0
+    ]
+   ],
+   "local": {
+    "offset": [
+     0.0,
+     2.875
+    ],
+    "size": [
+     6.5,
+     0.25
+    ]
+   }
+  }
+ ],
+ "bodies": [
+  {
+   "go": "MapObj_Box_2",
+   "path": "Map_Town/MapObj_Box_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    5.039999961853027,
+    -1.7100000381469727
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "id": 0,
+   "rb_path_id": 1476,
+   "type": "dynamic",
+   "mass": 0.10000000149011612,
+   "gravity": 1.0,
+   "drag": 0.0,
+   "angular_drag": 0.05000000074505806,
+   "constraints": 0,
+   "material": null
+  },
+  {
+   "go": "MapTiles_Box",
+   "path": "Map_Town/MapTiles_Box",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -14.52299976348877,
+    -4.916999816894531
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "id": 1,
+   "rb_path_id": 1461,
+   "type": "dynamic",
+   "mass": 2.0,
+   "gravity": 1.0,
+   "drag": 0.0,
+   "angular_drag": 0.05000000074505806,
+   "constraints": 0,
+   "material": null
+  },
+  {
+   "go": "MapObj_Box",
+   "path": "Map_Town/MapObj_Box",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    5.632999897003174,
+    -1.1699999570846558
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "id": 2,
+   "rb_path_id": 1462,
+   "type": "dynamic",
+   "mass": 0.10000000149011612,
+   "gravity": 1.0,
+   "drag": 0.0,
+   "angular_drag": 0.05000000074505806,
+   "constraints": 0,
+   "material": null
+  },
+  {
+   "go": "MapObj_Box_2 (1)",
+   "path": "Map_Town/MapObj_Box_2 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    63.356998443603516,
+    -7.042999744415283
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "id": 3,
+   "rb_path_id": 1480,
+   "type": "dynamic",
+   "mass": 0.10000000149011612,
+   "gravity": 1.0,
+   "drag": 0.0,
+   "angular_drag": 0.05000000074505806,
+   "constraints": 0,
+   "material": null
+  },
+  {
+   "go": "MapObj_Box (1)",
+   "path": "Map_Town/MapObj_Box (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    63.95000076293945,
+    -7.610000133514404
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "id": 4,
+   "rb_path_id": 1483,
+   "type": "dynamic",
+   "mass": 0.10000000149011612,
+   "gravity": 1.0,
+   "drag": 0.0,
+   "angular_drag": 0.05000000074505806,
+   "constraints": 0,
+   "material": null
+  },
+  {
+   "go": "MapObj_Box (2)",
+   "path": "Map_Town/MapObj_Box (2)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    63.10300064086914,
+    -7.610000133514404
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "id": 5,
+   "rb_path_id": 1481,
+   "type": "dynamic",
+   "mass": 0.10000000149011612,
+   "gravity": 1.0,
+   "drag": 0.0,
+   "angular_drag": 0.05000000074505806,
+   "constraints": 0,
+   "material": null
+  },
+  {
+   "go": "MapTiles_Box (1)",
+   "path": "Map_Town/MapTiles_Box (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -15.440999984741211,
+    -5.059000015258789
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "id": 6,
+   "rb_path_id": 1486,
+   "type": "dynamic",
+   "mass": 0.5,
+   "gravity": 1.0,
+   "drag": 0.0,
+   "angular_drag": 0.05000000074505806,
+   "constraints": 0,
+   "material": null
+  }
+ ],
+ "joints": [],
+ "effectors": [],
+ "scripts": [
+  {
+   "go": "PlayerGraphics",
+   "path": "Map_Town/Building1_Sushi/Chef/PlayerGraphics",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -2.309999942779541,
+    -3.8400001525878906
+   ],
+   "angle": -0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "PlaySound",
+   "raw": "00000000"
+  },
+  {
+   "go": "ZipLine",
+   "path": "Map_Town/ZipLine",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    0.0,
+    0.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Zipline",
+   "raw": "0000803e",
+   "zipline": {
+    "top": [
+     34.099998474121094,
+     6.190000057220459
+    ],
+    "bottom": [
+     52.61399841308594,
+     -2.9700000286102295
+    ],
+    "catch_zone": 0.25
+   }
+  },
+  {
+   "go": "Waypoints",
+   "path": "Map_Town/Waypoints",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    0.0,
+    0.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "WaypointManager",
+   "raw": "0400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "go": "Waypoint (1)",
+   "path": "Map_Town/Waypoints/Waypoint (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -13.5,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "010000000200000000010000020000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": true,
+   "order": 1,
+   "side_x": 1,
+   "above": false,
+   "y_offset": 0.0
+  },
+  {
+   "go": "Waypoint (0)",
+   "path": "Map_Town/Waypoints/Waypoint (0)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -22.0,
+    -5.5
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "010000000200000000010000020000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": true,
+   "order": 0,
+   "side_x": 1,
+   "above": false,
+   "y_offset": 0.0
+  },
+  {
+   "go": "Waypoint (6)",
+   "path": "Map_Town/Waypoints/Waypoint (6)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    23.450000762939453,
+    5.139999866485596
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "000000000200000000010000020000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": false,
+   "order": 10,
+   "side_x": 1,
+   "above": false,
+   "y_offset": 0.0
+  },
+  {
+   "go": "Waypoint (6.5)",
+   "path": "Map_Town/Waypoints/Waypoint (6.5)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    30.139999389648438,
+    3.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "010000000200000000010000020000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": true,
+   "order": 12,
+   "side_x": 1,
+   "above": false,
+   "y_offset": 0.0
+  },
+  {
+   "go": "Waypoint (2)",
+   "path": "Map_Town/Waypoints/Waypoint (2)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    5.380000114440918,
+    -1.9299999475479126
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "000000000200000000000000020000000100000000000000000000000000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": false,
+   "order": 3,
+   "side_x": 0,
+   "above": true,
+   "y_offset": 0.0
+  },
+  {
+   "go": "Waypoint (6.25)",
+   "path": "Map_Town/Waypoints/Waypoint (6.25)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    26.739999771118164,
+    3.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "000000000200000000010000020000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": false,
+   "order": 11,
+   "side_x": 1,
+   "above": false,
+   "y_offset": 0.0
+  },
+  {
+   "go": "Waypoint (3)",
+   "path": "Map_Town/Waypoints/Waypoint (3)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    4.900000095367432,
+    1.5800000429153442
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "000000000200000000000000020000000100000000000000295c8fbf0000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": false,
+   "order": 5,
+   "side_x": 0,
+   "above": true,
+   "y_offset": -1.1200000047683716
+  },
+  {
+   "go": "Waypoint (5)",
+   "path": "Map_Town/Waypoints/Waypoint (5)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    19.040000915527344,
+    3.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "000000000200000000010000020000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": false,
+   "order": 9,
+   "side_x": 1,
+   "above": false,
+   "y_offset": 0.0
+  },
+  {
+   "go": "Waypoint (1.5)",
+   "path": "Map_Town/Waypoints/Waypoint (1.5)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    0.27000001072883606,
+    -4.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "010000000200000000010000020000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": true,
+   "order": 2,
+   "side_x": 1,
+   "above": false,
+   "y_offset": 0.0
+  },
+  {
+   "go": "Waypoint (2.5)",
+   "path": "Map_Town/Waypoints/Waypoint (2.5)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    7.860000133514404,
+    -1.9299999475479126
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "0000000002000000000000000200000001000000000000008fc275be0000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": false,
+   "order": 4,
+   "side_x": 0,
+   "above": true,
+   "y_offset": -0.23999999463558197
+  },
+  {
+   "go": "Waypoint (7)",
+   "path": "Map_Town/Waypoints/Waypoint (7)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    54.81999969482422,
+    -5.489999771118164
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "000000000200000000010000020000000000000000000000000000000000000000000000d20400000000000000000000000000000200000000000000",
+   "spawnable": false,
+   "order": 13,
+   "side_x": 1,
+   "above": false,
+   "y_offset": 0.0
+  },
+  {
+   "go": "Waypoint (4.5)",
+   "path": "Map_Town/Waypoints/Waypoint (4.5)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    8.529999732971191,
+    3.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "010000000200000000010000020000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": true,
+   "order": 8,
+   "side_x": 1,
+   "above": false,
+   "y_offset": 0.0
+  },
+  {
+   "go": "Waypoint (4)",
+   "path": "Map_Town/Waypoints/Waypoint (4)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    5.619999885559082,
+    4.369999885559082
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "0000000002000000000100000200000001000000000000003d0af7bf0000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": false,
+   "order": 7,
+   "side_x": 1,
+   "above": true,
+   "y_offset": -1.9299999475479126
+  },
+  {
+   "go": "Waypoint (3.5)",
+   "path": "Map_Town/Waypoints/Waypoint (3.5)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    2.3399999141693115,
+    1.0099999904632568
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "Waypoint",
+   "raw": "000000000200000000000000020000000100000000000000000000000000000000000000000000000000000000000000000000000200000000000000",
+   "spawnable": false,
+   "order": 6,
+   "side_x": 0,
+   "above": true,
+   "y_offset": 0.0
+  },
+  {
+   "go": "PowerUpObj (2)",
+   "path": "Map_Town/PowerUps/PowerUpObj (2)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -4.53000020980835,
+    -1.9900000095367432
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "script": "PowerUpBox",
+   "raw": "000000000000000000000000"
+  },
+  {
+   "go": "PowerUpObj",
+   "path": "Map_Town/PowerUps/PowerUpObj",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -23.600000381469727,
+    -2.6600000858306885
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "script": "PowerUpBox",
+   "raw": "000000000000000000000000"
+  },
+  {
+   "go": "PowerUpObj (5)",
+   "path": "Map_Town/PowerUps/PowerUpObj (5)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    23.270000457763672,
+    6.159999847412109
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "script": "PowerUpBox",
+   "raw": "000000000000000000000000"
+  },
+  {
+   "go": "PowerUpObj (1)",
+   "path": "Map_Town/PowerUps/PowerUpObj (1)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -16.8799991607666,
+    -2.1700000762939453
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "script": "PowerUpBox",
+   "raw": "000000000000000000000000"
+  },
+  {
+   "go": "PowerUpObj (4)",
+   "path": "Map_Town/PowerUps/PowerUpObj (4)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    12.039999961853027,
+    4.769999980926514
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "script": "PowerUpBox",
+   "raw": "000000000000000000000000"
+  },
+  {
+   "go": "PowerUpObj (3)",
+   "path": "Map_Town/PowerUps/PowerUpObj (3)",
+   "tag": "PowerUp",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    4.789999961853027,
+    1.690000057220459
+   ],
+   "angle": 0.0,
+   "scale": [
+    0.5,
+    0.5
+   ],
+   "script": "PowerUpBox",
+   "raw": "000000000000000000000000"
+  },
+  {
+   "go": "BigTruck",
+   "path": "Map_Town/BigTruck",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    58.25,
+    -5.65625
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "TransportationObj",
+   "raw": "0000004000000000d204000000000000000016430000b5c0000000c0000000000000a0400000803f0000000000000000000000000200000000000000c40600000000000000000000d1060000000000000100000000000000f90200000000000001000000000000000f03000000000000"
+  },
+  {
+   "go": "StartPlayers",
+   "path": "Map_Town/StartPlayers",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    0.0,
+    0.0
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "script": "StartPlayers",
+   "raw": "0300000000000000900500000000000000000000ca04000000000000000000000000000000000000000000000000803f0000003f0000003f0000803f0000000000000000c7000000000000000000d8c10000f0c0000000000000000000000000"
+  }
+ ],
+ "animators": [
+  {
+   "go": "Extra",
+   "path": "Map_Town/AC/Extra",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    3.187499761581421,
+    0.5
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "AC",
+   "enabled": true
+  },
+  {
+   "go": "PlayerGraphics",
+   "path": "Map_Town/Building1_Sushi/Chef/PlayerGraphics",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    -2.309999942779541,
+    -3.8400001525878906
+   ],
+   "angle": -0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "PlayerGraphics",
+   "enabled": true
+  },
+  {
+   "go": "BusDriver",
+   "path": "Map_Town/BigTruck/BusDriver",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    61.049999952316284,
+    -7.066249966621399
+   ],
+   "angle": 2.84999735219361,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "BusDriver",
+   "enabled": true
+  },
+  {
+   "go": "Wheel_0 (1)",
+   "path": "Map_Town/BigTruck/Wheel_0 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    62.1875,
+    -7.46875
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "Wheel_0",
+   "enabled": true
+  },
+  {
+   "go": "Wheel_0",
+   "path": "Map_Town/BigTruck/Wheel_0",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": true,
+   "pos": [
+    55.375,
+    -7.46875
+   ],
+   "angle": 0.0,
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "controller": "Wheel_0",
+   "enabled": true
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+runs/04-jitter/ppo_tower.pt              sees   finished 30/30  median 38.98 s  deaths 4
+runs/04-jitter/ppo_tower.pt              shadow finished 27/30  median 38.94 s  deaths 5
+runs/03-speed/ppo_tower.pt               sees   finished 28/30  median 41.08 s  deaths 39
+runs/03-speed/ppo_tower.pt               shadow finished  3/30  median 38.78 s  deaths 28
+runs/03-speed/genetic_tower.pt           sees   finished  1/30  median 55.82 s  deaths 39
+runs/03-speed/genetic_tower.pt           shadow finished  0/30  deaths 15
+runs/02-your-run/ppo_tower.pt            sees   finished 30/30  median 39.91 s  deaths 33
+runs/02-your-run/ppo_tower.pt            shadow finished  7/30  median 39.36 s  deaths 36
+runs/02-your-run/genetic_tower.pt        sees   finished 16/30  median 66.29 s  deaths 101
+runs/02-your-run/genetic_tower.pt        shadow finished  1/30  median 45.16 s  deaths 40
+runs/01-from-the-start/genetic_tower.pt  sees   finished  5/30  median 71.82 s  deaths 99
+runs/01-from-the-start/genetic_tower.pt  shadow finished  1/30  median 57.82 s  deaths 50
+runs/05-shadow/ppo_tower.pt              sees   finished 30/30  median 39.78 s  deaths 4  (seeds 1000+, shadow_delay 2)
+runs/05-shadow/ppo_tower.pt              shadow finished 23/30  median 39.38 s  deaths 11  (seeds 1000+, shadow_delay 2)
+runs/04-jitter/ppo_tower.pt              sees   finished 30/30  median 39.05 s  deaths 6  (seeds 1000+, shadow_delay 2)
+runs/04-jitter/ppo_tower.pt              shadow finished 27/30  median 39.16 s  deaths 4  (seeds 1000+, shadow_delay 2)
+runs/05-shadow/ppo_tower.pt              sees   finished 100/100  median 39.39 s  deaths 16  (seeds 2000+, shadow_delay 2)
+runs/05-shadow/ppo_tower.pt              shadow finished 78/100  median 39.31 s  deaths 30  (seeds 2000+, shadow_delay 2)
+runs/04-jitter/ppo_tower.pt              sees   finished 100/100  median 39.08 s  deaths 11  (seeds 2000+, shadow_delay 2)
+runs/04-jitter/ppo_tower.pt              shadow finished 87/100  median 39.24 s  deaths 14  (seeds 2000+, shadow_delay 2)
+runs/06-shadow-genetic/genetic_tower.pt  sees   finished 57/100  median 70.18 s  deaths 238  (seeds 2000+, shadow_delay 2)
+runs/06-shadow-genetic/genetic_tower.pt  shadow finished 10/100  median 55.25 s  deaths 147  (seeds 2000+, shadow_delay 2)
+runs/06-shadow-genetic/genetic_elite.pt  sees   finished 24/100  median 73.37 s  deaths 276  (seeds 2000+, shadow_delay 2)
+runs/06-shadow-genetic/genetic_elite.pt  shadow finished  3/100  median 72.12 s  deaths 111  (seeds 2000+, shadow_delay 2)
+runs/04-jitter/ppo_tower.pt              sees   finished 100/100  median 40.66 s  deaths 33  (seeds 2000+, shadow_delay 2)
+runs/04-jitter/ppo_tower.pt              shadow finished 93/100  median 40.78 s  deaths 31  (seeds 2000+, shadow_delay 2)
+runs/05-shadow/ppo_tower.pt              sees   finished 100/100  median 40.64 s  deaths 33  (seeds 2000+, shadow_delay 2)
+runs/05-shadow/ppo_tower.pt              shadow finished 95/100  median 41.84 s  deaths 39  (seeds 2000+, shadow_delay 2)
+runs/04-jitter/ppo_tower.pt              sees   finished 100/100  median 39.08 s  deaths 11  (seeds 2000+, shadow_delay 2, old helicopter)
+runs/04-jitter/ppo_tower.pt              shadow finished 97/100  median 39.28 s  deaths 11  (seeds 2000+, shadow_delay 2, old helicopter)
+runs/05-shadow/ppo_tower.pt              sees   finished 100/100  median 39.39 s  deaths 16  (seeds 2000+, shadow_delay 2, old helicopter)
+runs/05-shadow/ppo_tower.pt              shadow finished 99/100  median 39.84 s  deaths 24  (seeds 2000+, shadow_delay 2, old helicopter)
+runs/06-shadow-genetic/genetic_tower.pt  sees   finished 57/100  median 70.18 s  deaths 238  (seeds 2000+, shadow_delay 2, old helicopter)
+runs/06-shadow-genetic/genetic_tower.pt  shadow finished 46/100  median 72.07 s  deaths 235  (seeds 2000+, shadow_delay 2, old helicopter)
+runs/06-shadow-genetic/genetic_tower.pt  sees   finished 46/100  median 69.69 s  deaths 253  (seeds 2000+, shadow_delay 2)
+runs/06-shadow-genetic/genetic_tower.pt  shadow finished 45/100  median 73.18 s  deaths 244  (seeds 2000+, shadow_delay 2)

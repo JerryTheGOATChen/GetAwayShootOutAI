@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# the original 2019 WebGL build of the game (copyrighted, not ours to share): put it in tools/ to re-extract the maps
+# or re-render the level art (tools/extract_maps.py, tools/render_level.py)
+tools/GetawayShootoutPoki.data.unityweb
+*.unityweb
+
+# films of real-game runs (real.clip, real.live --clip): 30-180 MB each, over GitHub's file limit. The README's
+# GIFs (runs/*.gif) are made from them
+*.mp4
+
+# a checkpoint caught mid-save
+*.tmp
