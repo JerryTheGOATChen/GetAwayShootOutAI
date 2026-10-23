@@ -36,7 +36,9 @@ def main():
             env = {**os.environ, "GETAWAY_BATCH": batch}
             methods = BATCHES[batch].get("methods", ("ppo", "genetic"))
             steps = str(BATCHES[batch].get("steps", STEPS))
-            for cmd in [["-m", f"{m}.train", "--steps", steps, "--resume"] for m in methods] + [["-m", "common.compare", batch]]:
+            seed = ["--seed", str(BATCHES[batch]["seed"])] if "seed" in BATCHES[batch] else []
+            for cmd in ([["-m", f"{m}.train", "--steps", steps, "--resume", *seed] for m in methods]
+                        + [["-m", "common.compare", batch]]):
                 proc = subprocess.Popen([sys.executable, "-u", *cmd], env=env)
                 try:
                     code = proc.wait()

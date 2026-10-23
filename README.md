@@ -63,7 +63,10 @@ the real game (see the end):
 | `04-jitter` | on, as 02, with each key change landing 0-3 ticks late in practice (as in the real game) | normal | highest reward |
 | `05-shadow` | as 04, and nudged every 2 ticks like the shadow the agent plays from in the real game; sees the lifts move (PPO only) | normal | highest reward |
 | `06-shadow-genetic` | as 05 for the genetic algorithm: each member ranked on 4 runs with late keys and nudges (120M steps) | normal | highest reward |
-| `07-helicopter` | as 05, in the sim with the helicopter where the game has it (not trained yet) | normal | highest reward |
+| `07-helicopter` | as 05, in the sim with the helicopter where the game has it | normal | highest reward |
+| `08-late` | as 07, half the practice episodes starting up to 16 s late for the lifts (80M steps) | normal | highest reward |
+| `09-a-little-late` | as 08, up to 4 s late | normal | highest reward |
+| `10-helicopter-seed-1` | 07 again with another random seed | normal | highest reward |
 
 ```bash
 py -m common.run_batches                  # train them all, one after another (about 8 h; leave it overnight)
@@ -294,9 +297,9 @@ Within 4 s it has left its sim run, and it never gets off the street. The real g
 
 ```bash
 py tools/render_level.py                                   # the level's art from the 2019 build -> sim/maps/Tower_art*
-py -m real.shadow --sim-test runs/05-shadow/ppo_tower.pt   # rehearse the closed loop inside the sim
+py -m real.rehearse runs/07-helicopter/ppo_tower.pt        # rehearse the closed loop inside the sim (100 runs)
 py -m real.live --calibrate                                # measure the screen (restarts the run, sends no keys)
-py -m real.live runs/05-shadow/ppo_tower.pt --runs 3 --clip   # play the real game closed loop, filmed
+py -m real.live runs/07-helicopter/ppo_tower.pt --runs 3 --clip   # play the real game closed loop, filmed
 py -m real.clip pair "real/live/<date time>/run1.clip.json" --shadow   # a film beside what the agent saw
 py -m real.live --watch                                    # follow a run you play yourself (sends no keys)
 ```
@@ -319,6 +322,10 @@ py -m real.live --watch                                    # follow a run you pl
 ![batch 04 playing the real game closed loop, beside the shadow it played from](runs/real_closed_loop_04.gif)
 
 It landed on the helicopter's roof and the rotor killed it: the real helicopter hangs 1.05-1.55 m lower than the
-sim had it, which no blind run ever got far enough to show. The sim now has it right (agents still to be retrained
-for it: batch `07-helicopter`), and the loop now follows Steve through a death. The details are in
+sim had it, which no blind run ever got far enough to show. The sim now has it right, and the loop now follows
+Steve through a death.
+
+Retrained for it, batch `07-helicopter` finishes 95-100 of 100 rehearsals from the shadow, with half batch 05's
+deaths, also when it gets to the lifts late or the lifts run off schedule. Teaching an agent to wait for a lift by
+starting it up to a whole lift cycle late (`08-late`) backfired: it got worse everywhere. The details are in
 `EXPERIMENTS.md`.

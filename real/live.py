@@ -7,6 +7,7 @@ blind (which the real game can't repeat for more than about 14 s).
                                                            # check the tracking; start or restart a run yourself
     py -m real.live runs/05-shadow/ppo_tower.pt --clip     # and film each run (real.clip)
     py -m real.live --calibrate                            # measure the screen first (restarts, sends no keys)
+    py -m real.live runs/08-late/ppo_tower.pt --late 3     # stand still 3 s first: the lifts come at other times
 
 Have the game's Tower time trial open full screen (1920x1080), with Standard Steve, in a run (it restarts it from the
 pause menu). Keys and clicks only ever go to the game: if another window comes to the front it stops. X stops.
@@ -211,8 +212,10 @@ def your_keys() -> int:
     return LEFT if w and not e else RIGHT if e and not w else NONE
 
 
-def run(policy, eyes: Eyes, start: float, length_s: float, watch: bool, info: dict | None = None) -> dict:
-    """The closed loop, from the clock starting at `start` (perf_counter)."""
+def run(policy, eyes: Eyes, start: float, length_s: float, watch: bool, info: dict | None = None,
+        late_s: float = 0.0) -> dict:
+    """The closed loop, from the clock starting at `start` (perf_counter). late_s: the agent stands still that long
+    first."""
     from sim.env import GetawayEnv
     shadow = Shadow()
     env = GetawayEnv(map="Tower", action_repeat=2, time_limit_s=90.0,
@@ -220,7 +223,8 @@ def run(policy, eyes: Eyes, start: float, length_s: float, watch: bool, info: di
     env.reset()
     env.game = shadow.g
     paths = [o["path"] for o in eyes.level.objects]
-    log = {"start": start, "grab_lag": GRAB_LAG, "key_lead": KEY_LEAD, "grabs": [], "keys": [], "shadow": [],
+    log = {"start": start, "grab_lag": GRAB_LAG, "key_lead": KEY_LEAD, "late_s": late_s, "grabs": [], "keys": [],
+           "shadow": [],
            "film": []}  # film: the shadow every other tick (Game.snapshot), to draw what the agent saw (real.clip)
     held = NONE  # the key the game has
     a = shadow.g.held
@@ -259,7 +263,7 @@ def run(policy, eyes: Eyes, start: float, length_s: float, watch: bool, info: di
             if watch:
                 a = your_keys()
             elif k % 2 == 0:
-                a = policy.act(env.observe())
+                a = policy.act(env.observe()) if k * DT >= late_s else NONE
             while time.perf_counter() < send_at:
                 pass
             if a != held and not watch:
@@ -300,6 +304,7 @@ def main():
     ap.add_argument("--length", type=float, default=80.0, help="seconds to play at most")
     ap.add_argument("--clip", action="store_true", help="film each run (real.clip) into real/live/<date time>/")
     ap.add_argument("--calibrate", action="store_true", help="measure the screen (see the top), then stop")
+    ap.add_argument("--late", type=float, default=0.0, help="the agent stands still this long (s) first")
     args = ap.parse_args()
     if args.calibrate:
         be_on_time()
@@ -343,7 +348,7 @@ def main():
                 print("no drop-in seen")
                 continue
             eyes.begin(start, cam0)
-            log = run(policy, eyes, start, args.length, args.watch, info)
+            log = run(policy, eyes, start, args.length + args.late, args.watch, info, args.late)
         finally:
             eyes.running = False
             eyes.join(timeout=2)

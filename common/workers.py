@@ -47,6 +47,11 @@ RUNS_ROOT = ROOT / "runs"  # one folder per batch, plus your personal bests (pb_
 #           instead (half from the start, half from moments of your run; in a generation all members get the same
 #           noise), so it breeds agents that cope with late keys and nudges as batch 05's PPO does
 # steps     (optional) sim steps each method trains for (default: run_batches' STEPS, 50M)
+# seed      (optional) the trainers' random seed (default 0): the same batch again with another seed shows how much
+#           of a difference between batches is luck
+# late      (optional) seconds: half of PPO's practice episodes start up to this late for the lifts (anywhere from 0,
+#           at random; GetawayEnv.reset(late=...)): the lifts and the helicopter carry on that long first while the
+#           player waits where they are, as when a real-game run falls behind or dies. The lifts keep their schedule
 BATCHES = {
     "01-from-the-start": dict(practice=False, rewards=Rewards(), save_by="reward"),
     "02-your-run": dict(practice=True, rewards=Rewards(), save_by="reward"),
@@ -66,6 +71,18 @@ BATCHES = {
     # 01-06 were trained with it 1.05-1.55 m too high
     "07-helicopter": dict(practice=True, rewards=Rewards(), save_by="reward", jitter=Jitter(), wobble=Wobble(),
                           lift_speed_seen=True, methods=("ppo",)),
+    # batch 07, late for the lifts: in the real game (2026-10-21) batch 04 got to the second lift 2 s late and walked
+    # into its empty shaft, never having been anywhere at another time than in its own runs. Up to 16 s late covers
+    # the slowest lift's whole cycle (15.3 s). More to learn, so trained longer
+    "08-late": dict(practice=True, rewards=Rewards(), save_by="reward", jitter=Jitter(), wobble=Wobble(),
+                    lift_speed_seen=True, late=16.0, methods=("ppo",), steps=80e6),
+    # batch 08 got worse everywhere (it kept dying at the second lift, even on time): batch 07, only a little late
+    # (up to 4 s: the real game's runs fell 2 s behind)
+    "09-a-little-late": dict(practice=True, rewards=Rewards(), save_by="reward", jitter=Jitter(), wobble=Wobble(),
+                             lift_speed_seen=True, late=4.0, methods=("ppo",)),
+    # batch 07 again with another seed: how far apart two runs of the same batch end up
+    "10-helicopter-seed-1": dict(practice=True, rewards=Rewards(), save_by="reward", jitter=Jitter(), wobble=Wobble(),
+                                 lift_speed_seen=True, methods=("ppo",), seed=1),
 }
 
 # The batch this process trains or shows: set by run_batches (the GETAWAY_BATCH environment variable), else the
@@ -321,15 +338,20 @@ def _rollout_worker(conn, n_envs: int, seed: int):
     torch.manual_seed(seed)
     rng = np.random.default_rng(seed)
     run = your_run_moments("ppo")
+    late_s = BATCHES[BATCH].get("late", 0.0)
     envs = [make_env(practice=True, seed=seed * 100 + i) for i in range(n_envs)]
     policy = Policy()
     policy.eval()
     returns = [0.0] * n_envs
     starts = [0] * n_envs  # the tick of your run each env's episode started from (0: the start)
+    lates = [0] * n_envs  # and how many ticks late for the lifts it started
 
     def reset(i):
         starts[i] = practice_start(run, rng.random) if run and rng.random() < 0.5 else 0
-        return envs[i].reset(start=run[starts[i]] if starts[i] else None)[0]
+        late = int(rng.random() * late_s / DT) if late_s and rng.random() < 0.5 else 0
+        obs = envs[i].reset(start=run[starts[i]] if starts[i] else None, late=late)[0]
+        lates[i] = envs[i].late
+        return obs
 
     obs = np.stack([reset(i) for i in range(n_envs)])
     try:
@@ -359,7 +381,8 @@ def _rollout_worker(conn, n_envs: int, seed: int):
                     if te or tr:
                         if tr:
                             cut_obs.append((t, i, o))
-                        episodes.append({"start_s": starts[i] * DT, "return": returns[i], "progress": info["progress"],
+                        episodes.append({"start_s": starts[i] * DT, "late_s": lates[i] * DT,
+                                         "return": returns[i], "progress": info["progress"],
                                          "finished": bool(info["finished"]), "time_s": info["time_s"],
                                          "deaths": info["deaths"], "reward_parts": info["reward_parts"]})
                         returns[i] = 0.0

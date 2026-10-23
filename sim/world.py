@@ -794,6 +794,45 @@ class Game:
             body.transform = ((h["scene"][0], self.hover_height(h)), 0.0)
             body.linearVelocity = (0, 0)
 
+    def let_time_pass(self, ticks: int) -> bool:
+        """The world carries on without the player for this many ticks: the clock runs and the lifts and the
+        helicopter move on, while the player stays exactly as they are, so they get to every lift that much later
+        than they would have (training: sim/env.py's reset(late=...)). The lifts keep their schedule. Nothing
+        changes (False) if the player is dead, standing on a lift or the helicopter, or one would end up in them."""
+        p = self.player
+        moving = [e["body"] for e in self.elevators] + [h["body"] for h in self.hovers]
+        if ticks <= 0 or self.finished or self.dead_timer:
+            return False
+        if any(ce.contact.touching and ce.other in moving for ce in p.contacts):
+            return False
+        before = (self.tick, [(e["target"], e["timer"], e.get("velocity"), e["body"].position.copy(),
+                               e["body"].linearVelocity.copy()) for e in self.elevators])
+        for e in self.elevators:
+            b = e["body"]
+            for _ in range(ticks):
+                old = b.position.copy()
+                self._step_elevator(e)
+                b.transform = (old + b.linearVelocity * DT, 0.0)
+            e["velocity"] = tuple(b.linearVelocity)
+            if self.mv.lift_carries:
+                b.linearVelocity = (0, 0)
+        self.tick += ticks
+        self._update_hovers()
+        mine = [fx.GetAABB(0) for fx in p.fixtures if not fx.sensor]
+        if any(B.b2TestOverlap(a, fx.GetAABB(0)) for b in moving for fx in b.fixtures if not fx.sensor for a in mine):
+            self.tick, lifts = before
+            for e, (target, timer, velocity, pos, v) in zip(self.elevators, lifts):
+                e["target"], e["timer"] = target, timer
+                if velocity is None:
+                    e.pop("velocity", None)
+                else:
+                    e["velocity"] = velocity
+                e["body"].transform = (pos, 0.0)
+                e["body"].linearVelocity = v
+            self._update_hovers()
+            return False
+        return True
+
     def crush_active(self, zone) -> bool:
         """Whether a cab's crush zone is deadly right now: the cab is on its way to that zone's stop
         and within ELEVATOR_CRUSH_DIST of it."""

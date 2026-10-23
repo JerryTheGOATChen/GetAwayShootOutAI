@@ -15,7 +15,7 @@ saved to the batch's folder, runs/<batch>/, as it goes, so training can be stopp
     ppo_checkpoint.pt   the full training state, for --resume
     ppo_log.csv         every test run (reward and its breakdown, progress, time, deaths), for py -m common.compare
     ppo_episodes.csv    every practice episode, the same columns and where in your run it started (start_s,
-                        0 = from the start), raw, for graphs
+                        0 = from the start; late_s, how late for the lifts, if the batch has late), raw, for graphs
 """
 from __future__ import annotations
 
@@ -28,8 +28,8 @@ import torch
 import torch.nn as nn
 
 from common.policy import HIDDEN, Policy, save_agent
-from common.workers import (RESULT_COLUMNS, RUNS, TRAIN_ENV, Log, RolloutPool, ScorePool, Stopwatch, Table, better,
-                            dont_overwrite, keep_awake, keep_your_run, result_fields, snapshot_path)
+from common.workers import (BATCH, BATCHES, RESULT_COLUMNS, RUNS, TRAIN_ENV, Log, RolloutPool, ScorePool, Stopwatch,
+                            Table, better, dont_overwrite, keep_awake, keep_your_run, result_fields, snapshot_path)
 from sim.env import OBS_SIZE
 
 AGENT = RUNS / "ppo_tower.pt"
@@ -93,7 +93,8 @@ def main():
         print("no checkpoint found, starting fresh")
 
     log = Log(LOG, resumed)
-    raw = Table(EPISODES, ["sim_steps", "update", "start_s"] + RESULT_COLUMNS, resumed)
+    late = "late" in BATCHES[BATCH]  # (only these batches' episodes say how late they started)
+    raw = Table(EPISODES, ["sim_steps", "update", "start_s"] + ["late_s"] * late + RESULT_COLUMNS, resumed)
     clock = Stopwatch(already)
     workers = RolloutPool(args.envs, seed=args.seed + updates)
     scorer = ScorePool(1)  # scores the current agent in the background without pausing training
@@ -131,7 +132,7 @@ def main():
             best["time_s"] = result["time_s"]
         log.row(clock.elapsed(), at_steps, result, best["progress"], best["time_s"])
         done = f"FINISHED in {result['time_s']:.2f}s" if result["finished"] else f"{result['progress'] * 100:5.1f}% of the route"
-        from_start = [e["progress"] for e in recent if e["start_s"] == 0]
+        from_start = [e["progress"] for e in recent if e["start_s"] == 0 and e["late_s"] == 0]
         train = np.mean(from_start) * 100 if from_start else 0.0
         print(f"{at_steps / 1e6:7.2f}M steps  {clock.elapsed() / 60:6.1f} min  test run: {done}  "
               f"(reward {result['return']:+.2f}, deaths {result['deaths']})  practice avg {train:4.1f}%  "
@@ -148,7 +149,8 @@ def main():
             recent.extend(episodes)
             steps += batch
             updates += 1
-            raw.rows([[steps, updates, f"{e['start_s']:.2f}"] + result_fields(e) for e in episodes])
+            raw.rows([[steps, updates, f"{e['start_s']:.2f}"] + [f"{e['late_s']:.2f}"] * late + result_fields(e)
+                      for e in episodes])
 
             obs = torch.from_numpy(O)
             actions = torch.from_numpy(A)

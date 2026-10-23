@@ -84,16 +84,19 @@ class GetawayEnv:
         self._rng = np.random.default_rng(seed)
         self._games: dict[str, Game] = {}
         self.game: Game | None = None
+        self.late = 0  # ticks this episode started late for the lifts (reset)
         self._stepping = False
 
-    def reset(self, map=None, lead_in=(), start=None, seed: int | None = None):
+    def reset(self, map=None, lead_in=(), start=None, seed: int | None = None, late: int = 0):
         """Start an episode (on another map, if one is named). Returns the first observation and info.
         seed: restart the jitter's and wobble's random numbers, so the episode gets the same noise as another.
 
         lead_in: actions, one per physics tick, played before the episode begins, e.g. the start of a recorded
         run, so the episode starts from that exact moment of it. The sim has no randomness, so it is the same
         situation the recording was in. start: instead, a moment saved with Game.snapshot() (e.g. of a run played
-        under older physics) to start from. Rewards, deaths and the stall limit count from there."""
+        under older physics) to start from. Rewards, deaths and the stall limit count from there.
+        late: then let this many ticks pass without the player (Game.let_time_pass), so the lifts are that much
+        further on when they get to them, as when a run in the real game falls behind."""
         self.map = map or self.map
         g = self._games.get(self.map)
         if g is None:
@@ -105,6 +108,7 @@ class GetawayEnv:
             g.step(a)
         if start is not None:
             g.restore(start)
+        self.late = late if late and g.let_time_pass(late) else 0  # (it can't be while on a lift)
         # the key the game has (applied) and the one the agent last asked for, with the changes still on their way
         self._applied = self._asked = g.held
         self._on_the_way: list[tuple[int, int]] = []  # (tick it lands, action)

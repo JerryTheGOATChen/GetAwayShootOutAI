@@ -612,6 +612,73 @@ against 11): they were trained to jump into one 1.3 m higher. That is for the re
 
 ---
 
+## Batches 7-10: the helicopter, and late for the lifts (2026-10-22, night)
+
+`runs/07-helicopter/`, `runs/08-late/`, `runs/09-a-little-late/`, `runs/10-helicopter-seed-1/`; rehearsals by
+`py -m real.rehearse`
+
+**Change:**
+- **07:** batch 05 again, in the sim with the helicopter hovering where the game has it.
+- **08:** 07, late for the lifts. Half the practice episodes start up to 16 s late (anywhere from 0, at random):
+  the lifts and the helicopter carry on that long on their schedule while the player waits where they are
+  (`Game.let_time_pass`, `GetawayEnv.reset(late=...)`), then the episode plays as usual. The lifts never move off
+  their schedule; the player just gets to them at other times. 16 s covers the slowest lift's whole cycle (15.3 s).
+  80M steps.
+- **09:** 07, only a little late: up to 4 s (batch 04's real runs fell 2 s behind).
+- **10:** 07 again with another random seed (`seed` in `BATCHES`), to see how far apart two runs of the same batch
+  end up.
+
+**Expected effect:** 07 jumps into the helicopter instead of its rotor. 08 and 09 wait for a lift they missed
+instead of walking into the empty shaft, as batch 04 did in the real game (runs 1 and 3).
+
+**Results:**
+
+| | best finish in the sim | agent saved | practice from the start, on time, last 10M steps |
+|---|---|---|---|
+| 07 helicopter | 35.28 s | 35.66 s | 99.7% finished, 0.37 deaths |
+| 08 late | 35.00 s | 35.00 s | 84.6% finished, 1.66 deaths |
+| 09 a little late | 34.78 s | 34.78 s | 99.9% finished, 0.32 deaths |
+| 10 = 07, seed 1 | 35.08 s | 35.08 s | 99.3% finished, 0.46 deaths (from the start) |
+
+Rehearsed closed loop (100 runs, seeds 2000 on; "late": the agent first stands still for up to 16 s, at random, so
+it gets to every lift late; time not counting the standing still):
+
+| finished, of 100 (deaths) | sees the truth | from the shadow | from the shadow, late |
+|---|---|---|---|
+| 04 jitter PPO | 100 (33) | 93 (31) | 97 (30) |
+| 05 shadow PPO | 100 (33) | 95 (39) | 94 (65) |
+| 07 helicopter | 100 (20) | 95 (16) | 97 (27) |
+| 08 late | 82 (192) | 77 (221) | 73 (261) |
+| 09 a little late | 100 (20) | 95 (30) | 97 (36) |
+| 10 = 07, seed 1 | 100 (16) | 98 (27) | 98 (62) |
+
+60 noisy runs each (late keys and nudges), on time and 2 s late:
+
+| deaths in 60 runs | on time | 2 s late |
+|---|---|---|
+| 07 | 6 | 12 |
+| 08 | 31 (27 at the second lift), 5 runs unfinished | 28 (20 at the second lift), 9 unfinished |
+| 09 | 8 | 8 |
+| 10 | 14 | 12, 1 run unfinished |
+
+**What we learned:**
+- **With the helicopter where it is, the deaths at the end are gone:** 07 dies 16 times in 100 runs from the
+  shadow, batch 05 39.
+- **Practising very late backfired.** Batch 08 got worse everywhere, on time too: it kept dying in the second
+  lift's shaft and learned more slowly all through (85% of practice runs finished after 80M steps, against 99% for
+  07 by 20M). Starting anywhere in a lift's whole cycle, often from a moment of your run right beside the second
+  lift, seems to have been too hard a place to learn.
+- **The agents already cope with being a little late.** Batch 07 finishes 97 of 100 runs that start up to 16 s
+  late and all 60 at 2 s; 09, which practised it, does no better than 07 (fewer deaths 2 s late, more on time).
+- **The lifts running off schedule don't matter to the loop.** With the stand-in game's lifts and helicopter up to
+  0.5 s ahead of or behind the sim's schedule (the game's second lift was 0.2 s off), the shadow takes them where the
+  grabs see them: 07 and 10 finish 100 of 100, 09 96, 05 95, 04 93 (`--lift-shift 0.5`).
+- **Most of the differences between 07, 09 and 10 are luck.** The same batch with another seed (10) finishes 98
+  runs from the shadow against 07's 95, with 27 deaths against 16, and 62 deaths late against 27. Only 08's drop is
+  far outside that.
+
+---
+
 ## Conclusions
 
 1. **Exploration was the real problem, not the algorithm.** From the start, PPO stalls at the roof ledge (72.9%)
@@ -632,16 +699,16 @@ against 11): they were trained to jump into one 1.3 m higher. That is for the re
    90% of the route), where blind runs stopped at 33% at most.
 8. **The real game shows the sim's mistakes only where an agent gets to.** The getaway helicopter was 1.05-1.55 m too
    high in the sim all along (its animation was left out); the first closed-loop run to reach it died on its rotor.
+9. **Practising the hard case can cost more than it teaches.** Starting half the episodes up to a whole lift cycle
+   late (batch 08) made an agent worse everywhere, on time too; a little late (09) changed nothing that a second
+   seed of the same batch (10) doesn't. The agents trained on time already wait for a lift they missed.
 
 ## Next, if picked up again
 
-- **Retrain for the hovering helicopter:** `py -m common.run_batches 07-helicopter` (batch 05's settings in today's
-  sim, about 70 min), then `py -m real.shadow --sim-test runs/07-helicopter/ppo_tower.pt --runs 30`, and in the
-  real game `py -m real.live --calibrate` and `py -m real.live runs/07-helicopter/ppo_tower.pt --runs 5 --clip`
-  (leave the game in a Tower run, full screen with the CrazyGames bar hidden).
-- **Waiting for a lift:** an agent that misses a lift walks into the empty shaft. Practice never puts it there late
-  (it always starts from your run's moments, with the lifts on their schedule); how to teach it without shifting
-  the lifts is open.
+- **Play batch 07 in the real game:** `py -m real.live --calibrate`, then
+  `py -m real.live runs/07-helicopter/ppo_tower.pt --runs 5 --clip` (leave the game in a Tower run, full screen with
+  the CrazyGames bar hidden); 10 and 09 next. `--late 2` makes it stand still 2 s first, to see it wait for the
+  lifts in the real game.
 
 - **Seeds:** every batch ran once. Run each 3-5 times with different seeds and compare averages, especially
   batch 3's 1 s gain for PPO, which is within PPO's run-to-run noise.

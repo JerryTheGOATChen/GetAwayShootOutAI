@@ -10,17 +10,20 @@ plays the ticks since then again with the same keys.
         offline test on a recorded run: its keys are read from the OBS key overlay, the shadow plays them and is
         corrected from the recording's track (py -m real.locate --video ... first), and it reports how far the
         shadow was from each grab before being corrected, against the same keys played blind.
+
+The closed-loop rehearsal of agents in the sim (sim_test) is run by py -m real.rehearse.
 """
 from __future__ import annotations
 
 import argparse
 import json
 import math
+from dataclasses import replace
 from pathlib import Path
 
 import numpy as np
 
-from sim.world import DT, LEFT, NONE, RIGHT, Game
+from sim.world import DT, LEFT, MOVEMENT, NONE, RIGHT, Game
 
 GAIN_POS = 0.6  # of a position error, corrected at once
 GAIN_VEL = 3.0  # 1/s: velocity change per metre of error, so it doesn't build up again
@@ -248,13 +251,18 @@ def video_test(track: dict, keys, tick0_frame: float, frame_lag: float = 0.0, co
 # --- closed-loop rehearsal in the sim ---------------------------------------------------------------------------
 
 def sim_test(agent_path: str, runs: int = 10, mode: str = "shadow", seed: int = 0, grab_every: int = 2, lag: int = 2,
-             noise: float = 0.02, lean_noise: float = 2.0, shadow_delay: int = 0, notice_lag: int = 6) -> list[dict]:
+             noise: float = 0.02, lean_noise: float = 2.0, shadow_delay: int = 0, notice_lag: int = 6,
+             late_s: float = 0.0, lift_shift_s: float = 0.0, movement=MOVEMENT) -> list[dict]:
     """An agent plays a "truth" sim standing in for the real game: its keys land 0-3 ticks late (Jitter), and it
     only sees the truth through grabs every grab_every ticks, lag ticks old, with noise (m, deg).
     mode: "shadow" (it plays from a shadow corrected by the grabs), "blind" (from a shadow never corrected) or
     "sees" (it sees the truth itself, exactly and at once: the best it could do). shadow_delay: ticks the shadow
     expects a key to take (live, keys are sent KEY_LEAD early to make up the game's average delay). When the truth
-    dies the shadow is told notice_lag ticks later, as real.live learns it from the game's death notice."""
+    dies the shadow is told notice_lag ticks later, as real.live learns it from the game's death notice.
+    late_s: each run the agent first stands still for up to this long (at random), so it gets to the lifts late.
+    lift_shift_s: each run the truth's lifts and helicopter run up to this much ahead of or behind the sim's
+    schedule (at random), as the game's did by about 0.2 s; the shadow only knows from the grabs.
+    movement: the physics both sims play in (sim/world.py's Movement)."""
     from common.policy import load_agent
     from sim.env import GetawayEnv, Jitter
     policy, info = load_agent(agent_path)
@@ -262,14 +270,15 @@ def sim_test(agent_path: str, runs: int = 10, mode: str = "shadow", seed: int = 
     rng = np.random.default_rng(seed)
     out = []
     for _ in range(runs):
-        truth = Game("Tower")
-        truth.reset()
-        sh = Shadow()
+        shift = rng.uniform(-lift_shift_s, lift_shift_s) if lift_shift_s else 0.0
+        truth = Game("Tower", replace(movement, lift_head_start=movement.lift_head_start + shift))
+        sh = Shadow(game=Game("Tower", movement))
         env = GetawayEnv(map="Tower", action_repeat=2, time_limit_s=90.0,
                          lift_speed_seen=bool(info.get("lift_speed_seen", False)))
         env.reset()
         env.game = truth if mode == "sees" else sh.g
         delay = int(rng.integers(jitter.delay + 1))
+        idle = int(rng.uniform(0, late_s) / DT) if late_s else 0
         asked = applied = truth.held
         a = applied
         pending, seen, mine = [], {}, []  # keys on their way to the truth, the truth's past, and to the shadow
@@ -277,7 +286,7 @@ def sim_test(agent_path: str, runs: int = 10, mode: str = "shadow", seed: int = 
         sh_applied = sh_asked = a
         for k in range(int(90.0 / DT)):
             if k % 2 == 0:
-                a = policy.act(env.observe())
+                a = policy.act(env.observe()) if k >= idle else NONE
                 if a != asked:
                     asked = a
                     lands = k + delay + int(rng.random() < jitter.extra)
@@ -305,7 +314,8 @@ def sim_test(agent_path: str, runs: int = 10, mode: str = "shadow", seed: int = 
                 if alive:
                     sh.correct(truth.tick - lag, (x + rng.normal(0, noise), y + rng.normal(0, noise)),
                                -math.degrees(ang) + rng.normal(0, lean_noise), lifts)
-        out.append(dict(finished=truth.finished, time_s=truth.time_s, deaths=truth.deaths,
+        out.append(dict(finished=truth.finished, time_s=truth.time_s, deaths=truth.deaths, late_s=idle * DT,
+                        lift_shift_s=shift,
                         progress=1.0 - truth.dist_to_finish() / truth.route_length,
                         end=[round(truth.player.position.x, 2), round(truth.player.position.y, 2)]))
     return out
